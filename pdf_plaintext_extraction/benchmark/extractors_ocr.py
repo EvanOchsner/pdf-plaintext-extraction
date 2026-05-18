@@ -18,7 +18,7 @@ from __future__ import annotations
 import shutil
 from pathlib import Path
 
-from scripts.benchmark.base import ExtractionResult, timed
+from pdf_plaintext_extraction.benchmark.base import ExtractionResult, timed
 
 
 class TesseractOCRExtractor:

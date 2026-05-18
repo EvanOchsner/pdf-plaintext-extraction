@@ -1,16 +1,20 @@
 """End-to-end synthetic benchmark run.
 
-For every source in ``data/synthetic/sources/`` and every PDF variant
+For every bundled source text and every materialized PDF variant
 (clean + each implemented poisoning technique), run every extractor in
 the default set and score the output against the ground-truth source
 text. Writes per-(extractor, variant, source) rows to
 ``experiments/results/synthetic_<timestamp>.jsonl`` and prints a summary
 table.
 
+Materialize the corpus first with
+``pdf_plaintext_extraction.benchmark.ensure_corpus`` (or pass
+``--corpus-root``).
+
 Usage:
 
-    python -m scripts.benchmark.run_synthetic
-    python -m scripts.benchmark.run_synthetic --extractors pypdf,pdftotext
+    python -m pdf_plaintext_extraction.benchmark.run_synthetic
+    python -m pdf_plaintext_extraction.benchmark.run_synthetic --extractors pypdf,pdftotext
 """
 
 from __future__ import annotations
@@ -22,11 +26,14 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from scripts.benchmark.base import Extractor
-from scripts.benchmark.extractors import default_extractors
-from scripts.benchmark.score import score_against_ground_truth
-from scripts.synthesize.ground_truth import build_all
+from pdf_plaintext_extraction._paths import default_corpus_cache_dir
+from pdf_plaintext_extraction.benchmark.base import Extractor
+from pdf_plaintext_extraction.benchmark.extractors import default_extractors
+from pdf_plaintext_extraction.benchmark.score import score_against_ground_truth
+from pdf_plaintext_extraction.synthesize.ground_truth import build_all
 
+# Repo-root resolution still works in dev mode (editable install);
+# results land under the cwd's experiments/ when run from the repo.
 ROOT = Path(__file__).resolve().parents[2]
 RESULTS_DIR = ROOT / "experiments" / "results"
 
@@ -43,18 +50,18 @@ def _select(extractors: list[Extractor], names: list[str] | None) -> list[Extrac
     return out
 
 
-def run(extractors: list[Extractor], out_path: Path) -> list[dict]:
-    entries = build_all()
+def run(extractors: list[Extractor], out_path: Path, corpus_root: Path) -> list[dict]:
+    entries = build_all(corpus_root)
     rows: list[dict] = []
 
     for entry in entries:
         reference = entry.normalized_text
-        # Clean PDF variant
+        # Clean PDF variant — paths in the manifest are corpus-root-relative
         if entry.clean_pdf_path:
             rows.extend(
                 _eval_variant(
                     extractors,
-                    pdf=ROOT / entry.clean_pdf_path,
+                    pdf=corpus_root / entry.clean_pdf_path,
                     source_id=entry.source_id,
                     variant="clean",
                     reference=reference,
@@ -65,7 +72,7 @@ def run(extractors: list[Extractor], out_path: Path) -> list[dict]:
             rows.extend(
                 _eval_variant(
                     extractors,
-                    pdf=ROOT / variant.path,
+                    pdf=corpus_root / variant.path,
                     source_id=entry.source_id,
                     variant=variant.technique,
                     reference=reference,
@@ -95,7 +102,7 @@ def _eval_variant(
             "source_id": source_id,
             "variant": variant,
             "extractor": ext.name,
-            "pdf_path": str(pdf.relative_to(ROOT)),
+            "pdf_path": str(pdf),
             "wall_seconds": round(result.wall_seconds, 3),
             "error": result.error,
             **{k: v for k, v in dataclasses.asdict(score).items() if k != "extractor"},
@@ -156,6 +163,12 @@ def main() -> None:
         default=None,
         help="output JSONL path; defaults to experiments/results/synthetic_<ts>.jsonl",
     )
+    p.add_argument(
+        "--corpus-root",
+        type=Path,
+        default=None,
+        help="Corpus root (default: platformdirs user cache dir)",
+    )
     args = p.parse_args()
 
     names = args.extractors.split(",") if args.extractors else None
@@ -163,8 +176,9 @@ def main() -> None:
     out = args.out or (
         RESULTS_DIR / f"synthetic_{dt.datetime.now().strftime('%Y%m%dT%H%M%S')}.jsonl"
     )
-    rows = run(extractors, out)
-    print(f"wrote {len(rows)} rows -> {out.relative_to(ROOT)}")
+    corpus_root = args.corpus_root or default_corpus_cache_dir()
+    rows = run(extractors, out, corpus_root)
+    print(f"wrote {len(rows)} rows -> {out}")
     _print_summary(rows)
 
 

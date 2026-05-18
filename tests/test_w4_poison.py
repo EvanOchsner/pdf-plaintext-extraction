@@ -7,11 +7,11 @@ from pathlib import Path
 import pytest
 from pypdf import PdfReader
 
-from scripts.synthesize import poison
-from scripts.synthesize.clean_pdf import render
+from pdf_plaintext_extraction._paths import package_sources_dir
+from pdf_plaintext_extraction.synthesize import poison
+from pdf_plaintext_extraction.synthesize.clean_pdf import render
 
-ROOT = Path(__file__).resolve().parents[1]
-SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
+SOURCES_DIR = package_sources_dir()
 
 
 @pytest.fixture

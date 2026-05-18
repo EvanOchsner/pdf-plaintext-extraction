@@ -6,19 +6,19 @@ from pathlib import Path
 
 import pytest
 
-from scripts.benchmark.extractors import PypdfExtractor
-from scripts.benchmark.score import (
+from pdf_plaintext_extraction._paths import package_sources_dir
+from pdf_plaintext_extraction.benchmark.extractors import PypdfExtractor
+from pdf_plaintext_extraction.benchmark.score import (
     normalized_edit_distance,
     score_against_ground_truth,
     token_f1,
     token_levenshtein,
     tokenize,
 )
-from scripts.synthesize import poison
-from scripts.synthesize.clean_pdf import render
+from pdf_plaintext_extraction.synthesize import poison
+from pdf_plaintext_extraction.synthesize.clean_pdf import render
 
-ROOT = Path(__file__).resolve().parents[1]
-SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
+SOURCES_DIR = package_sources_dir()
 
 
 def test_token_levenshtein_basic() -> None:

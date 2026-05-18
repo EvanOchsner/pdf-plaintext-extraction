@@ -11,9 +11,8 @@ yields a byte-identical PDF.
 
 Usage:
 
-    python -m scripts.synthesize.clean_pdf \\
-        --source data/synthetic/sources/example.txt \\
-        --out data/synthetic/clean/example.pdf
+    python -m pdf_plaintext_extraction.synthesize.clean_pdf \\
+        --source <source.txt> --out <clean.pdf>
 """
 
 from __future__ import annotations
