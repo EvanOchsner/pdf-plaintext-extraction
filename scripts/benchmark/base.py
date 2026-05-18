@@ -56,9 +56,7 @@ def timed(name: str, pdf_path: Path, fn) -> ExtractionResult:
         )
 
 
-def run_all(
-    extractors: Iterable[Extractor], pdf_paths: Iterable[Path]
-) -> list[ExtractionResult]:
+def run_all(extractors: Iterable[Extractor], pdf_paths: Iterable[Path]) -> list[ExtractionResult]:
     results = []
     for ext in extractors:
         for pdf in pdf_paths:

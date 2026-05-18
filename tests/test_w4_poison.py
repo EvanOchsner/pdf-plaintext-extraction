@@ -89,9 +89,7 @@ def test_homoglyph_substitutes_at_least_a_few_letters(
     )
 
 
-def test_rasterize_strips_text_layer(
-    source_and_clean: tuple[Path, Path], tmp_path: Path
-) -> None:
+def test_rasterize_strips_text_layer(source_and_clean: tuple[Path, Path], tmp_path: Path) -> None:
     src, clean = source_and_clean
     out = tmp_path / "raster.pdf"
     poison.poison_rasterize(src, clean, out)

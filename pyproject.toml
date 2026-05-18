@@ -1,7 +1,7 @@
 [project]
-name = "serff-extraction"
+name = "pdf-plaintext-extraction"
 version = "0.0.1"
-description = "Curated MD SERFF insurance-filing dataset and extraction benchmark"
+description = "PDF poisoning taxonomy + synthetic-gold benchmark for plaintext extractors"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

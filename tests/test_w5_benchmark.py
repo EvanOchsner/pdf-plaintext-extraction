@@ -48,12 +48,9 @@ def test_clean_pdf_scores_near_perfect(tmp_path: Path) -> None:
     render(src, clean)
     reference = src.read_text(encoding="utf-8")
     result = PypdfExtractor().extract(clean)
-    score = score_against_ground_truth(
-        "pypdf", str(clean), result.text, reference
-    )
+    score = score_against_ground_truth("pypdf", str(clean), result.text, reference)
     assert score.f1 > 0.99, (
-        "the harness control should score near-perfect on the clean PDF; "
-        f"got f1={score.f1}"
+        f"the harness control should score near-perfect on the clean PDF; got f1={score.f1}"
     )
     assert score.ned < 0.02
 

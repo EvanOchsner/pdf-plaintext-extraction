@@ -24,7 +24,7 @@ from pathlib import Path
 
 from scripts.benchmark.base import Extractor
 from scripts.benchmark.extractors import default_extractors
-from scripts.benchmark.score import GroundTruthScore, score_against_ground_truth
+from scripts.benchmark.score import score_against_ground_truth
 from scripts.synthesize.ground_truth import build_all
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -38,9 +38,7 @@ def _select(extractors: list[Extractor], names: list[str] | None) -> list[Extrac
     out = []
     for n in names:
         if n not in by_name:
-            raise SystemExit(
-                f"unknown extractor {n!r}; known: {sorted(by_name)}"
-            )
+            raise SystemExit(f"unknown extractor {n!r}; known: {sorted(by_name)}")
         out.append(by_name[n])
     return out
 
@@ -92,9 +90,7 @@ def _eval_variant(
     out: list[dict] = []
     for ext in extractors:
         result = ext.extract(pdf)
-        score = score_against_ground_truth(
-            ext.name, str(pdf), result.text, reference
-        )
+        score = score_against_ground_truth(ext.name, str(pdf), result.text, reference)
         row = {
             "source_id": source_id,
             "variant": variant,
@@ -139,7 +135,7 @@ def _print_summary(rows: list[dict]) -> None:
             if not vals:
                 cells.append(f"{'skip':>{col_width}s}")
             else:
-                cells.append(f"{sum(vals)/len(vals):>{col_width}.3f}")
+                cells.append(f"{sum(vals) / len(vals):>{col_width}.3f}")
         print(f"  {ex:13s} " + " ".join(cells))
     print()
 
@@ -165,8 +161,7 @@ def main() -> None:
     names = args.extractors.split(",") if args.extractors else None
     extractors = _select(default_extractors(), names)
     out = args.out or (
-        RESULTS_DIR
-        / f"synthetic_{dt.datetime.now().strftime('%Y%m%dT%H%M%S')}.jsonl"
+        RESULTS_DIR / f"synthetic_{dt.datetime.now().strftime('%Y%m%dT%H%M%S')}.jsonl"
     )
     rows = run(extractors, out)
     print(f"wrote {len(rows)} rows -> {out.relative_to(ROOT)}")

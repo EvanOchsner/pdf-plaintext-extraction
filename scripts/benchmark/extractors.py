@@ -35,9 +35,7 @@ class PdfplumberExtractor:
             try:
                 import pdfplumber  # type: ignore
             except ImportError as e:  # pragma: no cover - benchmark extras
-                raise RuntimeError(
-                    "pdfplumber not installed; install [benchmark] extras"
-                ) from e
+                raise RuntimeError("pdfplumber not installed; install [benchmark] extras") from e
             with pdfplumber.open(pdf_path) as pdf:
                 per_page = [p.extract_text() or "" for p in pdf.pages]
             return "\n".join(per_page), per_page

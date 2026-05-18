@@ -67,15 +67,11 @@ class ClaudeVisionExtractor:
         def _run():
             api_key = os.environ.get("ANTHROPIC_API_KEY")
             if not api_key:
-                raise RuntimeError(
-                    "ANTHROPIC_API_KEY not set; skipping claude-vision"
-                )
+                raise RuntimeError("ANTHROPIC_API_KEY not set; skipping claude-vision")
             try:
                 import anthropic  # type: ignore
             except ImportError as e:  # pragma: no cover
-                raise RuntimeError(
-                    "anthropic SDK not installed; install [frontier] extras"
-                ) from e
+                raise RuntimeError("anthropic SDK not installed; install [frontier] extras") from e
 
             client = anthropic.Anthropic(api_key=api_key)
             pages = _rasterize_pages(pdf_path)
@@ -104,9 +100,7 @@ class ClaudeVisionExtractor:
                     ],
                 )
                 # Concatenate text blocks in the response
-                page_text = "".join(
-                    block.text for block in resp.content if hasattr(block, "text")
-                )
+                page_text = "".join(block.text for block in resp.content if hasattr(block, "text"))
                 per_page.append(page_text)
             return "\n".join(per_page), per_page
 
@@ -123,9 +117,7 @@ class GeminiVisionExtractor:
         def _run():
             api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
             if not api_key:
-                raise RuntimeError(
-                    "GOOGLE_API_KEY/GEMINI_API_KEY not set; skipping gemini-vision"
-                )
+                raise RuntimeError("GOOGLE_API_KEY/GEMINI_API_KEY not set; skipping gemini-vision")
             try:
                 import google.generativeai as genai  # type: ignore
             except ImportError as e:  # pragma: no cover

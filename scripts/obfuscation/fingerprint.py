@@ -134,9 +134,9 @@ def _font_missing_tounicode(font_obj: pikepdf.Object) -> bool:
     # Base-14 PDF fonts (Helvetica, Times, Courier, etc.) have implicit
     # Unicode mappings via their standard encoding and aren't a concern.
     base = str(font_obj.get("/BaseFont") or "")
-    if any(name in base for name in ("Helvetica", "Times", "Courier", "Symbol", "ZapfDingbats")):
-        return False
-    return True
+    return not any(
+        name in base for name in ("Helvetica", "Times", "Courier", "Symbol", "ZapfDingbats")
+    )
 
 
 def _is_cid_font(font_obj: pikepdf.Object) -> bool:
@@ -269,12 +269,9 @@ def fingerprint_pdf(pdf_path: Path) -> Fingerprint:
             for s in fp.recurring_header_footer_strings:
                 if any(len(w) > 5 and w.upper() == w for w in s.split()):
                     recurring_strings.append(s)
-                    recurring_hits = max(
-                        recurring_hits, sum(1 for pt in page_text if s in pt)
-                    )
+                    recurring_hits = max(recurring_hits, sum(1 for pt in page_text if s in pt))
             keyword_hits = sum(
-                1 for pt in page_text
-                if any(kw in pt.upper() for kw in WATERMARK_KEYWORDS)
+                1 for pt in page_text if any(kw in pt.upper() for kw in WATERMARK_KEYWORDS)
             )
             best_hits = max(recurring_hits, keyword_hits)
             fp.watermark_score = round(best_hits / max(1, fp.page_count), 3)

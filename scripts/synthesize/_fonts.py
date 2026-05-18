@@ -26,21 +26,21 @@ ROOT = Path(__file__).resolve().parents[2]
 FONT_CACHE = ROOT / ".tmp" / "fonts"
 
 # DejaVuSans.ttf 2.37 (latest stable release). SHA-256 pinned below.
-DEJAVU_URL = "https://downloads.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.zip"
+DEJAVU_URL = (
+    "https://downloads.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.zip"
+)
 DEJAVU_TTF_NAME = "DejaVuSans.ttf"
 
 # Sourceforge release zip SHA-256. Recorded so the fetch can verify the
 # bytes after download.
 DEJAVU_ZIP_SHA256 = "7576310b219e04159d35ff61dd4a4ec4cdba4f35c00e002a136f00e96a908b0a"
 
-UA = "serff-extraction/0.0.1 (academic research)"
+UA = "pdf-plaintext-extraction/0.0.1 (academic research)"
 
 
 def _fetch_zip(target: Path) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
-    with httpx.Client(
-        headers={"User-Agent": UA}, timeout=60.0, follow_redirects=True
-    ) as c:
+    with httpx.Client(headers={"User-Agent": UA}, timeout=60.0, follow_redirects=True) as c:
         r = c.get(DEJAVU_URL)
         r.raise_for_status()
         target.write_bytes(r.content)

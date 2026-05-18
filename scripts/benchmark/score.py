@@ -22,8 +22,8 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable
 
 _WHITESPACE = re.compile(r"\s+")
 
@@ -116,9 +116,7 @@ def mean_pairwise_ned(
     self-comparisons.
     """
     diffs = [
-        normalized_edit_distance(predicted, text)
-        for name, text in others
-        if name != extractor_name
+        normalized_edit_distance(predicted, text) for name, text in others if name != extractor_name
     ]
     if not diffs:
         return 0.0

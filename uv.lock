@@ -2148,6 +2148,66 @@ wheels = [
 ]
 
 [[package]]
+name = "pdf-plaintext-extraction"
+version = "0.0.1"
+source = { editable = "." }
+dependencies = [
+    { name = "httpx" },
+    { name = "pikepdf" },
+    { name = "pypdf" },
+    { name = "reportlab" },
+    { name = "tqdm" },
+]
+
+[package.optional-dependencies]
+benchmark = [
+    { name = "docling" },
+    { name = "pdfplumber" },
+    { name = "pillow" },
+    { name = "pytesseract" },
+]
+dev = [
+    { name = "pytest" },
+    { name = "ruff" },
+]
+frontier = [
+    { name = "anthropic" },
+    { name = "google-generativeai" },
+]
+publish = [
+    { name = "datasets" },
+    { name = "huggingface-hub" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "anthropic", marker = "extra == 'frontier'", specifier = ">=0.40" },
+    { name = "datasets", marker = "extra == 'publish'", specifier = ">=3.0" },
+    { name = "docling", marker = "extra == 'benchmark'", specifier = ">=2.94" },
+    { name = "google-generativeai", marker = "extra == 'frontier'", specifier = ">=0.8" },
+    { name = "httpx", specifier = ">=0.27" },
+    { name = "huggingface-hub", marker = "extra == 'publish'", specifier = ">=0.24" },
+    { name = "pdfplumber", marker = "extra == 'benchmark'", specifier = ">=0.11" },
+    { name = "pikepdf", specifier = ">=9.0" },
+    { name = "pillow", marker = "extra == 'benchmark'", specifier = ">=10.0" },
+    { name = "pypdf", specifier = ">=4.3" },
+    { name = "pytesseract", marker = "extra == 'benchmark'", specifier = ">=0.3" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
+    { name = "reportlab", specifier = ">=4.0" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6" },
+    { name = "tqdm", specifier = ">=4.66" },
+]
+provides-extras = ["benchmark", "frontier", "publish", "dev"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.0.3" }]
+
+[[package]]
 name = "pdfminer-six"
 version = "20251230"
 source = { registry = "https://pypi.org/simple" }
@@ -3385,66 +3445,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/a9/a0/ce7e3d6cc76498fd5
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/95/12d226ee4d207cb1f77a216baa7e1a8bae2639733c140abe8d0316d23a18/semchunk-3.2.5-py3-none-any.whl", hash = "sha256:fd09cc5f380bd010b8ca773bd81893f7eaf11d37dd8362a83d46cedaf5dae076", size = 13048 },
 ]
-
-[[package]]
-name = "serff-extraction"
-version = "0.0.1"
-source = { editable = "." }
-dependencies = [
-    { name = "httpx" },
-    { name = "pikepdf" },
-    { name = "pypdf" },
-    { name = "reportlab" },
-    { name = "tqdm" },
-]
-
-[package.optional-dependencies]
-benchmark = [
-    { name = "docling" },
-    { name = "pdfplumber" },
-    { name = "pillow" },
-    { name = "pytesseract" },
-]
-dev = [
-    { name = "pytest" },
-    { name = "ruff" },
-]
-frontier = [
-    { name = "anthropic" },
-    { name = "google-generativeai" },
-]
-publish = [
-    { name = "datasets" },
-    { name = "huggingface-hub" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "anthropic", marker = "extra == 'frontier'", specifier = ">=0.40" },
-    { name = "datasets", marker = "extra == 'publish'", specifier = ">=3.0" },
-    { name = "docling", marker = "extra == 'benchmark'", specifier = ">=2.94" },
-    { name = "google-generativeai", marker = "extra == 'frontier'", specifier = ">=0.8" },
-    { name = "httpx", specifier = ">=0.27" },
-    { name = "huggingface-hub", marker = "extra == 'publish'", specifier = ">=0.24" },
-    { name = "pdfplumber", marker = "extra == 'benchmark'", specifier = ">=0.11" },
-    { name = "pikepdf", specifier = ">=9.0" },
-    { name = "pillow", marker = "extra == 'benchmark'", specifier = ">=10.0" },
-    { name = "pypdf", specifier = ">=4.3" },
-    { name = "pytesseract", marker = "extra == 'benchmark'", specifier = ">=0.3" },
-    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
-    { name = "reportlab", specifier = ">=4.0" },
-    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6" },
-    { name = "tqdm", specifier = ">=4.66" },
-]
-provides-extras = ["benchmark", "frontier", "publish", "dev"]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pytest", specifier = ">=9.0.3" }]
 
 [[package]]
 name = "setuptools"

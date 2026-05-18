@@ -13,7 +13,6 @@ Both gracefully error if their requirements aren't met:
 from __future__ import annotations
 
 import os
-import sys
 from pathlib import Path
 
 from scripts.benchmark.base import ExtractionResult, timed
@@ -29,9 +28,7 @@ class DoclingExtractor:
             try:
                 from docling.document_converter import DocumentConverter  # type: ignore
             except ImportError as e:
-                raise RuntimeError(
-                    "docling not installed; run 'uv sync --extra benchmark'"
-                ) from e
+                raise RuntimeError("docling not installed; run 'uv sync --extra benchmark'") from e
             converter = DocumentConverter()
             result = converter.convert(str(pdf_path))
             text = result.document.export_to_markdown()
@@ -60,8 +57,9 @@ class PATCascadeExtractor:
             return sibling
         return None
 
-    # Subprocess-invoked because PAT and serff-extraction both ship a
-    # top-level ``scripts`` package — in-process import would collide.
+    # Subprocess-invoked because PAT and pdf-plaintext-extraction both
+    # ship a top-level ``scripts`` package — in-process import would
+    # collide.
     # We run PAT's cascade in its own venv via a small inline script and
     # round-trip the result as JSON.
     _INLINE_SCRIPT = """
@@ -91,7 +89,7 @@ sys.stdout.write(json.dumps({
             if not self.pat_repo:
                 raise RuntimeError(
                     "PAT repo not found; set PERSONAL_ADVOCACY_TOOLKIT_PATH "
-                    "or place serff-extraction next to personal-advocacy-toolkit"
+                    "or place pdf-plaintext-extraction next to personal-advocacy-toolkit"
                 )
             pat_python = self.pat_repo / ".venv" / "bin" / "python"
             if not pat_python.exists():

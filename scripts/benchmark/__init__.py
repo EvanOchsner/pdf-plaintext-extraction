@@ -2,8 +2,8 @@
 
 Runs a uniform set of PDF text extractors against a corpus and scores
 each one against ground-truth (for the synthetic set) or against
-inter-method agreement (for the real-SERFF set, which has no
-ground truth).
+inter-method agreement (for any real corpus, which has no ground
+truth).
 
 Each extractor implements ``scripts.benchmark.base.Extractor``:
 

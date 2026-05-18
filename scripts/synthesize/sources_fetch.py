@@ -44,7 +44,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
 PROVENANCE_PATH = SOURCES_DIR / "_provenance.jsonl"
 
-UA = "serff-extraction/0.0.1 (academic research; +https://github.com/EvanOchsner/serff-extraction)"
+UA = "pdf-plaintext-extraction/0.0.1 (academic research; +https://github.com/EvanOchsner/pdf-plaintext-extraction)"
 
 # A small set of clearly-public-domain Project Gutenberg texts. Each entry
 # names a Gutenberg ID and an excerpt window so we get a paragraph-sized
@@ -105,7 +105,7 @@ def _strip_gutenberg_header(text: str) -> str:
     m_start = start_re.search(text)
     m_end = end_re.search(text)
     if m_start:
-        text = text[m_start.end():]
+        text = text[m_start.end() :]
     if m_end:
         text = text[: m_end.start()]
     return text.strip()

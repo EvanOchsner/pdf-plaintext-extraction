@@ -45,8 +45,8 @@ class RenderOptions:
 
     font_name: str = "Helvetica"
     font_size: float = 11.0
-    char_space: float = 0.0           # PDF Tc operator; abnormal values >3.0
-    text_render_mode: int = 0          # 0 = fill (visible), 3 = invisible
+    char_space: float = 0.0  # PDF Tc operator; abnormal values >3.0
+    text_render_mode: int = 0  # 0 = fill (visible), 3 = invisible
     extra_invisible_overlay: str = ""  # adds an off-content invisible text payload
     page_size: tuple[float, float] = field(default=LETTER)
 
@@ -110,10 +110,10 @@ def render(
         pageCompression=0,
     )
     canvas.setTitle(title or source.stem)
-    canvas.setAuthor("serff-extraction synthetic gold set")
+    canvas.setAuthor("pdf-plaintext-extraction synthetic gold set")
     canvas.setSubject("control PDF for extraction benchmark")
-    canvas.setCreator("serff-extraction/clean_pdf.py")
-    canvas.setProducer("serff-extraction/clean_pdf.py")
+    canvas.setCreator("pdf-plaintext-extraction/clean_pdf.py")
+    canvas.setProducer("pdf-plaintext-extraction/clean_pdf.py")
 
     # ``char_space`` is applied post-render by injecting `<v> Tc` into
     # each text block — reportlab's Paragraph emits its own state so
@@ -151,11 +151,7 @@ def render(
 
 
 def _escape_xml(s: str) -> str:
-    return (
-        s.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-    )
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
 def main() -> None:
@@ -166,10 +162,7 @@ def main() -> None:
     args = p.parse_args()
 
     result = render(args.source, args.out, title=args.title)
-    print(
-        f"wrote {result.out_path}  pages={result.page_count}  "
-        f"sha256={result.sha256[:16]}…"
-    )
+    print(f"wrote {result.out_path}  pages={result.page_count}  sha256={result.sha256[:16]}…")
 
 
 if __name__ == "__main__":

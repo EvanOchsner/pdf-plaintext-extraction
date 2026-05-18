@@ -52,6 +52,7 @@ PoisonFn = Callable[[Path, Path, Path], None]
 
 # ----- post-render techniques -------------------------------------------------
 
+
 def _make_watermark_overlay(out: Path, text: str = "CONFIDENTIAL — DRAFT") -> None:
     page_width, page_height = LETTER
     c = Canvas(str(out), pagesize=LETTER, invariant=1, pageCompression=0)
@@ -91,9 +92,7 @@ def poison_metadata_swap(_src: Path, clean_pdf: Path, out_pdf: Path) -> None:
         pdf.save(out_pdf, deterministic_id=True)
 
 
-def poison_rasterize(
-    _src: Path, clean_pdf: Path, out_pdf: Path, *, dpi: int = 150
-) -> None:
+def poison_rasterize(_src: Path, clean_pdf: Path, out_pdf: Path, *, dpi: int = 150) -> None:
     """Rasterize each page to a PNG, then rebuild a PDF where each page
     is just that image. The resulting PDF has no text layer, so any
     text-layer extractor returns nothing — only OCR can recover the
@@ -102,9 +101,7 @@ def poison_rasterize(
     try:
         import pypdfium2  # type: ignore
     except ImportError as e:  # pragma: no cover
-        raise RuntimeError(
-            "pypdfium2 is required for rasterize poisoning"
-        ) from e
+        raise RuntimeError("pypdfium2 is required for rasterize poisoning") from e
 
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
     src_doc = pypdfium2.PdfDocument(str(clean_pdf))
@@ -216,10 +213,7 @@ def poison_char_spacing(source: Path, clean_pdf: Path, out_pdf: Path) -> None:
             contents = page.obj.get("/Contents")
             if contents is None:
                 continue
-            if isinstance(contents, pikepdf.Array):
-                streams = list(contents)
-            else:
-                streams = [contents]
+            streams = list(contents) if isinstance(contents, pikepdf.Array) else [contents]
             for stream in streams:
                 raw = bytes(stream.read_bytes())
                 patched = raw.replace(b"BT\n", b"BT " + injection)
