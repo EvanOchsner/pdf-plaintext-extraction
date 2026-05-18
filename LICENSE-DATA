@@ -1,0 +1,50 @@
+Attribution 4.0 International (CC BY 4.0)
+
+This dataset and accompanying documentation are licensed under the Creative
+Commons Attribution 4.0 International License.
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material for any purpose,
+          even commercially.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+                license, and indicate if changes were made. You may do so
+                in any reasonable manner, but not in any way that suggests
+                the licensor endorses you or your use.
+
+  No additional restrictions — You may not apply legal terms or
+                technological measures that legally restrict others from
+                doing anything the license permits.
+
+Notices:
+
+  You do not have to comply with the license for elements of the material
+  in the public domain or where your use is permitted by an applicable
+  exception or limitation.
+
+  No warranties are given. The license may not give you all of the
+  permissions necessary for your intended use. For example, other rights
+  such as publicity, privacy, or moral rights may limit how you use the
+  material.
+
+Suggested attribution:
+
+  "SERFF-MD Extraction Dataset" by Evan Ochsner, licensed under CC BY 4.0.
+  https://github.com/EvanOchsner/serff-extraction
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+NOTE ON UNDERLYING SOURCE DOCUMENTS
+
+The PDFs catalogued in this dataset originate from public regulatory filings
+submitted to the Maryland Insurance Administration via the SERFF public
+access portal. Inclusion of those PDFs in any redistributed bundle is gated
+on a separate review of the SERFF terms of use; absent that, this dataset
+ships metadata and acquisition scripts only. The CC BY 4.0 license applies
+to the metadata, fingerprints, documentation, and any aggregate findings
+produced by the project, regardless of whether the underlying PDFs are
+included.

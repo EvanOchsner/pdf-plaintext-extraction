@@ -1,0 +1,29 @@
+.tmp/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+.DS_Store
+
+# Acquisition cache — content is reproducible from manifest, no need to commit
+data/cache/
+data/raw/
+
+# Experiment outputs are reproducible; keep configs but not bulky results
+experiments/results/*.jsonl
+experiments/results/*.html
+
+# Synthetic benchmark artifacts — regenerable from source text via:
+#   uv run python -m scripts.synthesize.clean_pdf  (per source)
+#   uv run python -m scripts.synthesize.poison --all
+#   uv run python -m scripts.synthesize.ground_truth
+#   uv run python -m scripts.obfuscation.fingerprint --pdf-glob ...
+data/synthetic/clean/
+data/synthetic/poisoned/
+data/synthetic/ground_truth.jsonl
+data/synthetic/sources/_provenance.jsonl
+data/obfuscation_fingerprints.jsonl
+
+# Large benchmark artifacts
+*.parquet

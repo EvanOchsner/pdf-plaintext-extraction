@@ -1,0 +1,62 @@
+[project]
+name = "serff-extraction"
+version = "0.0.1"
+description = "Curated MD SERFF insurance-filing dataset and extraction benchmark"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Evan Ochsner" }]
+
+# Core runtime. Kept small on purpose: acquisition, manifest, and
+# obfuscation analysis use stdlib + a tiny handful of well-vetted deps.
+# Heavier extractors live in optional-extras so a metadata-only consumer
+# does not pay for them.
+dependencies = [
+    "httpx >=0.27",              # async-friendly HTTP for acquisition
+    "pypdf >=4.3",               # PDF structure inspection (already in PAT)
+    "pikepdf >=9.0",             # deeper PDF structure / fonts / CMap access
+    "reportlab >=4.0",           # synthetic clean-PDF rendering
+    "tqdm >=4.66",
+]
+
+[project.optional-dependencies]
+# Baseline extractors for the benchmark harness.
+benchmark = [
+    "pdfplumber>=0.11",
+    "pytesseract >=0.3",
+    "Pillow >=10.0",
+    "docling >=2.94",
+]
+# Frontier vision LLM clients.
+frontier = [
+    "anthropic>=0.40",
+    "google-generativeai>=0.8",
+]
+# Dataset publishing.
+publish = [
+    "huggingface-hub >=0.24",
+    "datasets >=3.0",
+]
+dev = [
+    "pytest >=8.0",
+    "ruff >=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+extend-select = ["I", "UP", "B", "SIM"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
