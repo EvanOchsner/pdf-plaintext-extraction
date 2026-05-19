@@ -27,6 +27,7 @@ import platformdirs
 def _font_cache_dir() -> Path:
     return Path(platformdirs.user_cache_dir("pdf-plaintext-extraction")) / "fonts"
 
+
 # DejaVuSans.ttf 2.37 (latest stable release). SHA-256 pinned below.
 DEJAVU_URL = (
     "https://downloads.sourceforge.net/project/dejavu/dejavu/2.37/dejavu-fonts-ttf-2.37.zip"

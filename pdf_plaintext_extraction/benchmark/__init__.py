@@ -103,9 +103,7 @@ def ensure_corpus(
     sources_dir = package_sources_dir()
     source_ids = sorted(p.stem for p in sources_dir.glob("*.txt"))
     if not source_ids:
-        raise FileNotFoundError(
-            f"no source texts in bundled package data: {sources_dir}"
-        )
+        raise FileNotFoundError(f"no source texts in bundled package data: {sources_dir}")
 
     # 1. Clean PDFs.
     for sid in source_ids:
@@ -117,8 +115,7 @@ def ensure_corpus(
     # 2. Poisoned PDFs — one call per source_id renders all techniques.
     for sid in source_ids:
         needs_any = regenerate or any(
-            not (paths["poisoned"] / technique / f"{sid}.pdf").exists()
-            for technique in TECHNIQUES
+            not (paths["poisoned"] / technique / f"{sid}.pdf").exists() for technique in TECHNIQUES
         )
         if needs_any:
             apply_all_implemented(sid, corpus_root)
@@ -140,9 +137,7 @@ def iter_ground_truth(corpus_root: Path) -> Iterator[GroundTruthEntry]:
     paths = corpus_paths(corpus_root)
     manifest = paths["ground_truth"]
     if not manifest.exists():
-        raise FileNotFoundError(
-            f"no manifest at {manifest}; call ensure_corpus() first"
-        )
+        raise FileNotFoundError(f"no manifest at {manifest}; call ensure_corpus() first")
 
     import json
 
@@ -168,13 +163,9 @@ def iter_ground_truth(corpus_root: Path) -> Iterator[GroundTruthEntry]:
                 normalized_text=raw["normalized_text"],
                 word_count=raw["word_count"],
                 clean_pdf_path=(
-                    str(corpus_root / raw["clean_pdf_path"])
-                    if raw.get("clean_pdf_path")
-                    else None
+                    str(corpus_root / raw["clean_pdf_path"]) if raw.get("clean_pdf_path") else None
                 ),
                 clean_pdf_sha256=raw.get("clean_pdf_sha256"),
                 poisoned=poisoned,
             )
             yield entry
-
-
