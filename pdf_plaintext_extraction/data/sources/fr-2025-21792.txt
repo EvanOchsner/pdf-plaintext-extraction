@@ -1,0 +1,178 @@
+[Federal Register Volume 90, Number 230 (Wednesday, December 3, 2025)]
+[Rules and Regulations]
+[Pages 55687-55698]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-21792]
+
+
+
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Centers for Medicare & Medicaid Services
+
+42 CFR Part 483
+
+[CMS-3442-IFC]
+RIN 0938-AV25
+
+Medicare and Medicaid Programs; Repeal of Minimum Staffing
+Standards for Long-Term Care Facilities
+
+AGENCY: Centers for Medicare & Medicaid Services (CMS), Department of
+Health and Human Services (HHS).
+
+ACTION: Interim final rule with comment period.
+
+
+
+SUMMARY: This interim final rule with comment period repeals provisions
+of the final rule titled ``Medicare and Medicaid Programs; Minimum
+Staffing Standards for Long-Term Care Facilities and Medicaid
+Institutional Payment Transparency Reporting.'' This action is taken in
+view of changes made by by public law, which precludes HHS from
+implementing, administering, or enforcing certain provisions of the
+final rule until September 30, 2034.
+
+DATES: These regulations are effective on February 2, 2026.
+Comment date: To be assured consideration, comments must be
+received at one of the addresses provided below, by February 2, 2026.
+
+ADDRESSES: In commenting, please refer to file code CMS-3442-IFC.
+Comments, including mass comment submissions, must be submitted in
+one of the following three ways (please choose only one of the ways
+listed):
+1. Electronically. You may submit electronic comments on this
+regulation to http://www.regulations.gov. Follow the ``Submit a
+comment'' instructions.
+2. By regular mail. You may mail written comments to the following
+address ONLY: Centers for Medicare & Medicaid Services, Department of
+Health and Human Services, Attention: CMS-3442-IFC, P.O. Box 8016,
+Baltimore, MD 21244-8016.
+Please allow sufficient time for mailed comments to be received
+before the close of the comment period.
+3. By express or overnight mail. You may send written comments to
+the following address ONLY: Centers for Medicare & Medicaid Services,
+Department of Health and Human Services, Attention: CMS-3442-IFC, Mail
+Stop C4-26-05, 7500 Security Boulevard, Baltimore, MD 21244-1850.
+For information on viewing public comments, see the beginning of
+the SUPPLEMENTARY INFORMATION section.
+
+FOR FURTHER INFORMATION CONTACT: The Clinical Standard Group's Long
+Term Care Team at [email protected].
+
+SUPPLEMENTARY INFORMATION:
+Inspection of Public Comments: All comments received before the
+close of the comment period are available for viewing by the public,
+including any personally identifiable or confidential business
+information that is included in a comment. We post all comments
+received before the close of the comment period on the following
+website as soon as possible after they have been received: http://www.regulations.gov. Follow the search instructions on that website to
+view public comments. CMS will not post on Regulations.gov public
+comments that make threats to individuals or institutions or suggest
+that the commenter will take actions to harm an individual. CMS
+continues to encourage individuals not to submit duplicative comments.
+We will post acceptable comments from multiple unique commenters even
+if the content is identical or nearly identical to other comments.
+
+I. Background
+
+In the May 10, 2024 Federal Register (89 FR 40876), the Centers for
+Medicare & Medicaid Services (CMS), published a final rule titled
+``Medicare and Medicaid Programs; Minimum Staffing Standards for Long-
+Term Care Facilities and Medicaid Institutional Payment Transparency
+Reporting'' (hereinafter referred to as 2024 Minimum Staffing final
+rule). This rule, among other items, established minimum staffing
+standards for long-term care facilities participating in Medicare and
+Medicaid programs. The standards were informed by data and literature
+available in 2022 and 2023.
+On July 4, 2025, Public Law 119-21 was signed into law. Section
+71111 of Public Law 119-21 prohibits CMS from implementing,
+administering, or enforcing the minimum staffing standards set forth in
+Sec. 483.5, definitions related to staffing requirements, and Sec.
+483.35, requirements for a registered nurse (RN) to be onsite 24 hours,
+7 days per week and that each facility provides a minimum of 0.55 RN,
+2.45 nurse aide (NA), and 3.48 total nurse staffing hours per resident
+day (HPRD), for a specified time period. This legislative action
+effectively suspends implementation of these provisions until September
+30, 2034.
+
+[[Page 55688]]
+
+II. Basis for Repeal
+
+A. Legislative Moratorium
+
+Section 71111 of Public Law 119-21 precludes CMS from implementing,
+administering, or enforcing the minimum staffing standards established
+in the 2024 Minimum Staffing final rule (89 FR 40876) until after
+September 30, 2034. This prohibition renders portions of Sec. Sec.
+483.5 and 483.35 unenforceable and unimplementable during the period
+before October 1, 2034. Congress has thus effectively suspended these
+provisions for that period. We believe that this prohibition warrants
+restoration of the previous version of the Code of Federal Regulations
+(CFR). Without such revisions, the regulations would lack nurse
+staffing standard that implements the minimum requirements for long-
+term care facilities set forth in sections 1819(b)(4)(C)(i) and
+1919(b)(4)(C)(i) of the Act.
+
+B. Policy Considerations
+
+HHS and CMS are committed to protecting the health and safety of
+residents in long-term care facilities. Following the publication of
+the final rule, interested parties continue to express their concerns
+over the establishment of the quantitative minimum staffing standards,
+requiring a RN to be onsite 24 hours, 7 days per week and that each
+facility provides a minimum of 0.55 RN, 2.45 NA, and 3.48 total nurse
+staffing HPRD.
+LTC facilities, particularly those within rural and tribal
+communities, raised significant concerns that these standards, even
+with a comprehensive exemption process in place, could increase the
+risk of facility closure, thus potentially decreasing access to
+healthcare. Rural and tribal communities face a specific challenge of
+geographic isolation, making it difficult to recruit nurses and for
+patients to access care.\1\ LTC facilities continue to note hiring
+challenges due to the existing labor supply and available resources
+despite their best efforts to meet these requirements. The National
+Indian Health Board stated that the 2024 final rule would be
+catastrophic for keeping facilities open and meeting the trust and
+treaty obligations in healthcare because of the difficulty of staffing
+in Indian Country. Further, they noted that LTC facility closures like
+this in tribal communities do not just remove jobs but break cultural
+bonds and remove elders from their communities.
+
+
+\1\ Taylor, Noelle, et al. ``Promising Practices to Address
+Healthcare Needs Voiced by Local Native Americans.''
+DigitalCommons@USU, 2025, digitalcommons.usu.edu/tcjournal/vol2/iss1/4/. Accessed September 18, 2025.
+
+
+Likewise, multiple sources have described the current and projected
+shortages, including the International Council of Nurses (ICN) report
+calling for the worldwide shortage of nurses to be treated as a global
+health emergency. The report, titled Recover to Rebuild: Investing in
+the Nursing Workforce for Health System Effectiveness,\2\ details the
+impact that the pandemic had on the world's nursing workforce, nurse
+burnout, and access to care. The National Center for Workforce Analysis
+(NCHWA) \3\ projects nationwide nursing shortages, including a shortage
+of 295,800 nurses nationwide, with larger shortages of nurses in
+nonmetropolitan areas including rural and tribal communities. In
+addition, according to a Health Workforce Analysis published by the
+Health Resources and Services Administration (HRSA), authorities
+project just 63,720 people working as full-time RNs in 2030. Lastly,
+the American Association of Colleges of Nursing predicts that RN
+shortages will continue over the next decade and beyond, with a 13
+percent deficit in the total number of RNs in nonmetropolitan areas
+predicted to be needed in the United States by 2037, and a 5 percent
+deficit of RNs predicted for metropolitan areas of the country.\4\
+
+
+\2\ Buchan, James, and Howard Catton. RECOVER to REBUILD
+INVESTING in the NURSING WORKFORCE for HEALTH SYSTEM EFFECTIVENESS
+International Council of Nurses the Global Voice of Nursing. 2023.
+\3\ McGhee, Moira. ``A Crisis by the Numbers: Nursing Shortages
+in 2025 by State.'' Yahoo Finance, Vivian Health, February 24, 2025,
+finance.yahoo.com/news/crisis-numbers-nursing-shortages-2025-163000209.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACgfnz8Zi44P6ei-zweMuE0reqyIi9N19l_UIZVnmeFi0iHKKbYKSrtXhK23rJ6yZQ9Ny2dDkmXAlJropGQI2grGod8aHqswrTZBa0eiYk6EEyW9usg5XEYExAWFSvEP24uxek-T5cxKAvfjFgVRWHFZDR98zsEBIafohInLbBiH. Accessed September 5, 2025.
+\4\ American Association of Colleges of Nursing. ``Nursing
+Shortages Fact Sheet.'' American Association of Colleges of Nursing,
+2024, www.aacnnursing.org/news-data/fact-sheets/nursing-shortage.

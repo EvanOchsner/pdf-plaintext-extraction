@@ -1,0 +1,156 @@
+[Federal Register Volume 90, Number 232 (Friday, December 5, 2025)]
+[Proposed Rules]
+[Pages 56438-56656]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-22014]
+
+[[Page 56437]]
+
+Vol. 90
+
+Friday,
+
+No. 232
+
+December 5, 2025
+
+Part IV
+
+Department of Transportation
+
+
+
+National Highway Traffic Safety Administration
+
+
+
+49 CFR Parts 523, 531, 533, et al.
+
+The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model
+Years 2022 to 2031 Passenger Cars and Light Trucks; Proposed Rule
+
+??Federal Register / Vol. 90, No. 232 / Friday, December 5, 2025 /
+Proposed Rules??
+
+[[Page 56438]]
+
+
+
+DEPARTMENT OF TRANSPORTATION
+
+National Highway Traffic Safety Administration
+
+49 CFR Parts 523, 531, 533, 536, and 537
+
+[NHTSA-2025-0491]
+RIN 2127-AM76
+
+The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for
+Model Years 2022 to 2031 Passenger Cars and Light Trucks
+
+AGENCY: National Highway Traffic Safety Administration (NHTSA).
+
+ACTION: Notice of proposed rulemaking (NPRM).
+
+
+
+SUMMARY: NHTSA, on behalf of the Department of Transportation (DOT),
+proposes to substantially recalibrate the Corporate Average Fuel
+Economy (CAFE) program to realign this program with Congressional
+intent. That recalibration includes proposing to amend DOT's fuel
+economy standards for light-duty vehicles for model years (MYs) 2022-
+2026 and MYs 2027-2031. Consistent with statutory requirements, the
+fuel economy standards proposed in this rule are founded on light-duty
+vehicles powered by gasoline and diesel fuels, a category that includes
+non-plug-in hybrid vehicles. In formulating the proposed standards,
+NHTSA has not considered, consistent with law, the imputed fuel-economy
+performance of battery-powered electric vehicles (EVs) or the electric
+operation of vehicles that use plug-in hybrid electric powertrains, nor
+compliance credits or adjustments to the two-cycle fuel economy test
+procedures to account for air conditioning and off-cycle technologies.
+NHTSA also is proposing to eliminate the inter-manufacturer credit
+trading system and to amend the light-duty vehicle fleet classification
+system to allocate vehicles into passenger and non-passenger automobile
+fleets appropriately, based on their attributes and capabilities,
+starting in MY 2028. Elimination of unlawful considerations, combined
+with several of the proposed changes, would significantly improve the
+capabilities of manufacturers to meet fuel economy standards, better
+align the program with Congressional intent, and reduce manufacturer
+incentives to design vehicles and add features that are not desired by
+American consumers and that have questionable real-world fuel economy
+benefits. NHTSA is therefore proposing to set fuel economy standards
+that increase from newly proposed MY 2022 standards at a rate of 0.5
+percent per year through MY 2026, followed by 0.25 percent per year
+through MY 2031, with MY 2027 stringency established as a bridge
+between the two sets of standards. The reduced stringency increases in
+later years, coupled with a reevaluation of the coefficients that
+define the functions governing fuel economy standards, are intended to
+establish maximum feasible standards in a manner that gains real-world
+fuel-economy-benefits, while enabling the industry to adapt to the
+proposed substantial recalibration of the CAFE program. NHTSA projects
+that the amended standards would correspond to the industry fleetwide
+average for all light-duty vehicles of roughly 34.5 miles per gallon
+(mpg) in MY 2031.
+
+DATES:
+Comments: Comments are requested on or before January 20, 2026. See
+the SUPPLEMENTARY INFORMATION section on ``Public Participation,''
+below, for more information about written comments. In compliance with
+the Paperwork Reduction Act, NHTSA is also seeking comments on a
+modification of an existing information collection. For additional
+information, see the Paperwork Reduction Act section under Section VIII
+below. All comments relating to the information collection requirements
+should be submitted to NHTSA and to the Office of Management and Budget
+(OMB) at the address listed in the ADDRESSES section on or before 45
+days from date of publication.
+Public Hearings: NHTSA will hold one virtual public hearing during
+the public comment period. The agency will announce the specific date
+and web address for the hearing in a supplemental Federal Register
+notice. The agency will accept oral and written comments on the
+rulemaking documents and will also accept comments on the Draft
+Supplemental Environmental Impact Statement (Draft SEIS) at this
+hearing. The hearing will start at 9 a.m. Eastern time and continue
+until everyone has had a chance to speak. See the SUPPLEMENTARY
+INFORMATION section on ``Public Participation,'' below, for more
+information about the public hearing.
+
+ADDRESSES: For access to the dockets or to read background documents or
+comments received, please visit https://www.regulations.gov, or Docket
+Management Facility, M-30, U.S. Department of Transportation, West
+Building, Ground Floor, Rm. W12-140, 1200 New Jersey Avenue SE,
+Washington, DC 20590. The Docket Management Facility is open between 9
+a.m. and 4 p.m. Eastern time, Monday through Friday, except Federal
+holidays.
+Comments on the proposed information collection requirements should
+be submitted to: Office of Management and Budget at www.reginfo.gov/public/do/PRAMain. To find this information collection, select
+``Currently under Review--Open for Public Comment'' or use the search
+function. It is requested that comments sent to the OMB also be sent to
+the NHTSA rulemaking docket identified in the heading of this document.
+
+FOR FURTHER INFORMATION CONTACT: For technical and policy issues,
+Joseph Bayer, CAFE Program Division Chief, Office of Rulemaking,
+National Highway Traffic Safety Administration, 1200 New Jersey Avenue
+SE, Washington, DC 20590; email: [email protected]. For legal issues,
+Hannah Fish, NHTSA Office of Chief Counsel, National Highway Traffic
+Safety Administration, 1200 New Jersey Avenue SE, Washington, DC 20590;
+email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Acronyms and Abbreviations
+
+Abbreviation Term
+
+4WD............................... Four Wheel Drive.
+AC................................ Air conditioning.
+ACME.............................. Adaptive Cylinder Management Engine.
+ADEAC............................. Advanced Cylinder Deactivation.
+ADEACD............................ Advanced cylinder deactivation on a
+dual-overhead camshaft engine.
+ADEACS............................ Advanced cylinder deactivation on a
+single overhead camshaft engine.
+ADSL.............................. Advanced Diesel Engine.
+AEB............................... Automatic Emergency Braking.
+AEO............................... Annual Energy Outlook.
+
+[[Page 56439]]

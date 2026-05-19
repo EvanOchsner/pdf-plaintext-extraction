@@ -1,0 +1,266 @@
+Skip to main content
+
+Skip to main content
+
+An official website of the United States government
+
+Here’s how you know
+
+Here’s how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock (
+
+Locked padlock icon
+
+) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+Economic Research Service
+
+U.S. DEPARTMENT OF AGRICULTURE
+
+Menu
+
+Topics
+
+Data
+
+Access the Data
+
+Access and analyze data sets, maps, charts and graphs.
+
+Browse All Data
+
+Data by Type
+
+Access the Data
+
+Charts
+
+Downloadable Data Files
+
+Queryable Data Applications
+
+Maps
+
+Data by Topic
+
+Explore the Data Repository
+
+Animal Products
+
+Crops
+
+Farm Bill
+
+Farm Economy
+
+Farm Practices & Management
+
+Food & Nutrition Assistance
+
+Food Choices & Health
+
+Food Markets & Prices
+
+Food Safety
+
+International Markets & U.S. Trade
+
+Natural Resources & Environment
+
+Rural Economy & Population
+
+Analysis
+
+Understand the Research
+
+Get insights and objective analysis from experts in the field.
+
+Browse All Analysis
+
+Research Reports
+Published Papers from ERS
+
+Outlook Reports
+Agricultural Outlooks and Projections
+
+Amber Waves
+The Economics of Food, Farming, Natural Resources, and Rural Amer…
+
+Charts of Note
+Fast facts on U.S. agriculture
+
+Newsroom
+
+Newsroom
+
+See what's new and what's trending from ERS.
+
+Visit the Newsroom
+
+Events
+
+Trending Topics
+
+Contact ERS Press Office
+
+Subject Specialists
+
+FAQs
+
+Amber Waves
+
+Calendar
+
+About
+
+Careers
+
+Contact Us
+
+Search
+
+Breadcrumb
+
+Home
+
+Topics
+
+Food & Nutrition Assistance
+
+Food Security in the U.S.
+
+Measurement
+
+Food Security in the U.S. - Measurement
+
+Updated: 3/30/2026
+
+Contact:
+Laura J. Hales or Madeline Reed-Jones
+
+In this section
+
+Food Security in the U.S.
+
+Definitions of Food Security
+
+Key Statistics & Graphics
+
+Frequency of Food Insecurity
+
+Measurement
+
+Interactive Charts and Highlights
+
+History & Background
+
+Survey Tools
+
+Media Resources
+
+This page provides the following information:
+
+What Is Food Security?
+
+What Is Food Insecurity?
+
+Does USDA Measure Hunger?
+
+How are Food Security and Insecurity Measured?
+
+Survey Questions Used by USDA to Assess Household Food Security
+
+How Many Households Are Interviewed in the National Food Security Surveys?
+
+What Is Food Insufficiency?
+
+This page provides an overview of how household food security and food insecurity are measured. For detailed technical information on measurement methods, questionnaires, and calculating food security scales, see Food Security in the U.S.: Survey Tools.
+
+What Is Food Security?
+
+Food security for a household means access by all members at all times to enough food for an active, healthy life. Food security includes at a minimum:
+
+The ready availability of nutritionally adequate and safe foods.
+
+Assured ability to acquire acceptable foods in socially acceptable ways (that is, without resorting to emergency food supplies, scavenging, stealing, or other coping strategies).
+
+What Is Food Insecurity?
+
+Food insecurity is the limited or uncertain availability of nutritionally adequate and safe foods, or limited or uncertain ability to acquire acceptable foods in socially acceptable ways.
+
+(Definitions are from the Life Sciences Research Office, S.A. Andersen, ed., Core indicators of nutritional state for difficult to sample populations. The Journal of Nutrition 120, 1557S-1600S, 1990)
+
+Does USDA Measure Hunger?
+
+USDA does not have a measure of hunger or the number of hungry people in the United States. Prior to 2006, USDA described households with very low food security as "food insecure with hunger" and characterized them as households in which one or more people were hungry at times during the year because they could not afford enough food. "Hunger" in that description referred to "the uneasy or painful sensation caused by lack of food."
+
+In 2006, USDA introduced the new description "very low food security" to replace "food insecurity with hunger"—recognizing more explicitly that, although hunger is related to food insecurity, hunger is a different phenomenon. Food insecurity is a household-level economic and social condition of limited access to food, while hunger is an individual-level physiological condition that may result from food insecurity.
+
+Information about the incidence of hunger is of considerable interest and potential value for policy and program design. But providing precise and useful information about hunger is hampered by the lack of a consistent meaning of the word. "Hunger" is understood variously by different people to refer to conditions across a broad range of severity, from rather mild food insecurity to prolonged clinical undernutrition.
+
+USDA sought guidance from the Committee on National Statistics (CNSTAT) of the National Academies on the use of the word "hunger" in connection with food insecurity. The independent panel of experts convened by CNSTAT concluded that in official statistics, resource-constrained hunger (i.e., physiological hunger resulting from food insecurity) "...should refer to a potential consequence of food insecurity that, because of prolonged, involuntary lack of food, results in discomfort, illness, weakness, or pain that goes beyond the usual uneasy sensation."
+
+Validated methods have not yet been developed to measure resource-constrained hunger in this sense, in the context of U.S. conditions. Such measurement would require the collection of more detailed and extensive information on physiological experiences of individual household members than could be accomplished effectively in the context of USDA's annual household food security survey.
+
+USDA's measurement of food insecurity provides some information about the economic and social contexts that may lead to hunger but does not assess the extent to which hunger actually ensues.
+
+How Are Food Security and Insecurity Measured?
+
+The food security status of each household lies somewhere along a continuum extending from high food security to very low food security. This continuum is divided into four ranges, characterized as follows:
+
+High food security—Households had no problems, or anxiety about, consistently accessing adequate food.
+
+Marginal food security—Households had problems at times, or anxiety about, accessing adequate food, but the quality, variety, and quantity of their food intake were not substantially reduced.
+
+Low food security—Households reduced the quality, variety, and desirability of their diets, but the quantity of food intake and normal eating patterns were not substantially disrupted.
+
+Very low food security—At times during the year, eating patterns of one or more household members were disrupted and food intake was reduced because the household lacked money and other resources for food.
+
+USDA introduced the above labels for ranges of food security in 2006. See Food Security in the U.S.: Definitions of Food Security for further information.
+
+For most reporting purposes, USDA describes households with high or marginal food security as food secure and those with low or very low food security as food insecure.
+
+Placement on this continuum is determined by the household's responses to a series of questions about behaviors and experiences associated with difficulty in meeting food needs. The questions cover a wide range of severity of food insecurity.
+
+Least severe:
+Was this statement often, sometimes, or never true for you in the last 12 months? "We worried whether our food would run out before we got money to buy more."
+
+Somewhat more severe:
+Was this statement often, sometimes, or never true for you in the last 12 months? "We couldn't afford to eat balanced meals."
+
+Midrange severity:
+In the last 12 months, did you ever cut the size of your meals or skip meals because there wasn't enough money for food?
+
+Most severe:
+In the last 12 months, did you ever not eat for a whole day because there wasn't enough money for food?
+
+In the last 12 months, did any of the children ever not eat for a whole day because there wasn't enough money for food?
+
+Every question specifies the period (last 12 months) and specifies lack of resources as the reason for the behavior or experience ("we couldn't afford more food," "there was not enough money for food.")
+
+Food insecure. Households that report three or more conditions that indicate food insecurity are classified as "food insecure." That is, the households were at times unable to acquire adequate food for one or more household members because they had insufficient money and other resources for food. The three least severe conditions that would result in a household being classified as food insecure are:
+
+They worried whether their food would run out before they got money to buy more.
+
+The food they bought didn't last, and they didn't have money to get more.
+
+They couldn't afford to eat balanced meals.
+
+Households are also classified as food insecure if they report any combination of three or more conditions, including any more severe conditions.
+
+Very low food security. Households having "very low food security" were food insecure to the extent that eating patterns of one or more household members were disrupted and their food intake was reduced, at least some time during the year, because the households could not afford enough food. To be classified as having "very low food security," households with no children present must report at least the three conditions listed above and also that:
+
+Adults ate less than they felt they should.
+
+Adults cut the size of meals or skipped meals and did so in 3 or more months.
+
+Many report additional, more severe experiences and behaviors as well. If there are children in the household, their experiences and behaviors are also assessed. An additional two affirmative responses are required for a classification of very low food security.
+
+Survey Questions Used by USDA To Assess Household Food Security

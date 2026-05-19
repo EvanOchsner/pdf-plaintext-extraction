@@ -1,0 +1,190 @@
+[Federal Register Volume 90, Number 246 (Tuesday, December 30, 2025)]
+[Rules and Regulations]
+[Pages 61035-61049]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-23970]
+
+?
+?Rules and Regulations
+? Federal Register
+?________________________________________________________________________
+?
+?This section of the FEDERAL REGISTER contains regulatory documents
+?having general applicability and legal effect, most of which are keyed
+?to and codified in the Code of Federal Regulations, which is published
+?under 50 titles pursuant to 44 U.S.C. 1510.
+?
+?The Code of Federal Regulations is sold by the Superintendent of Documents.
+?
+?
+?
+
+??Federal Register / Vol. 90, No. 246 / Tuesday, December 30, 2025 /
+Rules and Regulations??
+
+[[Page 61035]]
+
+DEPARTMENT OF HOMELAND SECURITY
+
+8 CFR Parts 208 and 235
+
+RIN 1615-AC57
+[CIS No. 2844-26; Docket No: USCIS 2020-0013]
+
+DEPARTMENT OF JUSTICE
+
+Executive Office for Immigration Review
+
+8 CFR Parts 1003, 1208, and 1235
+
+RIN 1125-AB08
+[Dir. Order No. 03-2025]
+
+Security Bars and Processing; Confirmation of Effective Date;
+Partial Withdrawal
+
+AGENCY: U.S. Citizenship and Immigration Services (``USCIS''),
+Department of Homeland Security (``DHS''); Executive Office for
+Immigration Review (``EOIR''), Department of Justice (``DOJ'').
+
+ACTION: Final rule; partial withdrawal and correction.
+
+
+
+SUMMARY: In December 2020, DHS and DOJ (collectively, ``the
+Departments'') issued a final rule that clarified when an alien who
+poses a public health risk is ineligible for asylum and withholding of
+removal and revised their credible fear screening regulations. After
+multiple delays, the rule is scheduled to take effect on December 31,
+2025. However, since December 2020, the Departments have further
+amended their regulations, complicating the codification of the 2020
+rule. In this final rule, the Departments are withdrawing certain
+amendments from the 2020 rule while leaving unaltered the rule's
+substantive public health-related provisions, which will become
+effective as scheduled.
+
+DATES:
+Partial Withdrawal: As of December 29, 2025, amendatory
+instructions 4, 5, 6, 7, 8, 12, 13, and 14 published on December 23,
+2020, at 85 FR 84160, which were delayed by the rules published at 86
+FR 6847 (Jan. 25, 2021), 86 FR 15069 (Mar. 22, 2021), 86 FR 73615 (Dec.
+28, 2021), 87 FR 79789 (Dec. 28, 2022), and 89 FR 105386 (Dec. 27,
+2024), are withdrawn.
+Effective Date: The corrections in this document are effective
+December 31, 2025.
+
+FOR FURTHER INFORMATION CONTACT:
+For USCIS: Humanitarian Affairs Division, Office of Policy and
+Strategy, U.S. Citizenship and Immigration Services, DHS, 5900 Capital
+Gateway Drive, Camp Springs, MD 20746; telephone (240) 721-3000.
+For EOIR: Immigration Law Division, Office of Policy, Executive
+Office for Immigration Review, Department of Justice, 5107 Leesburg
+Pike, Suite 2500, Falls Church, VA 22041; telephone (703) 305-0289.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Summary
+
+In December 2020, the Departments published the final rule titled
+``Security Bars and Processing,'' 85 FR 84160 (Dec. 23, 2020)
+(``Security Bars Final Rule''), to clarify that the statutory ``danger
+to the security of the United States'' bars to eligibility for asylum
+and withholding of removal encompass certain emergency public health
+concerns. Additionally, the Security Bars Final Rule introduced
+procedural changes relating to credible fear processing for certain
+aliens. The Security Bars Final Rule was slated to become effective on
+January 22, 2021; however, the rule's effective date was delayed
+multiple times due to a preliminary injunction against a related rule
+and due to conflicts with other rules issued while it was delayed. See
+Security Bars and Processing; Delay of Effective Date, 86 FR 6847 (Jan.
+25, 2021) (``January 2021 Delay Final Rule''); Security Bars and
+Processing; Delay of Effective Date, 86 FR 15069 (Mar. 22, 2021)
+(``March 2021 Delay IFR''); \1\ Security Bars and Processing; Delay of
+Effective Date, 86 FR 73615 (Dec. 28, 2021) (``December 2021 Delay
+IFR''); Security Bars and Processing; Delay of Effective Date, 87 FR
+79789 (Dec. 28, 2022) (``December 2022 Delay IFR''); Security Bars and
+Processing; Delay of Effective Date, 89 FR 105386 (Dec. 27, 2024)
+(``December 2024 Delay IFR'').
+
+
+\1\ ``IFR'' means ``interim final rule.''
+
+
+This rule withdraws amendatory instructions of the Security Bars
+Final Rule that would conflict with amendments made by rules issued
+while its effective date was delayed or that may otherwise cause
+confusion. The rule makes no changes to the substantive public health-
+related provisions that the Security Bars Final Rule adopted. Notably,
+even though the Departments will no longer codify provisions of the
+Security Bars Final Rule related to fear screening, the Departments may
+still consider the Security Bars Final Rule's clarifications of
+``danger to the security of the United States'' bars to asylum and
+withholding of removal, in such screenings. See Application of Certain
+Mandatory Bars in Fear Screenings, 89 FR 103370 (Dec. 18, 2024) (``DHS
+Mandatory Bars Rule'') (providing USCIS asylum officers (``AOs'')
+discretion to consider the potential applicability of specified
+mandatory bars to asylum and statutory withholding of removal during
+fear screening processes); see also Clarification Regarding Bars to
+Eligibility During Credible Fear and Reasonable Fear Review, 89 FR
+105392 (Dec. 27, 2024) (``EOIR Bars IFR'') (allowing Immigration Judges
+to review an AO's determination that a mandatory bar applies in
+credible and reasonable fear reviews).
+
+II. Background
+
+A. Legal Authority
+
+The Attorney General \2\ and the Secretary of Homeland Security
+issue this rule pursuant to their respective authorities concerning
+asylum and withholding of removal determinations.
+
+
+\2\ In Attorney General Order Number 6260-2025 (May 8, 2025),
+the Attorney General exercised her authority under 28 U.S.C. 509 and
+510 to delegate her authority to issue regulations related to
+immigration matters within the jurisdiction of EOIR to EOIR's
+Director.
+
+
+The Homeland Security Act of 2002 (``HSA''), Public Law 107-296,
+116 Stat. 2135, as amended, transferred many functions related to the
+execution of Federal immigration law to the newly created DHS. The
+Immigration and Nationality Act (``INA'' or ``Act''), as amended,
+charges the Secretary ``with the administration and enforcement of this
+chapter and all other laws relating
+
+[[Page 61036]]
+
+to the immigration and naturalization of aliens,'' INA 103(a)(1), 8
+U.S.C. 1103(a)(1), and grants the Secretary the power to take all
+actions ``necessary for carrying out'' the Secretary's authority under
+the provisions of the INA, INA 103(a)(3), 8 U.S.C. 1103(a)(3).\3\ The
+HSA also transferred to DHS responsibility for initial adjudication of
+affirmative asylum applications, i.e., applications for asylum first
+made outside the removal context. See 6 U.S.C. 271(b)(3).\4\
+Specifically, the HSA vested the adjudication of affirmative asylum and
+refugee applications with USCIS.\5\ Id. USCIS AOs determine in the
+first instance whether an alien's affirmative asylum application should
+be granted. See 8 CFR 208.2(a)(1).
+
+
+\3\ Additionally, under the HSA, references to the ``Attorney
+General'' in the INA also encompass the Secretary with respect to
+statutory authorities vested in the Secretary by the HSA or
+subsequent legislation, including in relation to immigration
+proceedings before DHS. 6 U.S.C. 251, 271(b)(3), (5), 557.
+\4\ If USCIS does not approve an affirmative application for
+asylum and the alien appears to be inadmissible under section 212(a)
+of the INA, 8 U.S.C. 1182(a), or deportable under section 237(a) of
+the INA, 8 U.S.C. 1227(a), then, subject to certain exceptions,
+USCIS will place the alien into removal proceedings under section
+240 of the INA, 8 U.S.C. 1229a, where the affirmative asylum
+application may be renewed for consideration by the Immigration
+Judge. 8 CFR 208.14(c)(1).
+\5\ When the HSA established DHS, the Citizenship and
+Immigration Services component was known as the ``Bureau of
+Citizenship and Immigration Services.'' 6 U.S.C. 271(a)(1). DHS
+later changed the name of the Bureau of Citizenship and Immigration
+Services to USCIS. Name Change From the Bureau of Citizenship and
+Immigration Services to U.S. Citizenship and Immigration Services,
+69 FR 60938, 60938 (Oct. 13, 2004).

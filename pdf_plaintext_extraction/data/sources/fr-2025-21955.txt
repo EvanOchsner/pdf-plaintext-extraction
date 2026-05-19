@@ -1,0 +1,214 @@
+[Federal Register Volume 90, Number 231 (Thursday, December 4, 2025)]
+[Rules and Regulations]
+[Pages 55978-55996]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-21955]
+
+[[Page 55977]]
+
+Vol. 90
+
+Thursday,
+
+No. 231
+
+December 4, 2025
+
+Part II
+
+Department of Health and Human
+
+
+
+Food and Drug Administration
+
+
+
+21 CFR Parts 801, 803, 812, et al.
+
+Medical Devices; Quality Management System Regulation Technical
+Amendments; Final Rule
+
+??Federal Register / Vol. 90 , No. 231 / Thursday, December 4, 2025 /
+Rules and Regulations??
+
+[[Page 55978]]
+
+
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+21 CFR Parts 801, 803, 812, 860, 862, 864, 866, 868, 872, 874, 876,
+878, 880, 882, 886, 888, 890, and 892
+
+[Docket No. FDA-2025-N-4635]
+
+Medical Devices; Quality Management System Regulation Technical
+Amendments
+
+AGENCY: Food and Drug Administration, HHS.
+
+ACTION: Final rule; technical amendments.
+
+
+
+SUMMARY: The Food and Drug Administration (FDA, the Agency, or we) is
+amending certain medical device regulations to revise references and
+language in existing Code of Federal Regulations (CFR) provisions to
+conform with the final rule ``Medical Devices; Quality System
+Regulation Amendments'' (QMSR Final Rule). This rule does not impose
+any new requirements on affected parties. This action is editorial in
+nature to correct errors, conform regulatory references, and ensure
+accuracy and clarity in the Agency's regulations.
+
+DATES: This rule is effective February 2, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Daniel Schieffer, Office of Policy,
+Center for Devices and Radiological Health, 10903 New Hampshire Ave.,
+Bldg. 66, Rm. 5562, Silver Spring, MD 20993, 301-796-3350,
+[email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+As a part of this technical amendment, FDA is making changes to 21
+CFR parts 801, 803, 812, 860, 862, 864, 866, 868, 872, 874, 876, 878,
+880, 882, 886, 888, 890, and 892 to revise existing regulatory
+provisions for consistency with the QMSR Final Rule \1\ to correct
+errors, conform regulatory references, and ensure accuracy and clarity
+in the Agency's medical device regulations. The changes published in
+this notice are non-substantive and editorial in nature.
+
+
+\1\ In this technical amendment, FDA uses the terms below in the
+following manner: when referring to 21 CFR part 820 as amended and
+effective on February 2, 2026, FDA uses the terms ``Quality
+Management System Regulation'' or ``QMSR.'' When referring to the
+regulation at 21 CFR part 820 in effect before February 2, 2026, FDA
+uses the terms ``Quality System Regulation'' or ``QSR.''
+
+
+On February 2, 2024, FDA issued the QMSR Final Rule. This rule
+amended the device current good manufacturing practice (CGMP)
+requirements of the Quality System Regulation (QSR) to harmonize and
+modernize the regulation. The QMSR incorporates by reference an
+international standard for device quality management systems (ISO
+13485:2016, Medical devices--Quality management systems--Requirements
+for regulatory purposes) and establishes additional requirements and
+provisions that clarify certain expectations and concepts used in ISO
+13485. The purpose of this technical amendment is to update references
+from the QSR in existing FDA regulations to references to the QMSR that
+becomes effective on February 2, 2026, and to correct errors and ensure
+consistency and clarity in FDA's regulations.
+
+II. Description of the Technical Amendments
+
+We are amending 179 sections of Title 21 of the CFR, spread
+throughout 18 parts, in this technical amendment. Each section that is
+being modified includes a change to conform existing regulations for
+consistency with the QMSR. FDA is also clarifying the authority
+citations for three parts. The changes made in this technical amendment
+can be summarized as follows:
+One hundred and sixty-two of these amendments change the
+wording in the classification regulations for certain class I device
+types.\2\ Specifically, these classification regulations currently
+exempt their respective devices, with various qualifications depending
+on the device, from the majority of the QSR. The QSR provisions that
+are not exempted in all of these sections (except one \3\) are
+Sec. Sec. 820.180 and 820.198 (21 CFR 820.180 and 820.198). This
+amendment updates the references to the non-exempted activities for
+these devices from Sec. Sec. 820.180 (Records--General requirements)
+and 820.198 (Records--Complaint files) in the QSR to the equivalent
+requirement in the QMSR (Sec. 820.35 (Control of Records) (21 CFR
+820.35)).
+
+
+\2\ Class I devices are those devices for which the general
+controls within the Federal Food, Drug, and Cosmetic Act (FD&C Act)
+(controls authorized by or under section 501, 502, 510, 516, 518,
+519, or 520 (21 U.S.C. 351, 352, 360, 360f, 360h, 360i, or 360j) or
+any combination of such sections) are sufficient to provide
+reasonable assurance of safety and effectiveness; or those devices
+for which insufficient information exists to determine that general
+controls are sufficient to provide reasonable assurance of safety
+and effectiveness or to establish special controls to provide such
+assurance, but because the devices are not purported or represented
+to be for a use in supporting or sustaining human life or for a use
+which is of substantial importance in preventing impairment of human
+health, and do not present a potential unreasonable risk of illness
+or injury, are to be regulated by general controls (section
+513(a)(1)(A) of the FD&C Act (21 U.S.C. 360c(a)(1)(A))).
+\3\ Section 864.3260(b) (21 CFR 864.3260(b)) currently exempts
+over-the-counter (OTC) test sample collection systems for drugs of
+abuse testing, if the device is not labeled or otherwise represented
+as sterile, from all of the QSR except for Sec. 820.198.
+
+
+Section 801.30(a)(2) (21 CFR 801.30(a)(2)), which is a
+specific exemption to the unique device identification requirement, is
+being modified in the same way as the classification regulations in the
+preceding bullet by changing references from Sec. Sec. 820.180 and
+820.198 in the QSR to the equivalent requirement in the QMSR (Sec.
+820.35).
+In the classification regulation for the Keratoscope
+(Sec. 886.1350(b) (21 CFR 886.1350(b))), in addition to the updated
+language described in the first bullet, we are also adding the words
+``Classification. Class I (general controls).'' This is because the
+statement that the device was classified as class I \4\ was
+inadvertently deleted from the CFR when the section was last edited in
+2000.\5\
+
+
+\4\ 55 FR 48436 at 48438.
+\5\ See 65 FR 2296 at 2320.
+
+
+Nine class II classification regulations \6\ are being
+modified to change references to Sec. 820.30 (Design Controls) (21 CFR
+820.30) in the QSR to the equivalent provision in the QMSR (Sec.
+820.10(c) (21 CFR 820.10(c))).
+
+
+\6\ Class II devices are those devices for which general
+controls by themselves are insufficient to provide reasonable
+assurance of safety and effectiveness, and for which there is
+sufficient information to establish special controls to provide such
+assurance, including the issuance of performance standards,
+postmarket surveillance, patient registries, development and
+dissemination of guidelines, recommendations, and other appropriate
+actions the Agency deems necessary to provide such assurance
+(section 513(a)(1)(B) of the FD&C Act).
+
+
+In part 812 (Investigational Device Exemptions) an
+additional two sections (Sec. Sec. 812.1(a) and 812.35(a)(3)(iii)(A)
+(21 CFR 812.1(a) and 812.35(a)(3)(iii)(A))) are being modified to also
+change references from Sec. 820.30 in the QSR to the equivalent
+provision in the QMSR (Sec. 820.10(c)). A second revision to Sec.
+812.35 revises Sec. 812.35(a)(3)(iv)(A) to insert a clarifying
+reference to Sec. 820.10(c) of the QMSR.
+One change in Sec. 801.45(e) (21 CFR 801.45(e)) changes a
+reference from the design history file in the QSR to the design and
+development files of the QMSR.
+Four sections are modified in this technical amendment by
+updating the phrase ``quality system regulation'' to
+
+[[Page 55979]]
+
+the phrase ``quality management system regulation.''
+FDA is clarifying the authority citations in parts 862,
+876, and 878 to italicize the `l' in 21 U.S.C. 360l to more clearly
+distinguish it from a numeral 1.
+In some of the edited sections we have also made minor wording
+changes to standardize language across sections and/or correct non-
+substantive typographic errors. The changes to all 179 sections are
+non-substantive and are intended to conform existing regulations to the
+requirements in the QMSR that mirror the requirements in the QSR. This
+rule does not impose any new regulatory requirements on affected
+parties. The amendments are editorial in nature and should not be
+construed as modifying any substantive standards or requirements.
+
+III. Notice and Public Comment

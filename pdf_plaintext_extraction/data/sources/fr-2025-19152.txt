@@ -1,0 +1,185 @@
+[Federal Register Volume 90, Number 188 (Wednesday, October 1, 2025)]
+[Proposed Rules]
+[Pages 47254-47266]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-19152]
+
+
+
+
+SECURITIES AND EXCHANGE COMMISSION
+
+17 CFR Parts 229, 230, 239, 240, and 249
+
+[Release Nos. 33-11391; 34-104102; File No. S7-2025-04]
+RIN 3235-AN52
+
+Concept Release on Residential Mortgage-Backed Securities
+Disclosures and Enhancements to Asset-Backed Securities Registration
+
+AGENCY: Securities and Exchange Commission.
+
+ACTION: Concept release; request for comments.
+
+
+
+SUMMARY: The Securities and Exchange Commission (``Commission'') is
+publishing this concept release to solicit comments on whether to amend
+the asset-level disclosure requirements for residential mortgage-backed
+securities in Item 1125 of Regulation AB and whether to revise
+generally the definition of ``asset-backed security'' and/or other
+definitions in Item 1101 of Regulation AB. The Commission is
+considering these steps to expand issuer and investor access to the
+registered asset-backed securities markets and facilitate enhanced
+capital formation and liquidity while maintaining appropriate investor
+protections.
+
+DATES: Comments should be received on or before December 1, 2025.
+
+ADDRESSES: Comments may be submitted by any of the following methods:
+
+Electronic Comments
+
+Use the Commission's internet comment form (https://www.sec.gov/comments/s7-2025-04/s7-2025-04); or
+Send an email to [email protected]. Please include
+File Number S7-2025-04 on the subject line.
+
+Paper Comments
+
+Send paper comments to Vanessa A. Countryman, Secretary,
+Securities and Exchange Commission, 100 F Street NE, Washington, DC
+20549-1090.
+
+All submissions should refer to File Number S7-2025-04. This file
+number should be included on the subject line if email is used. To help
+the Commission process and review your comments more efficiently,
+please use only one method of submission. The Commission will post all
+comments on the Commission's website (https://www.sec.gov/comments/s7-2025-04/s7-2025-04). Do not include personally identifiable information
+in submissions; you should submit only information that you wish to
+make available publicly. The Commission may redact in part or withhold
+entirely from publication submitted material that is obscene or subject
+to copyright protection.
+
+FOR FURTHER INFORMATION CONTACT: Arthur Sandel, Special Counsel, or
+Kayla Roberts, Acting Chief, in the Office of Structured Finance,
+Division of Corporation Finance, at (202) 551-3850, Securities and
+Exchange Commission, 100 F Street NE, Washington, DC 20549.
+
+Table of Contents
+
+I. Introduction
+II. Asset-Level Disclosures for Residential Mortgage-Backed
+Securities
+A. Background
+B. Recent Developments
+C. Potential Changes to RMBS Asset-Level Disclosure Requirements
+D. Request for Comment
+III. Disclosure of Certain Sensitive RMBS Asset-Level Data
+A. Background
+B. Potential Regulatory Response
+C. Request for Comment
+IV. Definition of Asset-Backed Security Generally
+A. Background
+B. Potential Changes to Regulation AB Definitions
+
+[[Page 47255]]
+
+C. Request for Comment
+V. General Request for Comment
+VI. Regulatory Planning and Review
+VII. Conclusion
+
+I. Introduction
+
+Securitization serves a vital role in the U.S. capital markets and
+the U.S. economy. As a method of financing in which financial assets
+are pooled and converted into instruments that may be offered and sold
+in the capital markets, securitization helps provide entities, such as
+banks, operating companies, and other non-depository financial
+institutions, with access to lower-cost capital to make loans to
+borrowers or otherwise finance operations.\1\ This process, in turn,
+promotes necessary market liquidity and facilitates capital formation
+in critical economic sectors, such as housing and consumer lending. For
+investors, asset-backed securities (``ABS'') may offer attractive
+yields and an opportunity to diversify fixed-income portfolios with a
+range of credit quality. A more liquid registered ABS market should
+further increase opportunities for capital formation while also
+reducing borrowing costs for assets routinely financed by U.S.
+households, corporations, and small businesses, such as automobiles and
+residential and commercial real estate.
+
+
+\1\ See, e.g., Steven L. Schwarcz, Securitization Ten Years
+after the Financial Crisis: An Overview, 37 Rev. of Banking and Fin.
+L. 757, 759 (2018), available at https://www.bu.edu/rbfl/files/2018/12/Schwarcz-757.pdf (``Because financial assets can be easier to
+understand and value, if not safer, than the business and risks
+associated with operating a company, securitization offers companies
+an efficient and usually lower-cost funding source.''). See also,
+Aron M. Zuckerman, Securitization Reform: A Coasean Cost Analysis, 1
+Harv. Bus. L. Rev. 303, 306 (2011), available at https://journals.law.harvard.edu/hblr//wp-content/uploads/sites/87/2014/09/Zuckerman-Securitization_Reform.pdf (``The chief benefit for banks
+from securitization is lower funding costs for making residential
+housing loans.'').
+
+
+From its origins in the earliest mortgage-backed securities
+transactions of the 1970s, the modern ABS market gained traction in the
+1980s and 1990s and, since then, the Commission has adopted a series of
+disclosure rules and forms to establish comprehensive registration and
+ongoing reporting requirements. In 2004, the Commission adopted
+Regulation AB,\2\ establishing for the first time a comprehensive
+registration, disclosure, and ongoing reporting regime for ABS under
+the Securities Act of 1933 \3\ (the ``Securities Act'') and the
+Securities Exchange Act of 1934 \4\ (the ``Exchange Act'').\5\ As we
+discuss in more detail in section IV.A below, the availability of this
+tailored regime was intentionally limited only to the types of
+securitizations that meet the definition of ABS in Item 1101(c) of
+Regulation AB.\6\
+
+
+\2\ 17 CFR 229.1100 et seq.
+\3\ 15 U.S.C. 77a et seq.
+\4\ 15 U.S.C. 78a et seq.
+\5\ Asset-Backed Securities, Release No. 33-8518 (Dec. 22, 2004)
+[70 FR 1506] (Jan. 7, 2005) (``2004 Regulation AB Adopting
+Release'').
+\6\ 17 CFR 229.1101(c). See section III.A.2 of the 2004
+Regulation AB Adopting Release.
+
+
+Following the financial crisis of 2007-2009 (the ``Financial
+Crisis''), Congress enacted the Dodd-Frank Wall Street Reform and
+Consumer Protection Act (the ``Dodd-Frank Act'').\7\ The Dodd-Frank Act
+added a new statutory definition of ``asset-backed security'' \8\ and
+included mandates for the Commission to adopt rules and regulations
+intended to address concerns in the securitization market including, in
+relevant part, a lack of transparency about the assets underlying
+ABS.\9\ In 2014, the Commission adopted significant revisions to its
+registration, disclosure, and reporting regime for ABS, including
+amendments to Regulation AB (colloquially, ``Regulation AB II''), in
+part to implement several of these Dodd-Frank Act mandates.\10\ As
+discussed in sections II and III below, one such amendment adopted by
+the Commission in Regulation AB II was the new requirement that ABS
+issuers disclose asset-level data for all assets underlying registered
+residential mortgage-backed securities (``RMBS'') and certain other
+asset classes.\11\
+
+
+\7\ Public Law 111-203, 124 Stat. 1376 (2010).
+\8\ Section 3(a)(79) of the Exchange Act [15 U.S.C. 78c(a)(79)].
+See section IV.A below for a more detailed discussion about the
+commonalities and distinctions between the definitions in Regulation
+AB and the Exchange Act.
+\9\ See, e.g., Public Law 111-203, 942(b), 124 Stat. 1376, 1897.
+\10\ Asset-Backed Securities Disclosure and Registration,
+Release No. 33-9638 (Sept. 4, 2014) [79 FR 57184] (Sept. 24, 2014)
+(``2014 Regulation AB II Adopting Release'').
+\11\ See section III.A of the 2014 Regulation AB II Adopting
+Release and the Appendix to Schedule AL (Item 1125 of Regulation AB)
+[17 CFR 229.1125]. The asset-level requirements adopted by the
+Commission partially implemented the statutory mandate in Securities
+Act section 7(c), as added by section 942(b) of the Dodd-Frank Act,
+which requires, in relevant part, that the Commission adopt
+regulations requiring an issuer of an ABS to disclose, for each
+tranche or class of security, information about the underlying
+assets, including asset-level data, if such data is necessary for
+investors to independently perform due diligence.

@@ -1,0 +1,212 @@
+Skip directly to site content
+Skip directly to search
+
+An official website of the United States government
+
+Here's how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+Epidemiology and Prevention of Vaccine-Preventable Diseases
+
+Explore This Topic
+
+Search
+
+Search
+
+Clear
+
+Search
+
+More from CDC
+
+Health Topics A-Z
+
+Outbreaks
+
+About CDC
+
+Health Topics A-Z
+
+Home
+
+search
+
+clear
+
+search
+
+Pink Book
+
+Menu
+
+clear
+
+search
+
+More from CDC
+
+More from CDC
+
+Health Topics A-Z
+
+Outbreaks
+
+About CDC
+
+Pink Book
+
+Chapter 12: Influenza
+
+Elisha Hall, PhD, RD
+
+For Health Care Providers
+
+Apr. 1, 2024
+
+At a glance
+
+This chapter discusses pathogenesis, clinical features, epidemiology, vaccination, and surveillance of influenza.
+
+Introduction
+
+Keep in mind
+
+The 14th edition of the "Pink Book" was published August 2021. Vaccine-specific recommendations may be outdated. Refer to the CDC website for updated Influenza Vaccination Information for Healthcare Professionals.
+
+Influenza
+
+Viral illness
+
+First pandemic in 1580
+
+Estimated 21 million deaths worldwide in pandemic of 1918-1919
+
+Influenza A and B viruses isolated in the 1930s
+
+Inactivated vaccines first developed and used in the late 1930s and 1940s
+
+Influenza is an infectious viral illness. The name "influenza" originated in 15th century Italy, from an epidemic attributed to "influence of the stars." The first documented pandemic, or worldwide epidemic, that clearly fits the description of influenza was in 1580. At least four pandemics of influenza occurred in the 19th century, three in the 20th century, and one thus far in the 21st century. The pandemic of "Spanish" influenza in 1918–1919 caused an estimated 21 million deaths worldwide.
+
+Wilson Smith, Christopher Andrewes, and Patrick Laidlaw isolated influenza A virus in ferrets in 1933, and Thomas Francis Jr. isolated influenza B virus in 1936. Also in 1936, Macfarlane Burnet discovered that influenza virus could be grown in embryonated hens' eggs. This led to the study of the virus's characteristics and the development and use of inactivated vaccines in the late 1930s and 1940s. The protective efficacy of these inactivated vaccines was demonstrated in the 1950s. The first live, attenuated influenza vaccine was licensed in 2003. A non-live, recombinant influenza virus vaccine not requiring isolation or growth in hen's eggs was licensed in 2013.
+
+Influenza Virus
+
+Influenza Virus
+
+Single-stranded RNA virus
+
+Orthomyxovirus family
+
+Three types affect humans: A, B, C
+
+Infection can be asymptomatic or result in mild to severe disease
+
+Influenza is a single-stranded, helically shaped, RNA virus of the orthomyxovirus family. Three types of influenza virus are known to affect humans: A, B, and C. Type A influenza has subtypes determined by the surface antigens hemagglutinin (HA) and neuraminidase (NA). There are 18 different H subtypes and 11 different N subtypes. Eight H subtypes (H1, H2, H3, H5, H6, H7, H9, H10) and six N subtypes (N1, N2, N6, N7, N8, and N9) have been detected in humans. Type B influenza is classified into two lineages: B/Yamagata and B/Victoria.
+
+Infection with influenza viruses can be asymptomatic or result in disease that ranges from mild to severe. Influenza B more commonly affects children. Influenza C is rarely reported as a cause of human illness, probably because most cases are subclinical. Influenza C has not been associated with epidemic disease.
+
+Antigenic Changes
+
+Antigenic Changes
+
+Antigenic drift
+
+Small mutations over time that result in novel strain
+
+Primary reason people can get influenza more than once
+
+May result in annual influenza epidemic
+
+Antigenic
+
+Abrupt, major change in surface antigen(s)
+
+May lead to pandemic (rare)
+
+Virus surface antigens hemagglutinin and neuraminidase continually change. Changes in influenza viruses can take the form of antigenic drift or antigenic shift.
+
+Antigenic drift involves small mutations in the genes of influenza viruses that lead to changes in HA and NA that accumulate over time, resulting in the emergence of novel strains that the human immune system may not recognize. These novel strains are the influenza virus's evolutionary adaptations to a strong population-wide immune response. Antigenic drift is the primary reason people can get influenza more than once and why it is necessary to annually review and update the composition of influenza vaccines. Antigenic drift, along with waning immunity, results in annual influenza epidemics, since the protection that remains from past exposures to similar viruses is incomplete. Drift occurs in all three types of influenza virus (A, B, C).
+
+Antigenic shift involves an abrupt, major change in one or both surface antigens (H or H-N combination). Antigenic shifts are probably due to genetic recombination (an exchange of a gene segment) between influenza A viruses that affect humans and/or animals. An antigenic shift may result in a worldwide pandemic if the virus is efficiently transmitted from person to person. Pandemics are rare; since the late 19th century, five antigenic shifts have led to pandemics in 1889-1891, 1918-1920, 1957-1958, 1968-1969, and 2009-2010.
+
+Pathogenesis
+
+Influenza Pathogenesis
+
+Respiratory transmission
+
+Replication in respiratory epithelium with subsequent destruction of cells
+
+Viremia rarely documented
+
+Virus shed in respiratory secretions for 5–10 days
+
+Following respiratory transmission, the virus attaches to and penetrates respiratory epithelial cells in the trachea and bronchi. Viral replication occurs, which results in the destruction of the host cell. Regeneration of epithelium takes about 3 to 4 weeks. Viremia, or presence of virus in the blood, has rarely been documented. Virus is shed in respiratory secretions for 5 to 10 days, with a peak of 1 to 3 days following illness onset.
+
+Clinical Features
+
+Influenza Clinical Features
+
+Incubation period 2 days (range, 1–4 days)
+
+About 8% of U.S. population gets sick each season
+
+Sudden onset of symptoms
+
+Respiratory: cough, sore throat, runny or stuffy nose
+
+Systemic: fever, chills, headache, malaise, myalgia
+
+Gastrointestinal: vomiting, diarrhea
+
+Rapid recovery
+
+The incubation period for influenza is usually 2 days but can vary from 1 to 4 days. Influenza illness can range from asymptomatic to severe infection. On average, about 8% of the U.S. population gets sick from influenza each season (range between 3% and 11%).
+
+Onset of influenza symptoms is sudden. Respiratory symptoms include cough, sore throat, and runny or stuffy nose. Systemic symptoms generally include fever, chills, headache, malaise, and myalgia. Vomiting and diarrhea may also occur, especially in children. Recovery is rapid; fever usually resolves within 3 to 4 days and other symptoms within approximately 7 days. Some patients may have lingering asthenia (lack of strength or energy) for several weeks. See more information.
+
+Influenza symptoms (e.g., pain and fever) can be controlled with medications such as aspirin, ibuprofen, or acetaminophen. Aspirin and salicylate-containing products should not be used for children or adolescents because it may increase the risk for developing Reye syndrome.
+
+Complications
+
+Influenza Complications
+
+Secondary bacterial pneumonia
+
+Exacerbations of underlying respiratory conditions
+
+Otitis media
+
+Laryngotracheobronchitis
+
+Bronchitis
+
+Other less common complications may occur
+
+People most at risk of developing serious influenza-related complications include people age 65 years and older, people with chronic medical conditions (e.g., heart disease or diabetes), pregnant women, and young children, especially those younger than age 2 years. More common complications of influenza include secondary bacterial pneumonia (e.g., Streptococcus pneumoniae, Haemophilus influenzae, or Staphylococcus aureus), exacerbations of underlying respiratory conditions, otitis media, laryngotracheobronchitis, and bronchitis.
+
+Other complications may include primary pneumonia, encephalitis, aseptic meningitis, transverse myelitis, myocarditis, pericarditis, Guillain-Barré syndrome, and Reye Syndrome. Reye syndrome is a complication that occurs almost exclusively in children taking aspirin, primarily in association with influenza B virus (or varicella zoster virus), and presents with severe vomiting and confusion, which may progress to coma due to swelling of the brain.
+
+Most deaths due to influenza typically occur among persons age 65 years and older.
+
+Medical Management
+
+Vaccination is the principal means for preventing influenza-related morbidity and mortality, however antiviral agents may be indicated in some situations for preventing and/or treating influenza. Current recommendations and a decision tree for clinicians is available for making antiviral decisions.
+
+Laboratory Testing
+
+Influenza is usually suspected based on characteristic clinical findings, particularly if influenza has been reported in the community. Influenza virus testing is not required to make a clinical diagnosis but can inform clinical management when results may influence decisions to initiate antiviral treatment, perform other diagnostic testing, or implement infection and prevention control measures. Diagnostic tests include:
+
+Molecular assays (i.e., rapid molecular assays, reverse transcription polymerase chain reaction (RT-PCR), and other nucleic acid amplification tests)
+
+Antigen detection tests (i.e., rapid influenza diagnostic tests and immunofluorescence assays)
+
+Approved respiratory tract specimens differ among the FDA-cleared influenza tests, so clinicians should refer to the specific test's package insert for approved respiratory specimens.

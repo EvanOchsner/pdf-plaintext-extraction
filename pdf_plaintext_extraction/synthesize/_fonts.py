@@ -83,7 +83,16 @@ def ensure_dejavu_sans() -> Path:
 
 
 def register_dejavu_with_reportlab(font_name: str = "DejaVuSans") -> str:
-    """Register DejaVu Sans with reportlab and return the registered name."""
+    """Register DejaVu Sans with reportlab and return the registered name.
+
+    Also wires the font into reportlab's family-bold-italic map so
+    ``Paragraph`` can resolve style attributes without crashing on
+    fonts that aren't in the built-in ``ps2tt_map``. DejaVu has separate
+    Bold / Oblique / BoldOblique TTFs upstream, but the synthetic
+    benchmark only renders regular weight; we map every style variant
+    to the regular font for simplicity.
+    """
+    from reportlab.lib.fonts import addMapping
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
 
@@ -91,4 +100,10 @@ def register_dejavu_with_reportlab(font_name: str = "DejaVuSans") -> str:
         return font_name
     ttf = ensure_dejavu_sans()
     pdfmetrics.registerFont(TTFont(font_name, str(ttf)))
+    # Map all 4 style variants (normal/italic/bold/bold-italic) to the
+    # regular font. addMapping signature: (family, bold, italic, psName).
+    addMapping(font_name, 0, 0, font_name)
+    addMapping(font_name, 0, 1, font_name)
+    addMapping(font_name, 1, 0, font_name)
+    addMapping(font_name, 1, 1, font_name)
     return font_name

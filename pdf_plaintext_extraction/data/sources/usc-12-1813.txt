@@ -1,0 +1,195 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 12 / CHAPTER 16 / § 1813
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+12 USC 1813: Definitions
+Text contains those laws in effect on May 17, 2026
+
+From Title 12-BANKS AND BANKINGCHAPTER 16-FEDERAL DEPOSIT INSURANCE CORPORATION
+
+Jump To: Source CreditMiscellaneousReferences In TextPrior ProvisionsAmendmentsEffective Date
+
+§1813. Definitions
+
+As used in this chapter-
+
+(a) Definitions of bank and related terms
+
+(1) Bank
+
+The term "bank"-
+
+(A) means any national bank and State bank, and any Federal branch and insured branch;
+
+(B) includes any former savings association.
+
+(2) State bank
+
+The term "State bank" means any bank, banking association, trust company, savings bank, industrial bank (or similar depository institution which the Board of Directors finds to be operating substantially in the same manner as an industrial bank), or other banking institution which-
+
+(A) is engaged in the business of receiving deposits, other than trust funds (as defined in this section); and
+
+(B) is incorporated under the laws of any State or which is operating under the Code of Law for the District of Columbia,
+
+including any cooperative bank or other unincorporated bank the deposits of which were insured by the Corporation on the day before August 9, 1989.
+
+(3) State
+
+The term "State" means any State of the United States, the District of Columbia, any territory of the United States, Puerto Rico, Guam, American Samoa, the Trust Territory of the Pacific Islands, the Virgin Islands, and the Northern Mariana Islands.
+
+(b) Definition of savings associations and related terms
+
+(1) Savings association
+
+The term "savings association" means-
+
+(A) any Federal savings association;
+
+(B) any State savings association; and
+
+(C) any corporation (other than a bank) that the Board of Directors and the Comptroller of the Currency jointly determine to be operating in substantially the same manner as a savings association.
+
+(2) Federal savings association
+
+The term "Federal savings association" means any Federal savings association or Federal savings bank which is chartered under section 1464 of this title.
+
+(3) State savings association
+
+The term "State savings association" means-
+
+(A) any building and loan association, savings and loan association, or homestead association; or
+
+(B) any cooperative bank (other than a cooperative bank which is a State bank as defined in subsection (a)(2)),
+
+which is organized and operating according to the laws of the State (as defined in subsection (a)(3)) in which it is chartered or organized.
+
+(c) Definitions relating to depository institutions
+
+(1) Depository institution
+
+The term "depository institution" means any bank or savings association.
+
+(2) Insured depository institution
+
+The term "insured depository institution" means any bank or savings association the deposits of which are insured by the Corporation pursuant to this chapter.
+
+(3) Institutions included for certain purposes
+
+The term "insured depository institution" includes any uninsured branch or agency of a foreign bank or a commercial lending company owned or controlled by a foreign bank for purposes of section 1818 of this title.
+
+(4) Federal depository institution
+
+The term "Federal depository institution" means any national bank, any Federal savings association, and any Federal branch.
+
+(5) State depository institution
+
+The term "State depository institution" means any State bank, any State savings association, and any insured branch which is not a Federal branch.
+
+(d) Definitions relating to member banks
+
+(1) National member bank
+
+The term "national member bank" means any national bank which is a member of the Federal Reserve System.
+
+(2) State member bank
+
+The term "State member bank" means any State bank which is a member of the Federal Reserve System.
+
+(e) Definitions relating to nonmember banks
+
+(1) National nonmember bank
+
+The term "national nonmember bank" means any national bank which-
+
+(A) is located in any territory of the United States, Puerto Rico, Guam, American Samoa, the Virgin Islands, or the Northern Mariana Islands; and
+
+(B) is not a member of the Federal Reserve System.
+
+(2) State nonmember bank
+
+The term "State nonmember bank" means any State bank which is not a member of the Federal Reserve System.
+
+(f) Mutual savings bank
+
+The term "mutual savings bank" means a bank without capital stock transacting a savings bank business, the net earnings of which inure wholly to the benefit of its depositors after payment of obligations for any advances by its organizers.
+
+(g) Savings bank
+
+The term "savings bank" means a bank (including a mutual savings bank) which transacts its ordinary banking business strictly as a savings bank under State laws imposing special requirements on such banks governing the manner of investing their funds and of conducting their business.
+
+(h) Insured bank
+
+The term "insured bank" means any bank (including a foreign bank having an insured branch) the deposits of which are insured in accordance with the provisions of this chapter; and the term "noninsured bank" means any bank the deposits of which are not so insured.
+
+(i) New depository institution and bridge depository institution defined
+
+(1) New depository institution
+
+The term "new depository institution" means a new national bank or Federal savings association, other than a bridge depository institution, organized by the Corporation in accordance with section 1821(m) of this title.
+
+(2) Bridge depository institution
+
+The term "bridge depository institution" means a new national bank or Federal savings association organized by the Corporation in accordance with section 1821(n) of this title.
+
+(j) Receiver
+
+The term "receiver" includes a receiver, liquidating agent, conservator, commission, person, or other agency charged by law with the duty of winding up the affairs of a bank or savings association or of a branch of a foreign bank.
+
+(k) Board of Directors
+
+The term "Board of Directors" means the Board of Directors of the Corporation.
+
+(l) Deposit
+
+The term "deposit" means-
+
+(1) the unpaid balance of money or its equivalent received or held by a bank or savings association in the usual course of business and for which it has given or is obligated to give credit, either conditionally or unconditionally, to a commercial, checking, savings, time, or thrift account, or which is evidenced by its certificate of deposit, thrift certificate, investment certificate, certificate of indebtedness, or other similar name, or a check or draft drawn against a deposit account and certified by the bank or savings association, or a letter of credit or a traveler's check on which the bank or savings association is primarily liable: Provided, That, without limiting the generality of the term "money or its equivalent", any such account or instrument must be regarded as evidencing the receipt of the equivalent of money when credited or issued in exchange for checks or drafts or for a promissory note upon which the person obtaining any such credit or instrument is primarily or secondarily liable, or for a charge against a deposit account, or in settlement of checks, drafts, or other instruments forwarded to such bank or savings association for collection.
+
+(2) trust funds as defined in this chapter received or held by such bank or savings association, whether held in the trust department or held or deposited in any other department of such bank or savings association.
+
+(3) money received or held by a bank or savings association, or the credit given for money or its equivalent received or held by a bank or savings association, in the usual course of business for a special or specific purpose, regardless of the legal relationship thereby established, including without being limited to, escrow funds, funds held as security for an obligation due to the bank or savings association or others (including funds held as dealers reserves) or for securities loaned by the bank or savings association, funds deposited by a debtor to meet maturing obligations, funds deposited as advance payment on subscriptions to United States Government securities, funds held for distribution or purchase of securities, funds held to meet its acceptances or letters of credit, and withheld taxes: Provided, That there shall not be included funds which are received by the bank or savings association for immediate application to the reduction of an indebtedness to the receiving bank or savings association, or under condition that the receipt thereof immediately reduces or extinguishes such an indebtedness.

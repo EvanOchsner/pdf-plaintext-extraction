@@ -1,0 +1,169 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 11 / CHAPTER 1 / § 101
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+11 USC 101: Definitions
+Text contains those laws in effect on May 17, 2026
+
+From Title 11-BANKRUPTCYCHAPTER 1-GENERAL PROVISIONS
+
+Jump To: Source CreditFuture AmendmentsMiscellaneousReferences In TextCodificationAmendmentsEffective DateShort TitleSavings ProvisionConstruction
+
+§101. Definitions
+
+In this title the following definitions shall apply:
+
+(1) The term "accountant" means accountant authorized under applicable law to practice public accounting, and includes professional accounting association, corporation, or partnership, if so authorized.
+
+(2) The term "affiliate" means-
+
+(A) entity that directly or indirectly owns, controls, or holds with power to vote, 20 percent or more of the outstanding voting securities of the debtor, other than an entity that holds such securities-
+
+(i) in a fiduciary or agency capacity without sole discretionary power to vote such securities; or
+
+(ii) solely to secure a debt, if such entity has not in fact exercised such power to vote;
+
+(B) corporation 20 percent or more of whose outstanding voting securities are directly or indirectly owned, controlled, or held with power to vote, by the debtor, or by an entity that directly or indirectly owns, controls, or holds with power to vote, 20 percent or more of the outstanding voting securities of the debtor, other than an entity that holds such securities-
+
+(i) in a fiduciary or agency capacity without sole discretionary power to vote such securities; or
+
+(ii) solely to secure a debt, if such entity has not in fact exercised such power to vote;
+
+(C) person whose business is operated under a lease or operating agreement by a debtor, or person substantially all of whose property is operated under an operating agreement with the debtor; or
+
+(D) entity that operates the business or substantially all of the property of the debtor under a lease or operating agreement.
+
+(3) The term "assisted person" means any person whose debts consist primarily of consumer debts and the value of whose nonexempt property is less than $150,000.1
+
+(4) The term "attorney" means attorney, professional law association, corporation, or partnership, authorized under applicable law to practice law.
+
+(4A) The term "bankruptcy assistance" means any goods or services sold or otherwise provided to an assisted person with the express or implied purpose of providing information, advice, counsel, document preparation, or filing, or attendance at a creditors' meeting or appearing in a case or proceeding on behalf of another or providing legal representation with respect to a case or proceeding under this title.
+
+(5) The term "claim" means-
+
+(A) right to payment, whether or not such right is reduced to judgment, liquidated, unliquidated, fixed, contingent, matured, unmatured, disputed, undisputed, legal, equitable, secured, or unsecured; or
+
+(B) right to an equitable remedy for breach of performance if such breach gives rise to a right to payment, whether or not such right to an equitable remedy is reduced to judgment, fixed, contingent, matured, unmatured, disputed, undisputed, secured, or unsecured.
+
+(6) The term "commodity broker" means futures commission merchant, foreign futures commission merchant, clearing organization, leverage transaction merchant, or commodity options dealer, as defined in section 761 of this title, with respect to which there is a customer, as defined in section 761 of this title.
+
+(7) The term "community claim" means claim that arose before the commencement of the case concerning the debtor for which property of the kind specified in section 541(a)(2) of this title is liable, whether or not there is any such property at the time of the commencement of the case.
+
+(7A) The term "commercial fishing operation" means-
+
+(A) the catching or harvesting of fish, shrimp, lobsters, urchins, seaweed, shellfish, or other aquatic species or products of such species; or
+
+(B) for purposes of section 109 and chapter 12, aquaculture activities consisting of raising for market any species or product described in subparagraph (A).
+
+(7B) The term "commercial fishing vessel" means a vessel used by a family fisherman to carry out a commercial fishing operation.
+
+(8) The term "consumer debt" means debt incurred by an individual primarily for a personal, family, or household purpose.
+
+(9) The term "corporation"-
+
+(A) includes-
+
+(i) association having a power or privilege that a private corporation, but not an individual or a partnership, possesses;
+
+(ii) partnership association organized under a law that makes only the capital subscribed responsible for the debts of such association;
+
+(iii) joint-stock company;
+
+(iv) unincorporated company or association; or
+
+(v) business trust; but
+
+(B) does not include limited partnership.
+
+(10) The term "creditor" means-
+
+(A) entity that has a claim against the debtor that arose at the time of or before the order for relief concerning the debtor;
+
+(B) entity that has a claim against the estate of a kind specified in section 348(d), 502(f), 502(g), 502(h) or 502(i) of this title; or
+
+(C) entity that has a community claim.
+
+(10A) The term "current monthly income"-
+
+(A) means the average monthly income from all sources that the debtor receives (or in a joint case the debtor and the debtor's spouse receive) without regard to whether such income is taxable income, derived during the 6-month period ending on-
+
+(i) the last day of the calendar month immediately preceding the date of the commencement of the case if the debtor files the schedule of current income required by section 521(a)(1)(B)(ii); or
+
+(ii) the date on which current income is determined by the court for purposes of this title if the debtor does not file the schedule of current income required by section 521(a)(1)(B)(ii); and
+
+(B)(i) includes any amount paid by any entity other than the debtor (or in a joint case the debtor and the debtor's spouse), on a regular basis for the household expenses of the debtor or the debtor's dependents (and in a joint case the debtor's spouse if not otherwise a dependent); and
+
+(ii) excludes-
+
+(I) benefits received under the Social Security Act (42 U.S.C. 301 et seq.);
+
+(II) payments to victims of war crimes or crimes against humanity on account of their status as victims of such crimes;
+
+(III) payments to victims of international terrorism or domestic terrorism, as those terms are defined in section 2331 of title 18, on account of their status as victims of such terrorism; and
+
+(IV) any monthly compensation, pension, pay, annuity, or allowance paid under title 10, 37, or 38 in connection with a disability, combat-related injury or disability, or death of a member of the uniformed services, except that any retired pay excluded under this subclause shall include retired pay paid under chapter 61 of title 10 only to the extent that such retired pay exceeds the amount of retired pay to which the debtor would otherwise be entitled if retired under any provision of title 10 other than chapter 61 of that title.
+
+(11) The term "custodian" means-
+
+(A) receiver or trustee of any of the property of the debtor, appointed in a case or proceeding not under this title;
+
+(B) assignee under a general assignment for the benefit of the debtor's creditors; or
+
+(C) trustee, receiver, or agent under applicable law, or under a contract, that is appointed or authorized to take charge of property of the debtor for the purpose of enforcing a lien against such property, or for the purpose of general administration of such property for the benefit of the debtor's creditors.
+
+(12) The term "debt" means liability on a claim.
+
+(12A) The term "debt relief agency" means any person who provides any bankruptcy assistance to an assisted person in return for the payment of money or other valuable consideration, or who is a bankruptcy petition preparer under section 110, but does not include-
+
+(A) any person who is an officer, director, employee, or agent of a person who provides such assistance or of the bankruptcy petition preparer;
+
+(B) a nonprofit organization that is exempt from taxation under section 501(c)(3) of the Internal Revenue Code of 1986;
+
+(C) a creditor of such assisted person, to the extent that the creditor is assisting such assisted person to restructure any debt owed by such assisted person to the creditor;
+
+(D) a depository institution (as defined in section 3 of the Federal Deposit Insurance Act) or any Federal credit union or State credit union (as those terms are defined in section 101 of the Federal Credit Union Act), or any affiliate or subsidiary of such depository institution or credit union; or

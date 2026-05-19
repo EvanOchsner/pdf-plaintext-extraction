@@ -1,0 +1,211 @@
+[Federal Register Volume 90, Number 230 (Wednesday, December 3, 2025)]
+[Rules and Regulations]
+[Pages 55621-55634]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-21784]
+
+?
+?Rules and Regulations
+? Federal Register
+?________________________________________________________________________
+?
+?This section of the FEDERAL REGISTER contains regulatory documents
+?having general applicability and legal effect, most of which are keyed
+?to and codified in the Code of Federal Regulations, which is published
+?under 50 titles pursuant to 44 U.S.C. 1510.
+?
+?The Code of Federal Regulations is sold by the Superintendent of Documents.
+?
+?
+?
+
+??Federal Register / Vol. 90, No. 230 / Wednesday, December 3, 2025 /
+Rules and Regulations??
+
+[[Page 55621]]
+
+NUCLEAR REGULATORY COMMISSION
+
+10 CFR Parts 2, 19, 20, 21, 25, 26, 30, 31, 32, 34, 35, 36, 37, 39,
+40, 50, 51, 52, 54, 55, 60, 61, 62, 63, 70, 71, 72, 73, 74, 75, 76,
+81, 95, 110, 140, 150, 160, 170, and 171
+
+[NRC-2025-0479]
+RIN 3150-AL39
+
+The Sunset Rule
+
+AGENCY: Nuclear Regulatory Commission.
+
+ACTION: Direct final rule.
+
+
+
+SUMMARY: The U.S. Nuclear Regulatory Commission (NRC) is amending its
+regulations to insert a conditional sunset date into certain
+regulations in response to Executive Order (E.O.) 14270, ``Zero-Based
+Regulatory Budgeting to Unleash American Energy.''
+
+DATES: The final rule is effective January 8, 2026, unless significant
+adverse comments are received by January 2, 2026. If the direct final
+rule is withdrawn as a result of such comments, timely notice of the
+withdrawal will be published in the Federal Register. Comments received
+on this direct final rule will also be considered to be comments on a
+companion proposed rule published in the Proposed Rules section of this
+issue of the Federal Register.
+
+ADDRESSES: You may submit comments by any of the following methods;
+however, the NRC encourages electronic comment submission through the
+Federal rulemaking website (please choose only one of the ways listed):
+Federal Rulemaking website: Electronically at https://www.regulations.gov. Follow the ``Submit a comment'' instructions. If
+you are reading this document on federalregister.gov, you may use the
+green ``SUBMIT A PUBLIC COMMENT'' button beneath this rulemaking's
+title to submit a comment to the regulations.gov docket. Address
+questions about NRC dockets to Helen Chang; telephone: 301-415-3228;
+email: [email protected]. For technical questions contact the
+individual listed in the FOR FURTHER INFORMATION CONTACT section of
+this document.
+Email comments to: [email protected]. If you do
+not receive an automatic email reply confirming receipt, then contact
+us at 301-415-1677.
+Fax comments to: Secretary, U.S. Nuclear Regulatory
+Commission at 301-415-1101.
+Mail comments to: Secretary, U.S. Nuclear Regulatory
+Commission, Washington, DC 20555-0001, ATTN: Rulemakings and
+Adjudications Staff. Mailed comments must be received by the close of
+the comment period.
+Hand deliver comments to: 11555 Rockville Pike, Rockville,
+Maryland 20852, between 7:30 a.m. and 4:15 p.m. eastern time, Federal
+workdays; telephone: 301-415-1677.
+Do not include any personally identifiable information (such as
+name, address, or other contact information) or confidential business
+information that you do not want publicly disclosed. All comments are
+public records; they are publicly displayed exactly as received, and
+will not be deleted, modified, or redacted. Comments may be submitted
+anonymously.
+Follow the search instructions on https://www.regulations.gov to
+view public comments.
+You can read a plain language description of this rule at https://www.regulations.gov/docket/NRC-2025-0479. For additional direction on
+obtaining information and submitting comments, see ``Obtaining
+Information and Submitting Comments'' in the SUPPLEMENTARY INFORMATION
+section of this document.
+
+FOR FURTHER INFORMATION CONTACT: Maxwell C. Smith, U.S. Nuclear
+Regulatory Commission, Washington, DC 20555-0001; telephone: 301-415-
+1856, email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Obtaining Information and Submitting Comments
+II. Rulemaking Procedure
+III. Background
+IV. Discussion
+V. Regulatory Flexibility Certification
+VI. Regulatory Analysis
+VII. Backfitting and Issue Finality
+VIII. Plain Writing
+IX. National Environmental Policy Act
+X. Paperwork Reduction Act Statement
+XI. Regulatory Planning and Review
+XII. Congressional Review Act
+
+I. Obtaining Information and Submitting Comments
+
+A. Obtaining Information
+
+Please refer to Docket ID NRC-2025-0479 when contacting the NRC
+about the availability of information for this action. You may obtain
+publicly available information related to this action by any of the
+following methods:
+Federal Rulemaking Website: Go to https://www.regulations.gov and search for Docket ID NRC-2025-0479.
+NRC's Agencywide Documents Access and Management System
+(ADAMS): You may obtain publicly available documents online in the
+ADAMS Public Documents collection at https://www.nrc.gov/reading-rm/adams.html. To begin the search, select ``Begin Web-based ADAMS
+Search.'' For problems with ADAMS, please contact the NRC's Public
+Document Room (PDR) reference staff at 1-800-397-4209, 301-415-4737, or
+by email to [email protected].
+NRC's PDR: The PDR, where you may examine and order copies
+of publicly available documents, is open by appointment. To make an
+appointment to visit the PDR, please send an email to
+[email protected] or call 1-800-397-4209 or 301-415-4737, between 8
+a.m. and 4 p.m. eastern time, Monday through Friday, except Federal
+holidays.
+
+B. Submitting Comments
+
+The NRC encourages timely electronic comment submission through the
+Federal Rulemaking website (https://www.regulations.gov). Please
+include Docket ID NRC-2025-0479 in your comment submission.
+The NRC cautions you not to include identifying or contact
+information that you do not want to be publicly disclosed in your
+comment submission. The NRC will post all comment submissions at
+https://www.regulations.gov as well as enter the comment submissions
+into ADAMS. The NRC does not routinely edit comment submissions to
+remove identifying or contact information.
+
+[[Page 55622]]
+
+If you are requesting or aggregating comments from other persons
+for submission to the NRC, then you should inform those persons not to
+include identifying or contact information that they do not want to be
+publicly disclosed in their comment submission. Your request should
+state that the NRC does not routinely edit comment submissions to
+remove such information before making the comment submissions available
+to the public or entering the comment into ADAMS.
+
+II. Rulemaking Procedure
+
+The NRC uses the ``direct final rule procedure'' for rulemaking
+when the NRC anticipates the rule is unlikely to attract significant
+adverse comment because the rule is non-controversial. As explained
+further, this rulemaking would add a ``sunsetting clause'' to certain
+regulations many of which are outdated, seldomly used, or duplicative
+with other regulations. Moreover, the NRC will provide the public with
+an opportunity to provide additional information on whether the
+sunsetting provision should be extended for these provisions at a
+future time as well as provide Tribal consultation opportunities in
+compliance with NRC's Tribal Policy Statement (82 FR 2402; January 9,
+2017). Therefore, because the NRC does not anticipate significant
+public comments on this rulemaking and considers it to be
+noncontroversial, the NRC is using the ``direct final rule procedure''
+for this rule. The amendments are effective on January 8, 2026.
+However, if the NRC receives significant adverse comments on this
+direct final rule by January 2, 2026, then the NRC will publish a
+document that withdraws this action and will address the comments
+received in a subsequent final rule as a response to the companion
+proposed rule published in the Proposed Rules section of this issue of
+the Federal Register or take other action as appropriate. Absent
+significant modifications to the proposed revisions requiring
+republication, the NRC will not initiate a second comment period on
+this action.
+A significant adverse comment is a comment where the commenter
+explains why the rule would be inappropriate, including challenges to
+the rule's underlying premise or approach, or would be ineffective or
+unacceptable without a change.\1\ A comment is adverse and significant
+if:
+
+
+\1\ Administrative Conference of the United States, Adoption of
+Recommendations, (60 FR 43108-43111; August 18, 1995).
+
+
+(1) The comment opposes the rule and provides a reason sufficient
+to require a substantive response in a notice-and-comment process. For
+example, a substantive response is required when:
+(a) The comment causes the NRC to reevaluate (or reconsider) its
+position or conduct additional analysis;
+(b) The comment raises an issue serious enough to warrant a
+substantive response to clarify or complete the record; or
+(c) The comment raises a relevant issue that was not previously
+addressed or considered by the NRC.
+(2) The comment proposes a change or an addition to the rule, and
+it is apparent that the rule would be ineffective or unacceptable
+without incorporation of the change or addition.
+(3) The comment causes the NRC to make a change (other than
+editorial) to the rule.
+For detailed instructions on filing comments, please see the
+ADDRESSES section of this document.
+
+III. Background

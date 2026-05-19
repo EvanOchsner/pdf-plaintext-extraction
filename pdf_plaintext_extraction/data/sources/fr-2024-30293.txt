@@ -1,0 +1,239 @@
+[Federal Register Volume 90, Number 6 (Friday, January 10, 2025)]
+[Rules and Regulations]
+[Pages 2066-2167]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2024-30293]
+
+[[Page 2065]]
+
+Vol. 90
+
+Friday,
+
+No. 6
+
+January 10, 2025
+
+Part II
+
+Federal Trade Commission
+
+
+
+16 CFR Part 464
+
+Trade Regulation Rule on Unfair or Deceptive Fees; Final Rule
+
+??Federal Register / Vol. 90 , No. 6 / Friday, January 10, 2025 / Rules
+and Regulations??
+
+[[Page 2066]]
+
+
+
+FEDERAL TRADE COMMISSION
+
+16 CFR Part 464
+
+RIN 3084-AB77
+
+Trade Regulation Rule on Unfair or Deceptive Fees
+
+AGENCY: Federal Trade Commission.
+
+ACTION: Final rule.
+
+
+
+SUMMARY: The Federal Trade Commission (``FTC'' or ``Commission'') is
+issuing a final trade regulation rule entitled ``Rule on Unfair or
+Deceptive Fees'' (``rule'' or ``final rule'') and Statement of Basis
+and Purpose addressing certain unfair or deceptive practices involving
+fees or charges for live-event tickets and short-term lodging: bait-
+and-switch pricing that hides the total price by omitting mandatory
+fees and charges from advertised prices; and misrepresenting the
+nature, purpose, amount, and refundability of fees or charges. The
+final rule specifies that it is an unfair and deceptive practice for
+businesses to offer, display, or advertise any price of live-event
+tickets or short-term lodging without clearly, conspicuously and
+prominently disclosing the total price. The rule also requires
+businesses to clearly and conspicuously make certain disclosures before
+a consumer consents to pay. The rule further specifies that it is an
+unfair and deceptive practice for businesses to misrepresent any fee or
+charge in any offer, display, or advertisement for live-event tickets
+or short-term lodging.
+
+DATES: This rule is effective May 12, 2025.
+
+ADDRESSES: Copies of this document are available on the Commission's
+website, www.ftc.gov.
+
+FOR FURTHER INFORMATION CONTACT: Janice Kopec or Annette Soberats,
+Division of Advertising Practices, Bureau of Consumer Protection,
+Federal Trade Commission, 202-326-2550 (Kopec), 202-326-2921
+(Soberats), [email protected], [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+Statement of Basis and Purpose
+
+Table of Contents
+
+I. Background
+A. Advance Notice of Proposed Rulemaking
+B. Notice of Proposed Rulemaking
+C. Informal Public Hearing
+II. The Legal Standard for Promulgating the Rule
+A. Prevalence of Acts or Practices Addressed by the Rule
+B. Manner and Context in Which the Acts or Practices Are
+Deceptive or Unfair
+C. The Economic Effect of the Rule
+III. Section-by-Section Analysis
+A. Sec. 464.1: Definitions
+1. Ancillary Good or Service
+2. Business
+3. Clear(ly) and Conspicuous(ly)
+4. Covered Good or Service
+5. Government Charges
+6. Pricing Information
+7. Shipping Charges
+8. Total Price
+(a) Mandatory Fees
+(b) Maximum Total
+(c) Itemization
+(d) Exclusions From Total Price
+(e) Intersection With IRS Requirements
+B. Sec. 464.2 Hidden Fees Prohibited
+1. Sec. 464.2(a)
+(a) Contingent Fees
+(b) Ticket Service Fees
+(c) Credit Card and Other Payment Processing Surcharges
+(d) Dynamic Pricing and National Advertising
+(e) Rebates, Bundled Pricing, and Other Discounts: Compliance
+When Promotional Pricing Models Have Different Fees
+(f) Online Marketplaces
+2. Sec. 464.2(b)
+3. Sec. 464.2(c)
+C. Sec. 464.3 Misleading Fees Prohibited
+D. Sec. 464.4 Relation to State Laws
+E. Sec. 464.5 Severability
+IV. Challenges to the FTC's Legal Authority To Promulgate the Rule
+A. Major Questions Doctrine
+1. The Rule Does Not Address a Major Question
+(a) The Commission Has a Long History of Addressing Unfair or
+Deceptive Acts or Practices Related to Pricing Information
+(b) Commenters' Claims About the Scope of the Acts or Practices
+Covered by the Rule Are Inapplicable or Overstated
+2. Congress Provided the Commission With a Clear Grant of
+Authority To Promulgate This Rule
+B. Non-Delegation Doctrine
+C. First Amendment
+1. Comments
+2. Legal Standard
+3. The Rule's Disclosure Requirements Are Constitutional Under
+Zauderer
+4. The Rule Does Not Prohibit Truthful Speech
+5. The Rule's Treatment of Credit Card Fees and Government
+Charges Does Not Violate the First Amendment
+D. Commission Structure
+E. Administrative Procedure Act
+V. Final Regulatory Analysis Under Section 22 of the FTC Act
+A. Concise Statement of the Need for, and Objectives of, the
+Final Rule
+B. Alternatives to the Final Rule the Commission Considered,
+Reasons for the Commission's Determination That the Final Rule Will
+Attain Its Objectives in a Manner Consistent With Applicable Law,
+and the Reasons the Particular Alternative Was Chosen
+C. The NPRM's Preliminary Regulatory Analysis
+D. Significant Issues Raised by Comments, the Commission's
+Assessment and Response, and Any Changes Made as a Result
+1. Comments on Costs
+(a) Public Comments: Estimated Costs Are Too Low
+(b) Public Comments: Unquantified Costs to Firms
+(c) Public Comments: Unquantified Costs to Consumers
+(d) Public Comments: Unquantified Costs to Third Parties
+(e) Public Comments: Costs From Incorporating Contingent Fees
+Into Total Price
+2. Comments on Benefits
+(a) Public Comments: Benefits Are Too High
+(b) Public Comments: Unquantified Benefits
+3. Comments on the Economy-Wide Break-Even Analysis
+(a) Public Comments: Break-Even Analysis Has Incorrect
+Assumptions or Contains Errors
+(b) Public Comments: Break-Even Analysis Is Not Enough To
+Justify an Economy-Wide Rule
+(c) Public Comments: Break-Even Analysis Is Satisfactory
+E. Economic Regulatory Analysis of the Final Rule's Costs and
+Benefits
+1. Economic Rationale for the Final Rule
+(a) Shrouded Pricing as a Cause of Market Failure
+(b) Shrouded Pricing as a Source of Biased Expectations
+2. Economic Effects of the Final Rule
+(a) General Benefits of the Final Rule
+i. Reductions in Search Costs
+ii. Reductions in Deadweight Loss
+(b) Welfare Transfers
+(c) General Costs of the Final Rule
+3. Quantified Welfare Effects
+(a) Quantified Compliance Costs
+(b) Break-Even Analysis
+i. Sensitivity Analysis: Assume Higher Wage Rates
+(c) Quantified Benefits and Costs: Live-Event Ticketing Industry
+i. Live-Event Ticketing: Estimated Benefits of the Final Rule
+(a) Consumer Time Savings When Shopping for Live-Event Tickets
+(b) Additional Unquantified Benefits: Reductions in Deadweight
+Loss and Abandoned Transactions
+ii. Live-Event Ticketing: Estimated Costs of the Final Rule
+iii. Live-Event Ticketing: Net Benefits
+iv. Live-Event Ticketing: Uncertainties
+(d) Quantified Benefits and Costs: Short-Term Lodging Industry
+i. Short-Term Lodging: Estimated Benefits of the Final Rule
+(a) Search Statistics
+(b) U.S. Hotels and Home Shares
+(c) Foreign Hotels and Home Shares With U.S.-Facing websites
+(d) All Hotels and Home Shares
+(e) Additional Unquantified Benefits: Reductions In Deadweight
+Loss and Abandoned Transactions
+ii. Short-Term Lodging: Estimated Costs of the Final Rule
+(a) Panel A: U.S. Hotels and Home Share Hosts
+(b) Panel B: Foreign Hotels and Home Share Hosts
+
+[[Page 2067]]
+
+(c) Panel C: All Hotels and Home Share Hosts (US + Foreign)
+iii. Short-Term Lodging: Net Benefits
+iv. Short-Term Lodging: Uncertainties
+4. Economic Evaluation of Alternatives
+5. Summary of Results
+6. Appendix A: Model of Market Distortion Caused by Drip Pricing
+7. Appendix B: Short-Term Lodging Industry Minutes per Listing
+Calculations
+(a) Low-End Estimate of Minutes per Listing Calculation
+(b) High-End Estimate of Minutes per Listing Calculation
+VI. Paperwork Reduction Act
+A. Disclosures Related to Final Sec. 464.2(a) Through (c)
+1. Number of Respondents
+2. Estimated One-Time Hour Burden
+3. Estimated One-Time Labor Costs
+4. Estimated One-Time Non-Labor Costs
+5. Projected Labor Costs Likely Overestimated
+B. Prohibited Misrepresentations Under Final Sec. 464.3
+VII. Regulatory Flexibility Act--Final Regulatory Flexibility
+Analysis
+A. Statement of the Need for, and Objectives of, the Rule
+B. Significant Issues Raised by Comments, the Commission's
+Assessment and Response, and Any Changes Made as a Result
+C. Comment by the Small Business Administration, Office of
+Advocacy, the Commission's Assessment and Response, and Any Changes
+Made as a Result
+D. Description and Estimate of the Number of Small Entities To
+Which the Rule Will Apply
+E. Description of the Projected Reporting, Recordkeeping, and
+Other Compliance Requirements
+F. Discussion of Significant Alternatives the Commission
+Considered That Would Accomplish the Stated Objectives of the Final
+Rule and That Would Minimize Any Significant Economic Impact of the
+Final Rule on Small Entities
+VIII. Congressional Review Act
+
+I. Background

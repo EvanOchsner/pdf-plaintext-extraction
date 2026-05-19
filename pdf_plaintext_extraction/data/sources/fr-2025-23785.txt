@@ -1,0 +1,159 @@
+[Federal Register Volume 90, Number 244 (Tuesday, December 23, 2025)]
+[Rules and Regulations]
+[Pages 59979-60012]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-23785]
+
+
+
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+47 CFR Parts 1 and 27
+
+[AU Docket No. 25-117; DA 25-1075; FR ID 323537]
+
+Auction of Advanced Wireless Services (AWS-3) Licenses; Filing
+Requirements, Minimum Opening Bids, Upfront Payments, and Other
+Procedures for Auction 113
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Final action; requirements and procedures.
+
+
+
+SUMMARY: In this document, the Federal Communications Commission
+(Commission) summarizes the procedures, deadlines, and upfront payment
+and minimum opening bid amounts for the upcoming auction of 200
+Advanced Wireless Services licenses for spectrum in the Federal
+Communications Commission's inventory in the 1695-1710 MHz, 1755-1780
+MHz, and 2155-2180 MHz bands (AWS-3 bands). This document provides
+details regarding the procedures, terms, conditions, dates, and
+deadlines governing participation in Auction 113 bidding, as well as
+overview of the post-auction application and payment processes.
+
+[[Page 59980]]
+
+DATES: Applications to participate in Auction 113 must be submitted
+before 6:00 p.m. Eastern Time (ET) on February 11, 2026. Upfront
+payments for Auction 113 must be received by 6:00 p.m. ET on April 8,
+2026. Bidding in Auction 113 is scheduled to start on June 2, 2026.
+
+FOR FURTHER INFORMATION CONTACT: General Auction 113 Information: FCC
+Auctions Hotline at (888) 225-5322, option two; or (717) 338-2868.
+Auction 113 Legal Information: Valerie Barrish or Yasiman Montgomery at
+(202) 418-0660. AWS-3 Bands Licensing Information: Madelaine Maior at
+(202) 418-1466 or Jeffery Tignor at (202) 418-0774.
+
+SUPPLEMENTARY INFORMATION: This is a summary of the Commission's
+document (Auction 113 Procedures Public Notice) in AU Docket No. 25-
+117; DA 25-1075; adopted and released on December 18, 2025. The
+complete text of this document, including attachments and any related
+documents, are available on the Commission's website at https://docs.fcc.gov/public/attachments/DA-25-1075A1.pdf or by using the search
+function for AU Docket No. 25-117, on the Commission's Electronic
+Comment Filing System (ECFS) web page at www.fcc.gov/ecfs. To request
+materials in accessible formats for people with disabilities, send an
+email to [email protected] or by call the Consumer & Governmental Affairs
+Bureau at (202) 418-0530.
+
+I. General Information
+
+A. Introduction
+
+In the Auction 113 Procedures Public Notice, the Office of
+Economics and Analytics (OEA), jointly with the Wireless
+Telecommunications Bureau (WTB), establishes the procedures to be used
+for Auction 113, the auction of 200 Advanced Wireless Services licenses
+for spectrum in the Commission's inventory in the 1695-1710 MHz, 1755-
+1780 MHz, and 2155-2180 MHz bands (collectively, the ``AWS-3'' bands).
+Auction 113, which marks the Federal Communications Commission's
+(Commission) first auction since its authority to use competitive
+bidding lapsed in 2023, will bring unused, valuable 5G-ready spectrum
+to market, and proceeds will fund the Commission's ongoing efforts to
+protect American networks from untrustworthy and insecure foreign
+equipment.
+Bidding in Auction 113 is scheduled to commence on June 2, 2026.
+Auction 113 will be conducted using an ascending clock auction with a
+supply of one in each category of frequency-specific channel blocks,
+referred to as the ``clock-1'' auction format. The Auction 113
+Procedures Public Notice provides details regarding the procedures,
+terms, conditions, dates, and deadlines governing participation in
+Auction 113 bidding, as well as an overview of the post-auction
+application and payment processes.
+
+B. Background and Relevant Authority
+
+The Commission is offering licenses in Auction 113 pursuant to the
+Spectrum and Secure Technology and Innovation Act of 2024 (Spectrum and
+Secure Technology and Innovation Act). The Spectrum and Secure
+Technology and Innovation Act directs the Commission to initiate a
+system of competitive bidding under 47 U.S.C. 309(j) to grant licenses
+for spectrum in its inventory in the AWS-3 bands as of December 23,
+2024. See Servicemember Quality of Life Improvement and National
+Defense Authorization Act for Fiscal Year 2025, Public Law 118-159,
+Div. E, Title LIV, Sec. Sec. 5401-5405, Sec. 5403. Auction proceeds
+will support the Commission's Supply Chain Reimbursement Program, which
+implements the Secure and Trusted Communications Networks Act of 2019
+by reimbursing eligible advanced communications service providers for
+their costs to remove, replace, and dispose of Huawei Technologies
+Company or ZTE Corporation equipment and services obtained on or before
+June 30, 2020.
+On March 11, 2025, in accordance with 47 U.S.C. 309(j)(3), OEA and
+WTB released the Auction 113 Comment Public Notice, 90 FR 13117 (March
+20, 2025), seeking comment on certain competitive bidding and other
+various procedures to be used in Auction 113. Ten parties filed
+comments in response to the Auction 113 Comment Public Notice, and six
+parties filed reply comments.
+One commenter recommends that funds from spectrum auctions and
+licenses be strategically and primarily directed towards expanding
+rural Tribal cellular services and communications infrastructure
+support on Tribal lands rather than for incumbent reimbursement. No
+parties commented on this recommendation. Even if this recommendation
+did not conflict with Congress's express direction for the Auction 113
+proceeds, the use of auction proceeds is outside the scope of this
+proceeding on auction procedures as well as outside the scope of OEA's
+and WTB's delegated authority.
+The Commission's rules and decisions provide the underlying
+authority for the procedures OEA and WTB adopt for Auction 113. As
+specified in 47 CFR 27.1105, any auction of licenses for spectrum in
+the AWS-3 band is to be governed by the bidding procedures set forth in
+47 CFR part 1, subpart Q. The Commission has also adopted rules
+regarding the AWS-3 bands, as well as the licensing and operating rules
+that are applicable to all 47 CFR part 27 services. See 2014 AWS-3
+Report and Order, 79 FR 32366 (June 4, 2014). On July 24, 2025, the
+Commission adopted the 2025 AWS-3 Report and Order, 90 FR 36385 (August
+4, 2025), in which it updated the designated entity provisions of the
+47 CFR part 27 rules that had applied to the Commission's first auction
+of AWS-3 spectrum in 2014. One commenter requests that OEA and WTB
+adopt an accelerated two-year buildout deadline for Auction 113 winning
+bidders because it claims that doing so will favor bidders with the
+financial capacity, operational readiness, and technical sophistication
+to promptly deploy service as well as discourage ``speculative
+bidding.'' Four commenters oppose this request. The Commission adopted
+buildout rules for the AWS-3 bands in the 2014 AWS-3 Report and Order,
+and any amendments to those rules require a rulemaking proceeding and
+cannot be made in the context of establishing the procedures for
+Auction 113 because such action is outside the scope of OEA's and WTB's
+delegated authority.
+Prospective applicants should familiarize themselves with the 47
+CFR part 1, subpart Q rules, including amendments and clarifications
+thereto, as well as Commission decisions regarding competitive bidding
+procedures, application requirements, and obligations of Commission
+licensees. In addition, applicants must be thoroughly familiar with the
+procedures, terms, and conditions contained in the Auction 113
+Procedures Public Notice and any future public notices that may be
+released in this proceeding.
+The terms contained in the Commission's rules, relevant orders, and
+public notices are not negotiable. OEA and WTB may amend or supplement
+the information contained in their public notices at any time, and may
+issue public notices to convey any new or supplemental information that
+may generally apply to applicants. Pursuant to the Commission's rules,
+OEA and WTB also retain the authority to implement further procedures
+during the course of this auction. It is the responsibility of all
+applicants to remain current with all Commission rules and with all
+public notices pertaining to Auction 113.
+
+[[Page 59981]]
+
+C. Description of Licenses To Be Offered in Auction 113

@@ -1,0 +1,191 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 50 / CHAPTER 36 / SUBCHAPTER VI / § 1881a
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+50 USC 1881a: Procedures for targeting certain persons outside the United States other than United States persons
+Text contains those laws in effect on May 17, 2026
+
+From Title 50-WAR AND NATIONAL DEFENSECHAPTER 36-FOREIGN INTELLIGENCE SURVEILLANCESUBCHAPTER VI-ADDITIONAL PROCEDURES REGARDING CERTAIN PERSONS OUTSIDE THE UNITED STATES
+
+Jump To: Source CreditFuture AmendmentsMiscellaneousReferences In TextAmendmentsEffective Date
+
+§1881a. Procedures for targeting certain persons outside the United States other than United States persons
+
+(a) Authorization
+
+Notwithstanding any other provision of law, upon the issuance of an order in accordance with subsection (j)(3) or a determination under subsection (c)(2), the Attorney General and the Director of National Intelligence may authorize jointly, for a period of up to 1 year from the effective date of the authorization, the targeting of persons reasonably believed to be located outside the United States to acquire foreign intelligence information.
+
+(b) Limitations
+
+An acquisition authorized under subsection (a)-
+
+(1) may not intentionally target any person known at the time of acquisition to be located in the United States;
+
+(2) may not intentionally target a person reasonably believed to be located outside the United States if the purpose of such acquisition is to target a particular, known person reasonably believed to be in the United States;
+
+(3) may not intentionally target a United States person reasonably believed to be located outside the United States;
+
+(4) may not intentionally acquire any communication as to which the sender and all intended recipients are known at the time of the acquisition to be located in the United States;
+
+(5) may not intentionally acquire communications that contain a reference to, but are not to or from, a target of an acquisition authorized under subsection (a); and
+
+(6) shall be conducted in a manner consistent with the fourth amendment to the Constitution of the United States.
+
+(c) Conduct of acquisition
+
+(1) In general
+
+An acquisition authorized under subsection (a) shall be conducted only in accordance with-
+
+(A) the targeting and minimization procedures adopted in accordance with subsections (d) and (e); and
+
+(B) upon submission of a certification in accordance with subsection (h), such certification.
+
+(2) Determination
+
+A determination under this paragraph and for purposes of subsection (a) is a determination by the Attorney General and the Director of National Intelligence that exigent circumstances exist because, without immediate implementation of an authorization under subsection (a), intelligence important to the national security of the United States may be lost or not timely acquired and time does not permit the issuance of an order pursuant to subsection (j)(3) prior to the implementation of such authorization.
+
+(3) Timing of determination
+
+The Attorney General and the Director of National Intelligence may make the determination under paragraph (2)-
+
+(A) before the submission of a certification in accordance with subsection (h); or
+
+(B) by amending a certification pursuant to subsection (j)(1)(C) at any time during which judicial review under subsection (j) of such certification is pending.
+
+(4) Construction
+
+Nothing in subchapter I shall be construed to require an application for a court order under such subchapter for an acquisition that is targeted in accordance with this section at a person reasonably believed to be located outside the United States.
+
+(d) Targeting procedures
+
+(1) Requirement to adopt
+
+The Attorney General, in consultation with the Director of National Intelligence, shall adopt targeting procedures that are reasonably designed to-
+
+(A) ensure that any acquisition authorized under subsection (a) is limited to targeting persons reasonably believed to be located outside the United States; and
+
+(B) prevent the intentional acquisition of any communication as to which the sender and all intended recipients are known at the time of the acquisition to be located in the United States.
+
+(2) Judicial review
+
+The procedures adopted in accordance with paragraph (1) shall be subject to judicial review pursuant to subsection (j).
+
+(e) Minimization procedures
+
+(1) Requirement to adopt
+
+The Attorney General, in consultation with the Director of National Intelligence, shall adopt minimization procedures that meet the definition of minimization procedures under section 1801(h) of this title or section 1821(4) of this title, as appropriate, for acquisitions authorized under subsection (a).
+
+(2) Judicial review
+
+The minimization procedures adopted in accordance with paragraph (1) shall be subject to judicial review pursuant to subsection (j).
+
+(3) Publication
+
+The Director of National Intelligence, in consultation with the Attorney General, shall-
+
+(A) conduct a declassification review of any minimization procedures adopted or amended in accordance with paragraph (1); and
+
+(B) consistent with such review, and not later than 180 days after conducting such review, make such minimization procedures publicly available to the greatest extent practicable, which may be in redacted form.
+
+(f) Queries
+
+(1) Procedures required
+
+(A) Requirement to adopt
+
+The Attorney General, in consultation with the Director of National Intelligence, shall adopt querying procedures consistent with the requirements of the fourth amendment to the Constitution of the United States for information collected pursuant to an authorization under subsection (a).
+
+(B) Record of United States person query terms
+
+The Attorney General, in consultation with the Director of National Intelligence, shall ensure that the procedures adopted under subparagraph (A) include a technical procedure whereby a record is kept of each United States person query term used for a query.
+
+(C) Judicial review
+
+The procedures adopted in accordance with subparagraph (A) shall be subject to judicial review pursuant to subsection (j).
+
+(2) Prohibition on conduct of queries that are solely designed to find and extract evidence of a crime
+
+(A) Limits on authorizations of United States person queries
+
+The querying procedures adopted pursuant to paragraph (1) for the Federal Bureau of Investigation shall prohibit queries of information acquired under subsection (a) that are solely designed to find and extract evidence of criminal activity.
+
+(B) Exceptions
+
+The restriction under subparagraph (A) shall not apply with respect to a query if-
+
+(i) there is a reasonable belief that such query may retrieve information that could assist in mitigating or eliminating a threat to life or serious bodily harm; or
+
+(ii) such query is necessary to identify information that must be produced or preserved in connection with a litigation matter or to fulfill discovery obligations in criminal matters under the laws of the United States or any State thereof.
+
+(3) Restrictions imposed on Federal Bureau of Investigation
+
+(A) Limits on authorizations of United States person queries
+
+(i) In general
+
+Federal Bureau of Investigation personnel must obtain prior approval from a Federal Bureau of Investigation supervisor (or employee of equivalent or greater rank) or attorney who is authorized to access unminimized contents or noncontents obtained through acquisitions authorized under subsection (a) for any query of such unminimized contents or noncontents made using a United States person query term.
+
+(ii) Exception
+
+A United States person query to be conducted by the Federal Bureau of Investigation of unminimized contents or noncontents obtained through acquisitions authorized under subsection (a) using a United States person query term may be conducted without obtaining prior approval as specified in clause (i) only if the person conducting the United States person query has a reasonable belief that conducting the query could assist in mitigating or eliminating a threat to life or serious bodily harm.
+
+(B) Notification requirement for certain FBI queries
+
+(i) Requirement
+
+The Director of the Federal Bureau of Investigation shall promptly notify appropriate congressional leadership of any query conducted by the Federal Bureau of Investigation using a query term that is reasonably believed to be the name or other personally identifying information of a member of Congress, and shall also notify the member who is the subject of such query.
+
+(ii) Appropriate congressional leadership defined
+
+In this subparagraph, the term "appropriate congressional leadership" means the following:
+
+(I) The chairs and ranking minority members of the congressional intelligence committees.
+
+(II) The Speaker and minority leader of the House of Representatives.

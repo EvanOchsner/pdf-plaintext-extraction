@@ -1,0 +1,173 @@
+[Federal Register Volume 90, Number 8 (Tuesday, January 14, 2025)]
+[Rules and Regulations]
+[Pages 3021-3035]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-00539]
+
+
+
+
+DEPARTMENT OF LABOR
+
+Occupational Safety and Health Administration
+
+29 CFR Part 1992
+
+[Docket Number: OSHA-2022-0005]
+RIN 1218-AD37
+
+Procedures for the Handling of Retaliation Complaints Under the
+Anti-Money Laundering Act of 2020 (AMLA)
+
+AGENCY: Occupational Safety and Health Administration (OSHA), Labor.
+
+ACTION: Interim final rule; request for comments.
+
+
+
+SUMMARY: This document provides the interim final text of regulations
+governing the anti-retaliation provisions of the Anti-Money Laundering
+Act of 2020 (AMLA or the Act). This rule establishes procedures and
+timeframes for the handling of retaliation complaints under AMLA,
+including procedures and timeframes for complaints to the Occupational
+Safety and Health Administration (OSHA), investigations by OSHA,
+appeals of OSHA determinations to an administrative law judge (ALJ) for
+a hearing de novo, hearings by ALJs, review of ALJ decisions by the
+Administrative Review Board (ARB) (acting on behalf of the Secretary of
+Labor (Secretary)), and judicial review of the Secretary's final
+decision. It also sets forth the Secretary's interpretations of the
+AMLA anti-retaliation provision on certain matters.
+
+DATES: This interim final rule is effective on January 14, 2025.
+Comments and additional materials must be submitted (post-marked, sent
+or received) by March 17, 2025.
+
+ADDRESSES: Submit comments by the following method:
+Electronically: You may submit comments and attachments
+electronically at: https://www.regulations.gov, which is the Federal
+eRulemaking Portal. Follow the instructions online for submitting
+comments.
+Docket: To read or download comments or other material in the
+docket, go to https://www.regulations.gov. Documents in the docket are
+listed in the https://www.regulations.gov index; however, some
+information (e.g., copyrighted material) is not publicly available to
+read or download through the website. All submissions, including
+copyrighted material, are available for inspection through the OSHA
+Docket Office. Contact the OSHA Docket Office at (202) 693-2350 (TTY
+(877) 889-5627) for assistance in locating docket submissions.
+Instructions: All submissions must include the agency name and the
+OSHA docket number for this Federal Register document (OSHA-2022-0005).
+OSHA will place comments and requests to speak, including personal
+information, in the public docket, which may be available online.
+Therefore, OSHA cautions interested parties about submitting personal
+information such as Social Security numbers and birthdates. For further
+information on submitting comments, see the ``Public Participation''
+heading in the section of this document titled SUPPLEMENTARY
+INFORMATION.
+Extension of comment period: Submit requests for an extension of
+the comment period on or before January 29, 2025 to the Directorate of
+
+[[Page 3022]]
+
+Whistleblower Protection Programs, Occupational Safety and Health
+Administration, U.S. Department of Labor, 200 Constitution Avenue NW,
+Room N-3647, Washington, DC 20210, or by fax to (202) 693-2199.
+
+FOR FURTHER INFORMATION CONTACT: Philippe Blanc[aacute]to,
+Investigative Specialist, Directorate of Whistleblower Protection
+Programs, Occupational Safety and Health Administration, U.S.
+Department of Labor, Room N-3647, 200 Constitution Avenue NW,
+Washington, DC 20210; telephone (202) 693-2199 (this is not a toll-free
+number) or email: [email protected]. This Federal Register publication
+is available in alternative formats.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+On January 1, 2021, Congress enacted the William M. (Mac)
+Thornberry National Defense Authorization Act for Fiscal Year 2021,
+Public Law 116-283, 134 Stat. 3388 (January 1, 2021) which included
+significant reforms to the U.S. anti-money laundering framework,
+including the Anti-Money Laundering Act of 2020. That law was, in turn,
+amended by the Anti-Money Laundering Whistleblower Improvements Act,
+Sec. 401 of the Consolidated Appropriations Act of 2023, Public Law
+117-328, 136 Stat 4459 (enacted December 29, 2022). The anti-
+retaliation provisions, codified at 31 U.S.C. 5323 (g)(1)-(3) & (5)-
+(6), and referred to throughout this interim final rule as AMLA, the
+Act, or the AMLA anti-retaliation provisions, prohibit retaliation by
+an employer against a whistleblower in the terms and conditions of
+employment or post-employment in reprisal for the whistleblower having
+engaged in protected activity.\1\ Protected activity under AMLA
+includes any lawful act done by a whistleblower in reporting certain
+information to the Secretary of the Treasury; Attorney General; a
+Federal regulatory or law enforcement agency; any Member of Congress or
+any committee of Congress; or the employer of the individual, including
+as part of the job duties of the individual. The employer includes ``a
+person with supervisory authority over the whistleblower, or such other
+person working for the employer who has the authority to investigate,
+discover, or terminate misconduct.'' 31 U.S.C. 5323(g)(1)(A)(iv).
+Protected activity also includes any lawful act done by a whistleblower
+in initiating, testifying in, or assisting in any investigation or
+judicial or administrative action of the Department of the Treasury or
+the Department of Justice based upon or related to such information. 31
+U.S.C. 5323(g)(1)(B).
+
+
+\1\ In addition to the AMLA anti-retaliation provisions, 31
+U.S.C. 5323 establishes a whistleblower award program administered
+by the Department of the Treasury. That award program is not a
+subject of this rulemaking.
+
+
+The information must relate to violations of certain enumerated
+statutes, including violations of 31 U.S.C. chapter 53, subchapter II
+(31 U.S.C. 5311-5336), chapter 35 or section 4305 or 4312 of title 50,
+U.S.C., or the Foreign Narcotics Kingpin Designation Act (21 U.S.C.
+1901 et seq.), or conspiracies to violate the aforementioned
+provisions. 31 U.S.C. 5323(a)(5) (as amended). 31 U.S.C. chapter 53,
+subchapter II is part of the Bank Secrecy Act (BSA). The legislative
+framework generally referred to as the BSA consists of the Currency and
+Foreign Transactions Reporting Act of 1970, Title II of Public Law 91-
+508 (October 26, 1970), as amended by the Uniting and Strengthening
+America by Providing Appropriate Tools Required to Intercept and
+Obstruct Terrorism Act of 2001 (USA PATRIOT Act), Public Law 107-56
+(October 26, 2001), and other legislation, including the AMLA.\2\ The
+Secretary of the Treasury is authorized to administer the BSA and to
+require financial institutions to keep records and file reports that
+``are highly useful in criminal, tax, or regulatory investigations or
+proceedings'' or in the conduct of ``intelligence or
+counterintelligence activities, including analysis, to protect against
+international terrorism''.\3\ Authority to implement, administer, and
+enforce compliance with the BSA and its implementing regulations has
+been delegated to the Director of the Financial Crimes Enforcement
+Network (FinCEN), a bureau of the Department of the Treasury.\4\ See
+https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act; https://bsaaml.ffiec.gov/. ``Chapter 35 of Title 50'' refers to
+the International Emergency Economic Powers Act (IEEPA), 50 U.S.C. 1701
+et seq., as amended, which authorizes the President to take certain
+actions, including, but not limited to, the regulation of transactions
+subject to U.S. jurisdiction involving property in which any foreign
+country or foreign national has an interest, to deal with any unusual
+or extraordinary threat, which has its source in whole or in
+substantial part outside the United States, to the national security,
+foreign policy, or economy of the United States, if the President has
+declared a national emergency with respect to such threat. 50 U.S.C.
+4305 and 4312 are provisions of the Trading with the Enemy Act (TWEA);
+section 4305 authorizes during time of war, among other measures,
+regulation of transactions subject to U.S. jurisdiction involving any
+property in which a foreign country or foreign national has an
+interest, while section 4312 authorizes seizure and holding of foreign-
+owned property in trust during times of war. The Foreign Narcotics
+Kingpin Designation Act, 21 U.S.C. 1901 et seq., effectively applies
+the authorities in the IEEPA, 50 U.S.C. 1701 et seq., to significant
+foreign narcotics traffickers and their organizations operating
+worldwide. See https://ofac.treasury.gov/ (explaining the Office of
+Foreign Asset Control (OFAC) administration and enforcement of IEEPA,
+TWEA, and the Foreign Narcotics Kingpin Designation Act).
+
+
+\2\ The BSA is codified at 12 U.S.C. 1829b, 12 U.S.C. 1951-1960,
+and 31 U.S.C. 5311-5314 and 5316-5336, and includes notes thereto,
+with implementing regulations at 31 CFR chapter X.
+\3\ 31 U.S.C. 5311(1).
+\4\ Treasury Order 180-01 (Jan. 14, 2020).

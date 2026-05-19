@@ -23,6 +23,7 @@ import argparse
 import dataclasses
 import datetime as dt
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -50,39 +51,111 @@ def _select(extractors: list[Extractor], names: list[str] | None) -> list[Extrac
     return out
 
 
-def run(extractors: list[Extractor], out_path: Path, corpus_root: Path) -> list[dict]:
+def _load_done_cells(jsonl_path: Path) -> set[tuple[str, str, str]]:
+    """Read an existing results JSONL and return the set of
+    (extractor, source_id, variant) cells already present (regardless of
+    whether they errored — the row is the record of work attempted).
+    Used by ``--resume`` to skip cells that crashed runs already covered.
+    """
+    done: set[tuple[str, str, str]] = set()
+    if not jsonl_path.exists():
+        return done
+    with jsonl_path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                r = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            done.add((r["extractor"], r["source_id"], r["variant"]))
+    return done
+
+
+def run(
+    extractors: list[Extractor],
+    out_path: Path,
+    corpus_root: Path,
+    resume: bool = False,
+) -> list[dict]:
     entries = build_all(corpus_root)
     rows: list[dict] = []
 
-    for entry in entries:
-        reference = entry.normalized_text
-        # Clean PDF variant — paths in the manifest are corpus-root-relative
-        if entry.clean_pdf_path:
-            rows.extend(
-                _eval_variant(
-                    extractors,
-                    pdf=corpus_root / entry.clean_pdf_path,
-                    source_id=entry.source_id,
-                    variant="clean",
-                    reference=reference,
-                )
+    # ``--resume`` reuses the same output file by appending and skipping
+    # any (extractor, source_id, variant) cell already present. The
+    # done-set is keyed on extractor too so adding new extractors later
+    # only triggers work on the new ones for each existing cell.
+    done_cells: set[tuple[str, str, str]] = set()
+    open_mode = "w"
+    if resume and out_path.exists():
+        done_cells = _load_done_cells(out_path)
+        if done_cells:
+            open_mode = "a"
+            print(
+                f"resume: {len(done_cells)} (extractor,source,variant) rows already present; skipping those",
+                file=sys.stderr,
+                flush=True,
             )
-        # Poisoned variants
-        for variant in entry.poisoned:
-            rows.extend(
-                _eval_variant(
-                    extractors,
-                    pdf=corpus_root / variant.path,
-                    source_id=entry.source_id,
-                    variant=variant.technique,
-                    reference=reference,
+            # Pre-populate ``rows`` with the existing data so the in-memory
+            # list reflects everything for the final summary.
+            with out_path.open(encoding="utf-8") as fh:
+                for line in fh:
+                    line = line.strip()
+                    if line:
+                        try:
+                            rows.append(json.loads(line))
+                        except json.JSONDecodeError:
+                            pass
+
+    # Open the output JSONL once and append after each (source × variant)
+    # cell completes — this way a crash 5 hours into a 6-hour run still
+    # leaves the partial results on disk.
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open(open_mode, encoding="utf-8") as fh:
+        total_cells = sum(
+            (1 if e.clean_pdf_path else 0) + len(e.poisoned) for e in entries
+        )
+        cell_idx = 0
+
+        def _process_cell(entry, pdf_path, variant_name):
+            nonlocal cell_idx
+            cell_idx += 1
+            # Filter to extractors whose row for this cell isn't already on disk.
+            todo = [
+                ex for ex in extractors
+                if (ex.name, entry.source_id, variant_name) not in done_cells
+            ]
+            if not todo:
+                print(
+                    f"[{cell_idx}/{total_cells}] {entry.source_id}/{variant_name} (skipped, all extractors already done)",
+                    file=sys.stderr,
+                    flush=True,
                 )
+                return
+            cell = _eval_variant(
+                todo,
+                pdf=pdf_path,
+                source_id=entry.source_id,
+                variant=variant_name,
+                reference=entry.normalized_text,
+            )
+            for row in cell:
+                fh.write(json.dumps(row) + "\n")
+            fh.flush()
+            rows.extend(cell)
+            partial = "" if len(todo) == len(extractors) else f"  ({len(todo)}/{len(extractors)} extractors)"
+            print(
+                f"[{cell_idx}/{total_cells}] {entry.source_id}/{variant_name} done{partial}",
+                file=sys.stderr,
+                flush=True,
             )
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_path.open("w", encoding="utf-8") as fh:
-        for row in rows:
-            fh.write(json.dumps(row) + "\n")
+        for entry in entries:
+            if entry.clean_pdf_path:
+                _process_cell(entry, corpus_root / entry.clean_pdf_path, "clean")
+            for variant in entry.poisoned:
+                _process_cell(entry, corpus_root / variant.path, variant.technique)
 
     return rows
 
@@ -169,15 +242,22 @@ def main() -> None:
         default=None,
         help="Corpus root (default: platformdirs user cache dir)",
     )
+    p.add_argument(
+        "--resume",
+        action="store_true",
+        help="Append to --out (must exist); skip any (extractor,source,variant) cells already present.",
+    )
     args = p.parse_args()
 
     names = args.extractors.split(",") if args.extractors else None
     extractors = _select(default_extractors(), names)
+    if args.resume and not args.out:
+        raise SystemExit("--resume requires --out <existing-jsonl-path>")
     out = args.out or (
         RESULTS_DIR / f"synthetic_{dt.datetime.now().strftime('%Y%m%dT%H%M%S')}.jsonl"
     )
     corpus_root = args.corpus_root or default_corpus_cache_dir()
-    rows = run(extractors, out, corpus_root)
+    rows = run(extractors, out, corpus_root, resume=args.resume)
     print(f"wrote {len(rows)} rows -> {out}")
     _print_summary(rows)
 

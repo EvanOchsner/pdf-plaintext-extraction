@@ -1,0 +1,204 @@
+[Federal Register Volume 90, Number 247 (Wednesday, December 31, 2025)]
+[Proposed Rules]
+[Pages 61356-61361]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-24134]
+
+?
+?Proposed Rules
+? Federal Register
+?________________________________________________________________________
+?
+?This section of the FEDERAL REGISTER contains notices to the public of
+?the proposed issuance of rules and regulations. The purpose of these
+?notices is to give interested persons an opportunity to participate in
+?the rule making prior to the adoption of the final rules.
+?
+?
+?
+
+??Federal Register / Vol. 90, No. 247 / Wednesday, December 31, 2025 /
+Proposed Rules??
+
+[[Page 61356]]
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 268
+
+[EPA-R08-RCRA-2025-0420; FRL-12863-01-R8]
+
+No-Migration Variance From Land Disposal Restrictions for Clean
+Harbors Grassy Mountain, Utah
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Notice of proposal to grant.
+
+
+
+SUMMARY: The U.S. Environmental Protection Agency (EPA) is proposing to
+grant, with conditions, no-migration variances for four categories/
+groups of wastes, containing up to 250 temporary disposal units (``put
+piles'') at any one time, from the Resource Conservation and Recovery
+Act (RCRA) Land Disposal Restrictions (LDR) standards at Clean Harbors'
+Grassy Mountain (Clean Harbors) commercial treatment, storage and
+disposal facility (TSDF) in Tooele County, UT. These variances will
+allow Clean Harbors to temporarily store treated hazardous wastes that
+are awaiting LDR compliance verification in put piles within their
+Subtitle C (hazardous waste) landfill. The petitioner demonstrated, to
+a reasonable degree of certainty, that there will be no migration of
+hazardous constituents from the disposal units for as long as the
+wastes remain hazardous. Additionally, once LDR compliance is verified,
+the put piles will be disposed within the onsite RCRA hazardous waste
+Landfill area and will be subject to the conditions set out in the
+Compliance Monitoring Plan section of this document.
+
+DATES: Comments must be received on or before January 30, 2026.
+
+ADDRESSES: You may send comments, identified by EPA-R08-RCRA-2025-0420,
+by any of the following methods:
+Federal eRulemaking portal: https://www.regulations.gov/
+(our preferred method). Follow the online instructions for submitting
+comments.
+Email: [email protected].
+Mail, hand delivery or courier: Deliver your comments to
+Jesse Newland, Land, Chemicals and Redevelopment Division, EPA Region
+8, 1595 Wynkoop Street, Denver, Colorado 80202-1129, Mail Code: 8LCR-
+RC-P, telephone number: (303) 312-6353. Courier or hand deliveries are
+only accepted during the Regional Office's normal hours of operation.
+The public is advised to call in advance to verify the business hours.
+Special arrangements should be made of deliveries of boxed information.
+Instructions: All submissions received must include the
+Docket ID No. EPA-R08-RCRA-2025-0420 for this rulemaking. Comments
+received may be posted without change to https://www.regulations.gov,
+including any personal information provided. For detailed instructions
+on sending comments and additional information, see the ``Public
+Participation'' heading of the SUPPLEMENTARY INFORMATION section of
+this document.
+
+FOR FURTHER INFORMATION CONTACT: Jesse Newland, Land, Chemicals and
+Redevelopment Division, EPA Region 8, 1595 Wynkoop Street, Denver,
+Colorado 80202-1129, mail code: 8LCR-RC-P, telephone number: (303) 312-
+6353, email address: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+I. Public Participation
+
+A. Docket
+
+EPA has established a docket for this action under Docket ID No.
+EPA-R08-RCRA-2025-0420. All documents in the docket are listed in the
+https://www.regulations.gov index.
+
+B. Written Comments
+
+Submit your comments, identified by Docket ID No. EPA-R08-RCRA-
+2025-0420, at https://www.regulations.gov (our preferred method), or
+the other methods identified in the ADDRESSES section. Once submitted,
+comments cannot be edited or removed from the docket. EPA may publish
+any comment received to its public docket. Do not submit electronically
+any information you consider to be Confidential Business Information
+(CBI) or other information whose disclosure is restricted by statute.
+Multimedia submissions (audio, video, etc.) must be accompanied by a
+written comment. The written comment is considered the official comment
+and should include discussion of all points you wish to make. EPA will
+generally not consider comments or comment contents located outside of
+the primary submission (i.e., on the web, cloud, or other file sharing
+system). For additional submission methods, the full EPA public comment
+policy, information about CBI or multimedia submissions, and general
+guidance on making effective comments, please visit https://www.epa.gov/dockets/commenting-epa-dockets.
+
+C. Submitting CBI
+
+Do not submit information that you consider to be CBI
+electronically through https://www.regulations.gov or email. Send or
+deliver information identified as CBI to only the following address:
+RCRA Document Control Officer Andy Woodward, 1595 Wynkoop Street,
+Denver, CO 80202-1129, Mail Code: 8ECA-RO-E, Email:
+[email protected], Attn: Docket ID No. EPA-R08-RCRA-2025-0420.
+Clearly mark the part or all of the information that you claim to
+be CBI. For CBI information in a disk or CD-ROM that you mail to EPA,
+mark the outside of the disk or CD-ROM as CBI and then identify
+electronically within the disk or CD-ROM the specific information that
+is claimed as CBI. In addition to one complete version of the comment
+that includes information claimed as CBI, a copy of the comment that
+does not contain the information claimed as CBI must be submitted for
+inclusion in the public docket. If you submit a CD-ROM or disk that
+does not contain CBI, mark the outside of the disk or CD-ROM clearly
+that it does not contain CBI. Information marked as CBI will not be
+disclosed except in accordance with procedures set forth in 40 Code of
+Federal Regulations (CFR) part 2.
+
+II. General Information
+
+A. Does this document apply to me?
+
+This action applies only to Clean Harbors' Grassy Mountain facility
+(Clean Harbors) located in Tooele County, Utah.
+
+B. What action is the Agency taking?
+
+On July 16, 2024, Clean Harbors submitted to EPA a no-migration
+variance (NMV) petition, in accordance with 40 CFR 268.6, seeking an
+
+[[Page 61357]]
+
+exemption from the Land Disposal Restrictions (LDR) prohibition on land
+placement of hazardous waste that does not meet the prescribed LDR
+standards of 40 CFR 268.40. Because the petition demonstrated to a
+reasonable degree of certainty that, for as long as the wastes remain
+hazardous, there will be no migration of hazardous constituents from
+the disposal units, EPA proposes to grant, with conditions, Clean
+Harbors' variance from the LDR prohibition for up to 250 put piles at
+any one time. If granted, the term of this NMV shall be no longer than
+the term of the RCRA Subtitle C permit for the permitted Landfill.
+
+C. What is the Agency's authority for taking this action?
+
+Sections 3004(d) through (g) of the Resource Conservation and
+Recovery Act (RCRA), 42 U.S.C. 6294(d)-(g), prohibit the land disposal
+of hazardous wastes unless such wastes meet the LDR treatment standards
+(``treatment standards'') established by EPA (``Agency'').
+However, RCRA 3004(d)(1),\1\ and its implementing regulations found
+at 40 CFR 268.6, provide an option for land disposal of hazardous waste
+that does not meet the applicable treatment standards where EPA has
+approved an NMV petition. Specifically, the regulations in 40 CFR
+268.6(a) describe the components that a demonstration must address; 40
+CFR 268.6(b) specifies certain criteria that must be satisfied for that
+demonstration, and 40 CFR 268.6(c) describes the monitoring program
+that will be used to verify that the conditions of the NMV are being
+met.
+
+
+\1\ RCRA 3004(d)(1)(c) states: ``. . . For the purposes of this
+paragraph, a method of land disposal may not be determined to be
+protective of human health and the environment for a hazardous waste
+referred to in paragraph (2) . . . unless, upon application by an
+interested person, it has been demonstrated to the Administrator, to
+a reasonable degree of certainty, that there will be no migration of
+hazardous constituents from the disposal unit or injection zone for
+as long as the wastes remain hazardous.''
+
+
+III. Background
+
+A. No-Migration Variances and Guidance
+
+An NMV is a formal decision that can be rendered by the EPA in
+response to a petition filed with the Agency, to allow land disposal
+within a particular disposal unit, of specific prohibited waste when it
+has been demonstrated, ``to a reasonable degree of certainty, that
+there will be no migration of hazardous constituents from the disposal
+unit . . . for as long as the wastes remain hazardous.'' \2\ It must be
+demonstrated, to a reasonable degree of certainty, that hazardous
+constituents will not exceed Agency-approved human health-based levels
+(or environmentally protective levels, if they are appropriate) beyond
+the boundary of the disposal unit.\3\ In most cases, the disposal unit
+boundary is defined as the outermost limit of engineered components.\4\
+
+
+\2\ See 51 FR at 40578, November 7, 1986.
+\3\ 57 FR 35941, August 11, 1992.
+\4\ Id.

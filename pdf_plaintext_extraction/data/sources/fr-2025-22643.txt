@@ -1,0 +1,199 @@
+[Federal Register Volume 90, Number 237 (Friday, December 12, 2025)]
+[Rules and Regulations]
+[Pages 57820-57859]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-22643]
+
+[[Page 57819]]
+
+Vol. 90
+
+Friday,
+
+No. 237
+
+December 12, 2025
+
+Part II
+
+Consumer Product Safety Commission
+
+
+
+16 CFR Parts 1112 and 1250
+
+Safety Standard for Toys: Requirements for Water Beads; Final Rule
+
+??Federal Register / Vol. 90 , No. 237 / Friday, December 12, 2025 /
+Rules and Regulations??
+
+[[Page 57820]]
+
+
+
+CONSUMER PRODUCT SAFETY COMMISSION
+
+16 CFR Parts 1112 and 1250
+
+[CPSC Docket No. CPSC-2024-0027]
+
+Safety Standard for Toys: Requirements for Water Beads
+
+AGENCY: Consumer Product Safety Commission.
+
+ACTION: Final rule.
+
+
+
+SUMMARY: Section 106(a) of the Consumer Product Safety Improvement Act
+of 2008 (CPSIA) mandates that ASTM F963 shall be a mandatory toy safety
+standard. This safety standard sets forth requirements for water bead
+toys and toys that contain water beads. Under this statutory authority,
+the U.S. Consumer Product Safety Commission (CPSC or Commission) is
+issuing a safety standard for water bead toys and toys that contain
+water beads.
+
+DATES: The rule is effective on March 12, 2026. The incorporation by
+reference of the publication listed in this rule is approved by the
+Director of the Federal Register as of March 12, 2026. The
+incorporation by reference of certain other material listed in this
+rule was approved for use by the Director of the Federal Register as of
+April 20, 2024.
+
+FOR FURTHER INFORMATION CONTACT: Sara E. Brown, Compliance Officer,
+Office of Compliance, Consumer Product Safety Commission, 4330 East
+West Highway, Bethesda, MD 20814-4408; telephone: 240-749-0572; email:
+[email protected] or Matthew Kresse, Project Manager, Division of
+Mechanical Engineering, Directorate for Laboratory Sciences, Consumer
+Product Safety Commission, 5 Research Place, Rockville, MD 20850;
+Telephone 301-987-2222; email: [email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background and Statutory Authority
+
+A. Background
+
+Section 106(a) of the CPSIA made ASTM International's (ASTM)
+voluntary standard for toys, ASTM F963-07, Standard Consumer Safety
+Specification for Toy Safety (except section 4.2 and Annex 4), a
+mandatory safety standard for toys beginning 180 days after the
+enactment date of the CPSIA. 15 U.S.C. 2056b(a). The CPSIA states that
+ASTM F963 shall be considered a consumer product safety standard issued
+by the Commission under section 9 of the Consumer Product Safety Act
+(15 U.S.C. 2058). Since 2009, CPSC has enforced ASTM F963 as a
+mandatory standard for toys.1 2 In 2017, the Commission
+established 16 CFR part 1250, Safety Standard Mandating ASTM F963 for
+Toys, and incorporated by reference the newly revised ASTM standard at
+that time, ASTM F963-16. 82 FR 8989 (Feb. 2, 2017). Most recently, on
+January 18, 2024, the Commission updated part 1250 to incorporate by
+reference the 2023 revision, ASTM F963-23. 89 FR 3344.
+
+
+\1\ Since 2009, ASTM has revised F963 five times: ASTM F963-08,
+ASTM F963-11, ASTM F963-16, ASTM F963-17, and ASTM F963-23 (approved
+August 1, 2023).
+\2\ Section 3.1.91 of ASTM F963-23 (Toy): ``Any object designed,
+manufactured, or marketed as a plaything for children under 14 years
+of age.''
+
+
+Section 4.40 of ASTM F963-23 includes requirements for toys,
+including but not limited to, water beads, that are made of expanding
+materials.\3\ However, the requirements currently in ASTM F963-23 for
+this category of toys are insufficient to address all known water bead
+toy hazards. Potential hazards for expanding materials in general
+include gastrointestinal tract blockage if a child ingests a product
+comprised of expanding materials. The hazard mitigation provisions in
+ASTM F963-23 include performance requirements but do not include
+warnings or instructional literature specifically tailored to the
+expanding materials requirements. While sections 5, 6, and 7 of ASTM
+F963-23 provide ``Labeling Requirements,'' ``Instructional Literature''
+requirements, and ``Producer's Markings'' requirements generally for
+toys under the standard, none of these requirements is directed to
+water bead toys specifically. Thus, the generalized warnings and
+instructional literature requirements do not address all known hazards.
+
+
+\3\ Under ASTM F963, ``expanding materials'' are defined as
+``any material used in a toy which expands greater than 50% in any
+dimension from its as-received state.''
+
+
+Incident data, described in the preamble of the NPR and section III
+of this preamble, demonstrate that children ingest water beads,
+aspirate and choke on them, or insert them into the nose or ear, and
+subsequently suffer injury or death. Staff's testing of water bead
+toys, described in the preamble of the NPR, further demonstrates that
+tested water beads that pass the performance requirements in ASTM F963-
+23 can still pose safety hazards. Accordingly, this rule under section
+106 of the CPSIA creates additional requirements in part 1250 to
+establish mandatory requirements specifically for water bead toys.
+Further, this rule revises the title of part 1250 from ``Safety
+Standard Mandating ASTM F963 for Toys'' to ``Safety Standard for
+Toys,'' to reflect the inclusion of requirements that do not
+incorporate by reference existing requirements in ASTM F963.
+
+B. Statutory Authority
+
+The Commission is authorized to issue this final rule pursuant to
+both section 106(c) and (d) of the CPSIA. 15 U.S.C. 2056b(c) and (d).
+Section 106(c) requires the Commission to periodically review and
+revise its mandatory toy safety standards to ensure that such standards
+provide the highest level of safety for toys that is feasible. Section
+106(d) further requires the Commission to examine and assess the
+effectiveness of its mandatory toy safety standards in protecting
+children from safety hazards, and to promulgate consumer product safety
+rules that are more stringent than the existing standards if the
+Commission determines that more stringent standards would further
+reduce the risk of injury associated with such toys. Consistent with
+the consultation requirement in section 106(d)(1) of the CPSIA, staff
+has worked with the ASTM F15.22 Subcommittee Task Group since 2009 to
+update the toy standard and discuss hazards associated with water bead
+toys. This consultation, including the sharing of staff's assessment of
+hazards and staff's suggested additional performance and labeling
+requirements, continued through the revision and publication of ASTM
+F963-23.
+
+C. Notice of Proposed Rulemaking (NPR)
+
+On September 9, 2024, the Commission published an NPR to address
+four identified hazard patterns associated with water bead toys that
+are not adequately addressed by the current mandatory standard
+provisions addressing expanding materials: (1) ingestion of water bead
+toys, (2) insertion of water bead toys into the nose or ear, (3)
+aspiration due to water bead toys, and (4) choking due to water bead
+toys. 89 FR 73024. The Commission proposed adding additional
+performance requirements to part 1250 to better address these risks.
+The NPR also proposed establishing acrylamide level limits for water
+bead toys in response to toxicity hazards when water bead toys
+containing acrylamide enter the body, and implementing new testing
+requirements for acrylamide in water bead toys under part 1250.
+Finally, the Commission proposed labeling requirements for water bead
+toys under part 1250, including mandating warnings and
+
+[[Page 57821]]
+
+instructional literature on products within scope of the proposed rule.
+
+D. Final Rule Overview
+
+Pursuant to section 106 of the CPSIA, 15 U.S.C. 2056b, the
+Commission is issuing a mandatory standard for water bead toys based on
+the proposed requirements in the NPR, with certain modifications in
+response to public comments and other clarifications, which are
+discussed in detail in sections V and VI of the preamble.\4\ The final
+rule defines a ``water bead'' as ``a various shaped liquid absorbent
+polymer, composed of materials such as, but not limited to,
+polyacrylamide and polyacrylate, which expands when soaked in liquid.''
+This rule is intended to reduce the risk of injury or death associated
+with children ingesting, inserting into their ear or nose, aspirating,
+or choking on water bead toys by setting a maximum expansion size limit
+for water bead toys. The rule also is intended to reduce the risks of
+acrylamide exposure from water bead toys, by setting limits on the
+amount of allowable acrylamide in water bead toys. Finally, the rule
+requires strongly worded, conspicuous warnings.
+
+
+\4\ On August 21, 2025, the Commission voted (2-0) to publish
+this final rule.
