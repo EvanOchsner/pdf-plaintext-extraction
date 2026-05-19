@@ -34,6 +34,13 @@ frontier = [
     "anthropic>=0.40",
     "google-generativeai>=0.8",
 ]
+# Heavy OCR — Allen AI's olmocr (Qwen2-VL based). Pulls torch /
+# transformers as transitive deps (~3 GB). Kept separate from
+# [benchmark] so users without a GPU/MPS-capable machine aren't
+# forced into the heavy install.
+ocr-heavy = [
+    "olmocr>=0.1.0",
+]
 # Dataset publishing.
 publish = [
     "huggingface-hub >=0.24",
