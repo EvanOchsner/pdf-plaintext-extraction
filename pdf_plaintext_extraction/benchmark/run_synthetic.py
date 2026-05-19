@@ -20,6 +20,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import contextlib
 import dataclasses
 import datetime as dt
 import json
@@ -103,19 +104,15 @@ def run(
                 for line in fh:
                     line = line.strip()
                     if line:
-                        try:
+                        with contextlib.suppress(json.JSONDecodeError):
                             rows.append(json.loads(line))
-                        except json.JSONDecodeError:
-                            pass
 
     # Open the output JSONL once and append after each (source × variant)
     # cell completes — this way a crash 5 hours into a 6-hour run still
     # leaves the partial results on disk.
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open(open_mode, encoding="utf-8") as fh:
-        total_cells = sum(
-            (1 if e.clean_pdf_path else 0) + len(e.poisoned) for e in entries
-        )
+        total_cells = sum((1 if e.clean_pdf_path else 0) + len(e.poisoned) for e in entries)
         cell_idx = 0
 
         def _process_cell(entry, pdf_path, variant_name):
@@ -123,7 +120,8 @@ def run(
             cell_idx += 1
             # Filter to extractors whose row for this cell isn't already on disk.
             todo = [
-                ex for ex in extractors
+                ex
+                for ex in extractors
                 if (ex.name, entry.source_id, variant_name) not in done_cells
             ]
             if not todo:
@@ -144,7 +142,11 @@ def run(
                 fh.write(json.dumps(row) + "\n")
             fh.flush()
             rows.extend(cell)
-            partial = "" if len(todo) == len(extractors) else f"  ({len(todo)}/{len(extractors)} extractors)"
+            partial = (
+                ""
+                if len(todo) == len(extractors)
+                else f"  ({len(todo)}/{len(extractors)} extractors)"
+            )
             print(
                 f"[{cell_idx}/{total_cells}] {entry.source_id}/{variant_name} done{partial}",
                 file=sys.stderr,

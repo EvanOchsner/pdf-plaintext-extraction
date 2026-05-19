@@ -114,10 +114,7 @@ _RENDER_REPLACEMENT = "?"
 
 
 def _is_renderable(cp: int) -> bool:
-    for lo, hi in _RENDERABLE_RANGES:
-        if lo <= cp <= hi:
-            return True
-    return False
+    return any(lo <= cp <= hi for lo, hi in _RENDERABLE_RANGES)
 
 
 def _filter_to_renderable_charset(text: str) -> str:
@@ -557,7 +554,9 @@ FEDERAL_REGISTER_SPECS: list[PoolSpec] = [
     # Federal Reserve — Notice
     PoolSpec(source_id="fr-2025-23712", url=_fr_url("2025-23712")),  # payment-account RFI
     # DHS + DOJ — Rule
-    PoolSpec(source_id="fr-2025-23970", url=_fr_url("2025-23970")),  # security bars partial withdrawal
+    PoolSpec(
+        source_id="fr-2025-23970", url=_fr_url("2025-23970")
+    ),  # security bars partial withdrawal
     # USCIS / DHS — Rule
     PoolSpec(source_id="fr-2024-16138", url=_fr_url("2024-16138")),  # IE program thresholds
     # USDA / FCIC — Rule
@@ -803,8 +802,7 @@ AGENCY_PUBS_SPECS: list[PoolSpec] = [
     PoolSpec(
         source_id="usgs-glaciers",
         url=(
-            "https://www.usgs.gov/special-topics/water-science-school/science/"
-            "glaciers-and-icecaps"
+            "https://www.usgs.gov/special-topics/water-science-school/science/glaciers-and-icecaps"
         ),
     ),
     # EPA — environmental health
