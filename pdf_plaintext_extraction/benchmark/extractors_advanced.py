@@ -15,7 +15,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from scripts.benchmark.base import ExtractionResult, timed
+from pdf_plaintext_extraction.benchmark.base import ExtractionResult, timed
 
 ROOT = Path(__file__).resolve().parents[2]
 

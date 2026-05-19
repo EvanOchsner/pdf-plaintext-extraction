@@ -10,7 +10,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from scripts.benchmark.base import ExtractionResult, timed
+from pdf_plaintext_extraction.benchmark.base import ExtractionResult, timed
 
 
 class PypdfExtractor:
@@ -70,12 +70,12 @@ class PdftotextSubprocExtractor:
 
 
 def default_extractors() -> list:
-    from scripts.benchmark.extractors_advanced import (
+    from pdf_plaintext_extraction.benchmark.extractors_advanced import (
         DoclingExtractor,
         PATCascadeExtractor,
     )
-    from scripts.benchmark.extractors_ocr import TesseractOCRExtractor
-    from scripts.benchmark.extractors_vision import (
+    from pdf_plaintext_extraction.benchmark.extractors_ocr import TesseractOCRExtractor
+    from pdf_plaintext_extraction.benchmark.extractors_vision import (
         ClaudeVisionExtractor,
         GeminiVisionExtractor,
     )

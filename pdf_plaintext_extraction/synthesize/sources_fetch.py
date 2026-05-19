@@ -16,16 +16,18 @@ A third pool (NAIC model laws) is intentionally deferred: NAIC distributes
 those as PDFs/Word documents, not plain text, and they may carry their own
 distribution restrictions. We'll add them after a license check.
 
-Each fetched source is written as a UTF-8 ``.txt`` file under
-``data/synthetic/sources/``. A small ``_provenance.jsonl`` is appended
-alongside, recording the source URL, fetch timestamp, and SHA-256 so the
-seed corpus is reproducible.
+Each fetched source is written as a UTF-8 ``.txt`` file into the
+package's ``data/sources/`` directory (which ships inside the wheel).
+A small ``_provenance.jsonl`` is appended alongside, recording the
+source URL, fetch timestamp, and SHA-256 so the seed corpus is
+reproducible. This module is a maintainer-only tool — it requires an
+editable install (writes into the package tree).
 
 Usage:
 
-    python -m scripts.synthesize.sources_fetch --pool gutenberg
-    python -m scripts.synthesize.sources_fetch --pool md-statute
-    python -m scripts.synthesize.sources_fetch --pool all
+    python -m pdf_plaintext_extraction.synthesize.sources_fetch --pool gutenberg
+    python -m pdf_plaintext_extraction.synthesize.sources_fetch --pool md-statute
+    python -m pdf_plaintext_extraction.synthesize.sources_fetch --pool all
 """
 
 from __future__ import annotations
@@ -36,12 +38,12 @@ import hashlib
 import json
 import re
 from dataclasses import asdict, dataclass
-from pathlib import Path
 
 import httpx
 
-ROOT = Path(__file__).resolve().parents[2]
-SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
+from pdf_plaintext_extraction._paths import package_sources_dir
+
+SOURCES_DIR = package_sources_dir()
 PROVENANCE_PATH = SOURCES_DIR / "_provenance.jsonl"
 
 UA = "pdf-plaintext-extraction/0.0.1 (academic research; +https://github.com/EvanOchsner/pdf-plaintext-extraction)"
@@ -189,7 +191,7 @@ def main() -> None:
     if args.pool in ("md-statute", "all"):
         rows.extend(fetch_md_statute())
 
-    print(f"wrote {len(rows)} source(s) to {SOURCES_DIR.relative_to(ROOT)}")
+    print(f"wrote {len(rows)} source(s) to {SOURCES_DIR}")
     for r in rows:
         print(f"  {r.source_id:35s} {r.bytes_written:6d} bytes  {r.sha256[:12]}…")
 

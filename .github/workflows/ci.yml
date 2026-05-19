@@ -27,10 +27,12 @@ jobs:
       - name: Cache DejaVu Sans font
         # The homoglyph poisoning test downloads DejaVu Sans from
         # sourceforge once on first use; cache it across CI runs so
-        # we don't bounce off a flaky mirror every build.
+        # we don't bounce off a flaky mirror every build. The font
+        # lives under platformdirs.user_cache_dir on Linux, which is
+        # ~/.cache/pdf-plaintext-extraction/fonts.
         uses: actions/cache@v4
         with:
-          path: .tmp/fonts
+          path: ~/.cache/pdf-plaintext-extraction/fonts
           key: dejavu-sans-2.37
 
       - name: Install dependencies
@@ -39,7 +41,7 @@ jobs:
       - name: Pre-fetch DejaVu Sans (if not cached)
         run: |
           uv run python -c \
-            "from scripts.synthesize._fonts import ensure_dejavu_sans; print(ensure_dejavu_sans())"
+            "from pdf_plaintext_extraction.synthesize._fonts import ensure_dejavu_sans; print(ensure_dejavu_sans())"
 
       - name: Run tests
         run: uv run pytest -v
@@ -56,7 +58,7 @@ jobs:
           version: "latest"
 
       - name: Ruff check
-        run: uv tool run ruff check scripts tests
+        run: uv tool run ruff check pdf_plaintext_extraction tests
 
       - name: Ruff format check
-        run: uv tool run ruff format --check scripts tests
+        run: uv tool run ruff format --check pdf_plaintext_extraction tests

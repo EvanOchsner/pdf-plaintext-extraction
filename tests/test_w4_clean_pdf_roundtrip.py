@@ -18,11 +18,11 @@ from pathlib import Path
 import pytest
 from pypdf import PdfReader
 
-from scripts.synthesize.clean_pdf import render
-from scripts.synthesize.ground_truth import normalize
+from pdf_plaintext_extraction._paths import package_sources_dir
+from pdf_plaintext_extraction.synthesize.clean_pdf import render
+from pdf_plaintext_extraction.synthesize.ground_truth import normalize
 
-ROOT = Path(__file__).resolve().parents[1]
-SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
+SOURCES_DIR = package_sources_dir()
 
 
 def _source_files() -> list[Path]:

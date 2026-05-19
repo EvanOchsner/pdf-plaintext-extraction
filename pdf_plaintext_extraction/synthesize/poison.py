@@ -1,9 +1,9 @@
 """Apply obfuscation techniques to clean synthetic PDFs.
 
-For each source in ``data/synthetic/sources/``, this module produces one
-poisoned variant per implemented technique under
-``data/synthetic/poisoned/<technique>/<source_id>.pdf``. Because the
-source text remains the ground truth, every poisoned variant has a
+For each source bundled in ``pdf_plaintext_extraction.data.sources``,
+this module produces one poisoned variant per implemented technique
+under ``<corpus_root>/poisoned/<technique>/<source_id>.pdf``. Because
+the source text remains the ground truth, every poisoned variant has a
 byte-exact reference for accuracy scoring.
 
 Inspired by the taxonomy in ``docs/obfuscation-taxonomy.md`` and the
@@ -38,13 +38,13 @@ import pikepdf
 from reportlab.lib.pagesizes import LETTER
 from reportlab.pdfgen.canvas import Canvas
 
-from scripts.synthesize._fonts import register_dejavu_with_reportlab
-from scripts.synthesize.clean_pdf import RenderOptions, render
-
-ROOT = Path(__file__).resolve().parents[2]
-SOURCES_DIR = ROOT / "data" / "synthetic" / "sources"
-CLEAN_DIR = ROOT / "data" / "synthetic" / "clean"
-POISONED_DIR = ROOT / "data" / "synthetic" / "poisoned"
+from pdf_plaintext_extraction._paths import (
+    corpus_paths,
+    default_corpus_cache_dir,
+    package_sources_dir,
+)
+from pdf_plaintext_extraction.synthesize._fonts import register_dejavu_with_reportlab
+from pdf_plaintext_extraction.synthesize.clean_pdf import RenderOptions, render
 
 # Two-arg signature: (source_text_path, clean_pdf_path) -> writes out_pdf.
 PoisonFn = Callable[[Path, Path, Path], None]
@@ -256,23 +256,24 @@ def apply_one(source: Path, clean_pdf: Path, technique: str, out_pdf: Path) -> P
     return out_pdf
 
 
-def apply_all_implemented(source_id: str) -> list[Path]:
-    source = SOURCES_DIR / f"{source_id}.txt"
-    clean_pdf = CLEAN_DIR / f"{source_id}.pdf"
+def apply_all_implemented(source_id: str, corpus_root: Path) -> list[Path]:
+    paths = corpus_paths(corpus_root)
+    source = package_sources_dir() / f"{source_id}.txt"
+    clean_pdf = paths["clean"] / f"{source_id}.pdf"
     if not source.exists():
-        raise FileNotFoundError(f"source not found: {source}")
+        raise FileNotFoundError(f"source not found in package: {source}")
     if not clean_pdf.exists():
         raise FileNotFoundError(f"clean PDF not found: {clean_pdf}")
     written = []
     for technique in TECHNIQUES:
-        out = POISONED_DIR / technique / f"{source_id}.pdf"
+        out = paths["poisoned"] / technique / f"{source_id}.pdf"
         apply_one(source, clean_pdf, technique, out)
         written.append(out)
     return written
 
 
 def _all_source_ids() -> list[str]:
-    return sorted(p.stem for p in CLEAN_DIR.glob("*.pdf"))
+    return sorted(p.stem for p in package_sources_dir().glob("*.txt"))
 
 
 def main() -> None:
@@ -285,27 +286,35 @@ def main() -> None:
         help=f"one of: {sorted(TECHNIQUES)}",
     )
     p.add_argument("--all", action="store_true")
+    p.add_argument(
+        "--corpus-root",
+        type=Path,
+        default=None,
+        help="Corpus root (default: platformdirs user cache dir)",
+    )
     args = p.parse_args()
+    corpus_root = args.corpus_root or default_corpus_cache_dir()
+    paths = corpus_paths(corpus_root)
 
     if args.all:
         for sid in _all_source_ids():
-            for out in apply_all_implemented(sid):
-                print(f"wrote {out.relative_to(ROOT)}")
+            for out in apply_all_implemented(sid, corpus_root):
+                print(f"wrote {out.relative_to(corpus_root)}")
         return
 
     if not args.source_id:
         raise SystemExit("must pass --source-id <id> (or --all)")
 
-    src = SOURCES_DIR / f"{args.source_id}.txt"
-    clean = CLEAN_DIR / f"{args.source_id}.pdf"
+    src = package_sources_dir() / f"{args.source_id}.txt"
+    clean = paths["clean"] / f"{args.source_id}.pdf"
 
     if args.technique:
-        out = POISONED_DIR / args.technique / f"{args.source_id}.pdf"
+        out = paths["poisoned"] / args.technique / f"{args.source_id}.pdf"
         apply_one(src, clean, args.technique, out)
-        print(f"wrote {out.relative_to(ROOT)}")
+        print(f"wrote {out.relative_to(corpus_root)}")
     else:
-        for out in apply_all_implemented(args.source_id):
-            print(f"wrote {out.relative_to(ROOT)}")
+        for out in apply_all_implemented(args.source_id, corpus_root):
+            print(f"wrote {out.relative_to(corpus_root)}")
 
 
 if __name__ == "__main__":

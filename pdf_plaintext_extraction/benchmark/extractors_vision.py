@@ -27,7 +27,7 @@ import io
 import os
 from pathlib import Path
 
-from scripts.benchmark.base import ExtractionResult, timed
+from pdf_plaintext_extraction.benchmark.base import ExtractionResult, timed
 
 EXTRACTION_PROMPT = (
     "Transcribe the text content of this page verbatim. Preserve paragraph "

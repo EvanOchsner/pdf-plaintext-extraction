@@ -21,9 +21,12 @@ import hashlib
 from pathlib import Path
 
 import httpx
+import platformdirs
 
-ROOT = Path(__file__).resolve().parents[2]
-FONT_CACHE = ROOT / ".tmp" / "fonts"
+
+def _font_cache_dir() -> Path:
+    return Path(platformdirs.user_cache_dir("pdf-plaintext-extraction")) / "fonts"
+
 
 # DejaVuSans.ttf 2.37 (latest stable release). SHA-256 pinned below.
 DEJAVU_URL = (
@@ -48,11 +51,12 @@ def _fetch_zip(target: Path) -> None:
 
 def ensure_dejavu_sans() -> Path:
     """Return a local filesystem path to DejaVuSans.ttf, fetching once if needed."""
-    ttf_path = FONT_CACHE / DEJAVU_TTF_NAME
+    cache = _font_cache_dir()
+    ttf_path = cache / DEJAVU_TTF_NAME
     if ttf_path.exists():
         return ttf_path
 
-    zip_path = FONT_CACHE / "dejavu.zip"
+    zip_path = cache / "dejavu.zip"
     if not zip_path.exists():
         _fetch_zip(zip_path)
 
