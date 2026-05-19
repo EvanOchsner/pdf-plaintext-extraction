@@ -1,0 +1,241 @@
+Skip to main content
+
+Skip to FDA Search
+
+Skip to in this section menu
+
+Skip to footer links
+
+An official website of the United States government
+
+Here’s how you know
+
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you're on a federal government site.
+
+The site is secure.
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+Search
+
+Menu
+
+Search FDA
+
+Submit search
+
+Featured
+
+Report a Product Problem
+
+Contact FDA
+
+FDA Guidance Documents
+
+Recalls, Market Withdrawals and Safety Alerts
+
+Press Announcements
+
+Warning Letters
+
+Advisory Committees
+
+En Español
+
+Products
+
+Food
+
+Drugs
+
+Medical Devices
+
+Radiation-Emitting Products
+
+Vaccines, Blood, and Biologics
+
+Animal and Veterinary
+
+Cosmetics
+
+Tobacco Products
+
+Topics
+
+About FDA
+
+Combination Products
+
+Regulatory Information
+
+Safety
+
+Emergency Preparedness
+
+International Programs
+
+News and Events
+
+Training and Continuing Education
+
+Inspections and Compliance
+
+Science and Research
+
+Information For
+
+Consumers
+
+Patients
+
+Industry
+
+Health Professionals
+
+Federal, State and Local Officials
+
+Home
+
+Radiation-Emitting Products
+
+Radiation-Emitting Products and Procedures
+
+Medical Imaging
+
+Medical X-ray Imaging
+
+Medical Imaging
+
+In this section
+
+Medical X-ray Imaging
+
+Radiography
+
+Computed Tomography (CT)
+
+Dental Cone-beam Computed Tomography
+
+Fluoroscopy
+
+Mammography
+
+Medical X-ray Imaging
+
+Medical X-ray Imaging
+
+Radiography
+
+Computed Tomography (CT)
+
+Dental Cone-beam Computed Tomography
+
+Fluoroscopy
+
+Mammography
+
+On this page:
+
+Description
+
+Benefits-Risks
+
+Benefits
+
+Risks
+
+Balancing benefits and risks
+
+Information for Patients
+
+Questions to ask your health care provider
+
+Information for Health Care Providers
+
+Principles of radiation protection: justification and optimization
+
+General recommendations
+
+Information for the referring physician
+
+Information for the imaging team
+
+Regulations and guidelines pertaining to imaging facilities and personnel
+
+Information for Industry
+
+Electronic Product Radiation Control (EPRC) requirements for manufacturers and assemblers
+
+Medical device requirements for manufacturers of x-ray imaging devices
+
+FDA-recognized consensus standards
+
+Reporting Problems to the FDA
+
+Diagnostic X-ray Reports of Assembly
+
+Industry Guidance - Documents of Interest
+
+Other Resources
+
+Description
+
+Medical imaging has led to improvements in the diagnosis and treatment of numerous medical conditions in children and adults.
+
+There are many types - or modalities - of medical imaging procedures, each of which uses different technologies and techniques. Computed tomography (CT), fluoroscopy, and radiography ("conventional X-ray" including mammography) all use ionizing radiation to generate images of the body. Ionizing radiation is a form of radiation that has enough energy to potentially cause damage to DNA and may elevate a person's lifetime risk of developing cancer.
+
+CT, radiography, and fluoroscopy all work on the same basic principle: an X-ray beam is passed through the body where a portion of the X-rays are either absorbed or scattered by the internal structures, and the remaining X-ray pattern is transmitted to a detector (e.g., film or a computer screen) for recording or further processing by a computer. These exams differ in their purpose:
+
+Radiography - a single image is recorded for later evaluation. Mammography is a special type of radiography to image the internal structures of breasts.
+
+Fluoroscopy - a continuous X-ray image is displayed on a monitor, allowing for real-time monitoring of a procedure or passage of a contrast agent ("dye") through the body. Fluoroscopy can result in relatively high radiation doses, especially for complex interventional procedures (such as placing stents or other devices inside the body) which require fluoroscopy be administered for a long period of time.
+
+CT - many X-ray images are recorded as the detector moves around the patient's body. A computer reconstructs all the individual images into cross-sectional images or "slices" of internal organs and tissues. A CT exam involves a higher radiation dose than conventional radiography because the CT image is reconstructed from many individual X-ray projections.
+
+Benefits - Risks
+
+Benefits
+
+The discovery of X-rays and the invention of CT represented major advances in medicine. X-ray imaging exams are recognized as a valuable medical tool for a wide variety of examinations and procedures. They are used to:
+
+noninvasively and painlessly help to diagnose disease and monitor therapy;
+
+support medical and surgical treatment planning; and
+
+guide medical personnel as they insert catheters, stents, or other devices inside the body, treat tumors, or remove blood clots or other blockages.
+
+Risks
+
+As in many aspects of medicine, there are risks associated with the use of X-ray imaging, which uses ionizing radiation to generate images of the body. Ionizing radiation is a form of radiation that has enough energy to potentially cause damage to DNA. Risks from exposure to ionizing radiation include:
+
+a small increase in the possibility that a person exposed to X-rays will develop cancer later in life. (General information for patients and health care providers on cancer detection and treatment is available from the National Cancer Institute.)
+
+tissue effects such as cataracts, skin reddening, and hair loss, which occur at relatively high levels of radiation exposure and are rare for many types of imaging exams. For example, the typical use of a CT scanner or conventional radiography equipment should not result in tissue effects, but the dose to the skin from some long, complex interventional fluoroscopy procedures might, in some circumstances, be high enough to result in such effects.
+
+Another risk of X-ray imaging is possible reactions associated with an intravenously injected contrast agent, or "dye", that is sometimes used to improve visualization.
+
+The risk of developing cancer from medical imaging radiation exposure is generally very small, and it depends on:
+
+radiation dose - The lifetime risk of cancer increases the larger the dose and the more X-ray exams a patient undergoes.
+
+patient's age - The lifetime risk of cancer is larger for a patient who receives X-rays at a younger age than for one who receives them at an older age.
+
+patient's sex - Women are at a somewhat higher lifetime risk than men for developing radiation-associated cancer after receiving the same exposures at the same ages.
+
+body region - Some organs are more radiosensitive than others.
+
+The above statements are generalizations based on scientific analyses of large population data sets, such as survivors exposed to radiation from the atomic bomb. One of the reports of such analyses is Health Risks from Exposure to Low Levels of Ionizing Radiation: BEIR VII Phase 2 (Committee to Assess Health Risks from Exposure to Low Levels of Ionizing Radiation, National Research Council). While specific individuals or cases may not fit into such generalizations, they are still useful in developing an overall approach to medical imaging radiation safety by identifying probable at-risk populations or higher-risk procedures.
+
+Because radiation risks are dependent on exposure to radiation, an awareness of the typical radiation exposures involved in different imaging exams is useful for communication between the physician and patient. (For a comparison of radiation doses associated with different imaging procedures see: Effective Doses in Radiology and Diagnostic Nuclear Medicine: A Catalog)
+
+The medical community has emphasized radiation dose reduction in CT because of the relatively high radiation dose for CT exams (as compared to radiography) and their increased use, as reported in the National Council on Radiation Protection and Measurements (NCRP) Report No. 160. Because tissue effects are extremely rare for typical use of many X-ray imaging devices (including CT), the primary radiation risk concern for most imaging studies is cancer; however, the long exposure times needed for complex interventional fluoroscopy exams and resulting high skin doses may result in tissue effects, even when the equipment is used appropriately. For more information about risks associated with particular types of X-ray imaging studies, please see the CT, Fluoroscopy, Radiography, and Mammography web pages.
+
+Balancing benefits and risks
+
+While the benefit of a clinically appropriate X-ray imaging exam generally far outweighs the risk, efforts should be made to minimize this risk by reducing unnecessary exposure to ionizing radiation. To help reduce risk to the patient, all exams using ionizing radiation should be performed only when necessary to answer a medical question, treat a disease, or guide a procedure. If there is a medical need for a particular imaging procedure and other exams using no or less radiation are less appropriate, then the benefits exceed the risks, and radiation risk considerations should not influence the physician's decision to perform the study or the patient's decision to have the procedure. However, the "As Low as Reasonably Achievable" (ALARA) principle should be followed when choosing equipment settings to minimize radiation exposure to the patient.
+
+Patient factors are important to consider in this balance of benefits and risks. For example:
+
+Because younger patients are more sensitive to radiation, special care should be taken in reducing radiation exposure to pediatric patients for all types of X-ray imaging exams (see the Pediatric X-ray Imaging webpage).
+
+Special care should also be taken in imaging pregnant patients due to possible effects of radiation exposure to the developing fetus.

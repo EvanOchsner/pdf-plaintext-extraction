@@ -1,0 +1,133 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 26 / Subtitle A / CHAPTER 1 / Subchapter D / PART I / Subpart A / § 401
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+26 USC 401: Qualified pension, profit-sharing, and stock bonus plans
+Text contains those laws in effect on May 17, 2026
+
+From Title 26-INTERNAL REVENUE CODESubtitle A-Income TaxesCHAPTER 1-NORMAL TAXES AND SURTAXESSubchapter D-Deferred Compensation, Etc.PART I-PENSION, PROFIT-SHARING, STOCK BONUS PLANS, ETC.Subpart A-General Rule
+
+Jump To: Source CreditFuture AmendmentsMiscellaneousReferences In TextAmendmentsEffective DateShort TitleRegulations
+
+§401. Qualified pension, profit-sharing, and stock bonus plans
+
+(a) Requirements for qualification
+
+A trust created or organized in the United States and forming part of a stock bonus, pension, or profit-sharing plan of an employer for the exclusive benefit of his employees or their beneficiaries shall constitute a qualified trust under this section-
+
+(1) if contributions are made to the trust by such employer, or employees, or both, or by another employer who is entitled to deduct his contributions under section 404(a)(3)(B) (relating to deduction for contributions to profit-sharing and stock bonus plans), or by a charitable remainder trust pursuant to a qualified gratuitous transfer (as defined in section 664(g)(1)), for the purpose of distributing to such employees or their beneficiaries the corpus and income of the fund accumulated by the trust in accordance with such plan;
+
+(2) if under the trust instrument it is impossible, at any time prior to the satisfaction of all liabilities with respect to employees and their beneficiaries under the trust, for any part of the corpus or income to be (within the taxable year or thereafter) used for, or diverted to, purposes other than for the exclusive benefit of his employees or their beneficiaries (but this paragraph shall not be construed, in the case of a multiemployer plan, to prohibit the return of a contribution within 6 months after the plan administrator determines that the contribution was made by a mistake of fact or law (other than a mistake relating to whether the plan is described in section 401(a) or the trust which is part of such plan is exempt from taxation under section 501(a), or the return of any withdrawal liability payment determined to be an overpayment within 6 months of such determination));
+
+(3) if the plan of which such trust is a part satisfies the requirements of section 410 (relating to minimum participation standards); and
+
+(4) if the contributions or benefits provided under the plan do not discriminate in favor of highly compensated employees (within the meaning of section 414(q)). For purposes of this paragraph, there shall be excluded from consideration employees described in section 410(b)(3)(A) and (C).
+
+(5) Special rules relating to nondiscrimination requirements.-
+
+(A) Salaried or clerical employees.-A classification shall not be considered discriminatory within the meaning of paragraph (4) or section 410(b)(2)(A)(i) merely because it is limited to salaried or clerical employees.
+
+(B) Contributions and benefits may bear uniform relationship to compensation.-A plan shall not be considered discriminatory within the meaning of paragraph (4) merely because the contributions or benefits of, or on behalf of, the employees under the plan bear a uniform relationship to the compensation (within the meaning of section 414(s)) of such employees.
+
+(C) Certain disparity permitted.-A plan shall not be considered discriminatory within the meaning of paragraph (4) merely because the contributions or benefits of, or on behalf of, the employees under the plan favor highly compensated employees (as defined in section 414(q)) in the manner permitted under subsection (l).
+
+(D) Integrated defined benefit plan.-
+
+(i) In general.-A defined benefit plan shall not be considered discriminatory within the meaning of paragraph (4) merely because the plan provides that the employer-derived accrued retirement benefit for any participant under the plan may not exceed the excess (if any) of-
+
+(I) the participant's final pay with the employer, over
+
+(II) the employer-derived retirement benefit created under Federal law attributable to service by the participant with the employer.
+
+For purposes of this clause, the employer-derived retirement benefit created under Federal law shall be treated as accruing ratably over 35 years.
+
+(ii) Final pay.-For purposes of this subparagraph, the participant's final pay is the compensation (as defined in section 414(q)(4)) paid to the participant by the employer for any year-
+
+(I) which ends during the 5-year period ending with the year in which the participant separated from service for the employer, and
+
+(II) for which the participant's total compensation from the employer was highest.
+
+(E) 2 or more plans treated as single plan.-For purposes of determining whether 2 or more plans of an employer satisfy the requirements of paragraph (4) when considered as a single plan-
+
+(i) Contributions.-If the amount of contributions on behalf of the employees allowed as a deduction under section 404 for the taxable year with respect to such plans, taken together, bears a uniform relationship to the compensation (within the meaning of section 414(s)) of such employees, the plans shall not be considered discriminatory merely because the rights of employees to, or derived from, the employer contributions under the separate plans do not become nonforfeitable at the same rate.
+
+(ii) Benefits.-If the employees' rights to benefits under the separate plans do not become nonforfeitable at the same rate, but the levels of benefits provided by the separate plans satisfy the requirements of regulations prescribed by the Secretary to take account of the differences in such rates, the plans shall not be considered discriminatory merely because of the difference in such rates.
+
+(F) Social security retirement age.-For purposes of testing for discrimination under paragraph (4)-
+
+(i) the social security retirement age (as defined in section 415(b)(8)) shall be treated as a uniform retirement age, and
+
+(ii) subsidized early retirement benefits and joint and survivor annuities shall not be treated as being unavailable to employees on the same terms merely because such benefits or annuities are based in whole or in part on an employee's social security retirement age (as so defined).
+
+(G) Governmental plans.-Paragraphs (3) and (4) shall not apply to a governmental plan (within the meaning of section 414(d)).
+
+(6) A plan shall be considered as meeting the requirements of paragraph (3) during the whole of any taxable year of the plan if on one day in each quarter it satisfied such requirements.
+
+(7) A trust shall not constitute a qualified trust under this section unless the plan of which such trust is a part satisfies the requirements of section 411 (relating to minimum vesting standards).
+
+(8) A trust forming part of a defined benefit plan shall not constitute a qualified trust under this section unless the plan provides that forfeitures must not be applied to increase the benefits any employee would otherwise receive under the plan.
+
+(9) Required distributions.-
+
+(A) In general.-A trust shall not constitute a qualified trust under this subsection unless the plan provides that the entire interest of each employee-
+
+(i) will be distributed to such employee not later than the required beginning date, or
+
+(ii) will be distributed, beginning not later than the required beginning date, in accordance with regulations, over the life of such employee or over the lives of such employee and a designated beneficiary (or over a period not extending beyond the life expectancy of such employee or the life expectancy of such employee and a designated beneficiary).
+
+(B) Required distribution where employee dies before entire interest is distributed.-
+
+(i) Where distributions have begun under subparagraph (A)(ii).-A trust shall not constitute a qualified trust under this section unless the plan provides that if-
+
+(I) the distribution of the employee's interest has begun in accordance with subparagraph (A)(ii), and
+
+(II) the employee dies before his entire interest has been distributed to him,
+
+the remaining portion of such interest will be distributed at least as rapidly as under the method of distributions being used under subparagraph (A)(ii) as of the date of his death.
+
+(ii) 5-year rule for other cases.-A trust shall not constitute a qualified trust under this section unless the plan provides that, if an employee dies before the distribution of the employee's interest has begun in accordance with subparagraph (A)(ii), the entire interest of the employee will be distributed within 5 years after the death of such employee.

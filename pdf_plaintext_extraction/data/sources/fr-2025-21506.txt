@@ -1,0 +1,189 @@
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Proposed Rules]
+[Pages 54619-54633]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-21506]
+
+
+
+
+DEPARTMENT OF TRANSPORTATION
+
+National Highway Traffic Safety Administration
+
+49 CFR Parts 563 and 585
+
+[Docket No. NHTSA-2025-0050]
+RIN 2127-AM78
+
+Event Data Recorders
+
+AGENCY: National Highway Traffic Safety Administration (NHTSA),
+Department of Transportation (DOT).
+
+ACTION: Notice of proposed rulemaking (NPRM); response to petitions for
+reconsideration.
+
+
+
+SUMMARY: NHTSA published a final rule on December 18, 2024, in response
+to a mandate of the Fixing America's Surface Transportation Act (FAST
+Act) to establish the appropriate recording period in NHTSA's Event
+Data Recorder (EDR) regulation (49 CFR part 563). The final rule
+amended the pre-crash data capture requirements of EDRs by increasing
+the recording duration and sample rate from 5 seconds at 2 Hz to 20
+seconds at 10 Hz. The agency received three petitions for
+reconsideration from the Alliance of Automotive Innovation, the EDR
+Committee of SAE International, and FCA US LLC (a subsidiary of
+Stellantis N.V.) in response to the final rule. NHTSA is proposing to
+delay the compliance date from September 1, 2027, to September 1, 2028,
+and implement a phase-in period for EDRs to meet the new requirements.
+
+DATES: Comments must be received by December 29, 2025. In compliance
+with the Paperwork Reduction Act, NHTSA is also seeking comment on a
+reinstatement with modification to a previously approved information
+collection. For additional information, see the Paperwork Reduction Act
+section under the Rulemaking Analyses and Notices section below. All
+comments relating to the information collection requirements should be
+submitted to NHTSA and to the Office of Management and Budget (OMB) at
+the address listed in the ADDRESSES section on or before December 29,
+2025.
+Proposed Compliance Dates: NHTSA proposes delaying the compliance
+date and adopting a 4-year phase-in period to comply with the
+requirements in 49 CFR part 563 as amended by the final rule published
+on December 18, 2024, final rule, ``Event Data Recorders.'' The
+proposal would require that 25 percent of a manufacturer's applicable
+vehicles produced from September 1, 2028, to August 31, 2029, comply
+with Part 563, followed by 50 percent from September 1, 2029, to August
+31, 2030, 75 percent from September 1, 2030, to August 31, 2031, and
+100 percent on and after September 1, 2031. NHTSA also proposes that
+vehicles manufactured in two or more stages or that are altered are not
+required to comply with the rule until on or after September 1, 2031.
+Small-volume and limited-line manufacturers would be required to comply
+beginning on September 1, 2032. The proposal would permit voluntary
+early compliance.
+
+ADDRESSES: You may submit comments to the docket number identified in
+the heading of this document by any of the following methods:
+Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the online instructions for submitting
+comments.
+Mail: Docket Management Facility, M-30, U.S. Department of
+Transportation, West Building, Ground Floor, Rm. W12-140, 1200 New
+Jersey Avenue SE, Washington, DC 20590.
+Hand Delivery or Courier: West Building, Ground Floor,
+Room W12-140, 1200 New Jersey Avenue SE, Washington, DC 20590 between 9
+a.m. and 5 p.m. Eastern Time, Monday through Friday, except Federal
+holidays. To be sure someone is there to help you, please call 202-366-
+9332 before coming.
+Fax: 202-493-2251.
+Regardless of how you submit your comments, please mention the
+docket number of this document.
+Comments on the proposed information collection requirements should
+be submitted to: Office of Management and Budget at www.reginfo.gov/public/do/PRAMain. To find this particular information collection,
+select ``Currently under Review--Open for Public Comment'' or use the
+search function. It is requested that comments sent to the OMB also be
+sent to the NHTSA rulemaking docket identified in the heading of this
+document.
+Instructions: For detailed instructions on submitting comments and
+additional information on the rulemaking process, see the Public
+Participation heading of the Supplementary Information section of this
+document. Note that all comments received will be posted without change
+to http://www.regulations.gov, including any personal information
+provided.
+Docket: For access to the docket to read background documents or
+comments received, go to www.regulations.gov, or the street address
+listed above. Follow the online instructions for accessing the dockets.
+Confidential Business Information: If you claim that any of the
+information in your comment (including any additional documents or
+attachments) constitutes confidential business information within the
+meaning of 5 U.S.C. 552(b)(4) or is protected from disclosure pursuant
+to 18 U.S.C. 1905, please see the detailed instructions given under the
+Public Participation heading of the Supplementary Information section
+of this document.
+Privacy Act: Please see the Privacy Act heading under the
+Regulatory Analyses section of this document.
+
+FOR FURTHER INFORMATION CONTACT: For technical issues, you may contact
+Joshua McNeil, Office of Crashworthiness Standards
+([email protected]). For legal issues, you may contact Eli Wachtel,
+Office of the Chief Counsel ([email protected]). You can reach these
+officials by phone at 202-366-1810. Address: National Highway Traffic
+Safety Administration, U.S. Department of Transportation, 1200 New
+Jersey Avenue SE, Washington, DC 20590.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Executive Summary
+II. Background
+A. Event Data Recorders and Part 563
+B. Rulemaking Actions
+III. Summary of Petitions for Reconsideration
+IV. Discussion and Analysis
+A. Lead Time and Phase-In Schedule
+B. Cost Estimates
+C. Basis for December 2024 Final Rule and Benefits
+D. Industry Standards
+E. CDR Development
+V. Rulemaking Analyses and Notices
+
+I. Executive Summary
+
+In this notice of proposed rulemaking (NPRM), NHTSA responds to
+petitions for reconsideration of a final rule published December 18,
+2024, that amended the data capture requirements
+
+[[Page 54620]]
+
+of event data recorders (EDRs) to specify a 20-second recording
+duration and a 10 Hz sample rate.\1\ The primary purpose of an EDR is
+to record technical information for a brief period before, during, and
+after a collision, aiding in post-crash analysis and reconstruction.
+The data recorded by the EDR provides a snapshot of the vehicle
+dynamics that can aid crash investigators in assessing the performance
+of specific safety equipment, including air bag deployment strategies,
+air bag operation, and event severity. This information can also help
+NHTSA and others identify potential opportunities for safety
+improvements in current and future vehicles and implement more
+effective safety regulations. Manufacturers are not required to install
+EDRs in their vehicles. However, EDRs that are voluntarily installed
+must meet the requirements NHTSA has established in 49 CFR part 563
+(Part 563).
+
+
+\1\ 89 FR 102810 (December 18, 2024).
+
+
+NHTSA received three petitions for reconsideration of the December
+2024 final rule from the Alliance of Automotive Innovation (Auto
+Innovators),\2\ the EDR Committee of SAE International (SAE),\3\ and
+FCA U.S. LLC (FCA), a subsidiary of Stellantis N.V.\4\ NHTSA is
+granting the petitions for reconsideration in part and proposing to
+adopt the compliance timeline requested by both SAE and Auto Innovators
+in their respective petitions. This modified timeline would provide
+manufacturers with an extended lead time and a phase-in to allow them
+to integrate the necessary EDR and Airbag Control Module (ACM) \5\
+architecture changes within their current model development cycles
+without disrupting existing product plans. The agency's proposal
+balances the need for enhanced crash data, as mandated by the FAST Act,
+with practical industry constraints to ensure these safety advancements
+can be implemented effectively across the entire vehicle fleet.
+However, NHTSA is not proposing to adjust the recording duration and
+sample rate requirements for EDRs as finalized in the December 2024
+final rule. These technical specifications represent enhancements to
+vehicle crash data collection capabilities that will support more
+comprehensive crash investigations. NHTSA is deferring a final decision
+on reconsideration until after review of comments received in response
+to this NPRM.
+
+
+\2\ NHTSA-2024-0084-0005.
+\3\ NHTSA-2024-0084-0004.
+\4\ NHTSA-2024-0084-0003.
+\5\ Manufacturers have different names for this module including
+the Airbag Control Unit (ACU), Sensing Diagnostic Module (SDM),
+Restraints Control Module (RCM), Powertrain Control Module (PCM),
+Supplemental Restraint System (SRS), and the like. In this document,
+ACU and ACM may be used interchangeably as both terms were presented
+in the petitions for reconsideration.

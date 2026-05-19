@@ -1,0 +1,137 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 18 / PART I / CHAPTER 95 / § 1956
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+18 USC 1956: Laundering of monetary instruments
+Text contains those laws in effect on May 17, 2026
+
+From Title 18-CRIMES AND CRIMINAL PROCEDUREPART I-CRIMESCHAPTER 95-RACKETEERING
+
+Jump To: Source CreditMiscellaneousReferences In TextCodificationAmendmentsEffective DateConstruction
+
+§1956. Laundering of monetary instruments
+
+(a)(1) Whoever, knowing that the property involved in a financial transaction represents the proceeds of some form of unlawful activity, conducts or attempts to conduct such a financial transaction which in fact involves the proceeds of specified unlawful activity-
+
+(A)(i) with the intent to promote the carrying on of specified unlawful activity; or
+
+(ii) with intent to engage in conduct constituting a violation of section 7201 or 7206 of the Internal Revenue Code of 1986; or
+
+(B) knowing that the transaction is designed in whole or in part-
+
+(i) to conceal or disguise the nature, the location, the source, the ownership, or the control of the proceeds of specified unlawful activity; or
+
+(ii) to avoid a transaction reporting requirement under State or Federal law,
+
+shall be sentenced to a fine of not more than $500,000 or twice the value of the property involved in the transaction, whichever is greater, or imprisonment for not more than twenty years, or both. For purposes of this paragraph, a financial transaction shall be considered to be one involving the proceeds of specified unlawful activity if it is part of a set of parallel or dependent transactions, any one of which involves the proceeds of specified unlawful activity, and all of which are part of a single plan or arrangement.
+
+(2) Whoever transports, transmits, or transfers, or attempts to transport, transmit, or transfer a monetary instrument or funds from a place in the United States to or through a place outside the United States or to a place in the United States from or through a place outside the United States-
+
+(A) with the intent to promote the carrying on of specified unlawful activity; or
+
+(B) knowing that the monetary instrument or funds involved in the transportation, transmission, or transfer represent the proceeds of some form of unlawful activity and knowing that such transportation, transmission, or transfer is designed in whole or in part-
+
+(i) to conceal or disguise the nature, the location, the source, the ownership, or the control of the proceeds of specified unlawful activity; or
+
+(ii) to avoid a transaction reporting requirement under State or Federal law,
+
+shall be sentenced to a fine of not more than $500,000 or twice the value of the monetary instrument or funds involved in the transportation, transmission, or transfer, whichever is greater, or imprisonment for not more than twenty years, or both. For the purpose of the offense described in subparagraph (B), the defendant's knowledge may be established by proof that a law enforcement officer represented the matter specified in subparagraph (B) as true, and the defendant's subsequent statements or actions indicate that the defendant believed such representations to be true.
+
+(3) Whoever, with the intent-
+
+(A) to promote the carrying on of specified unlawful activity;
+
+(B) to conceal or disguise the nature, location, source, ownership, or control of property believed to be the proceeds of specified unlawful activity; or
+
+(C) to avoid a transaction reporting requirement under State or Federal law,
+
+conducts or attempts to conduct a financial transaction involving property represented to be the proceeds of specified unlawful activity, or property used to conduct or facilitate specified unlawful activity, shall be fined under this title or imprisoned for not more than 20 years, or both. For purposes of this paragraph and paragraph (2), the term "represented" means any representation made by a law enforcement officer or by another person at the direction of, or with the approval of, a Federal official authorized to investigate or prosecute violations of this section.
+
+(b) Penalties.-
+
+(1) In general.-Whoever conducts or attempts to conduct a transaction described in subsection (a)(1) or (a)(3), or section 1957, or a transportation, transmission, or transfer described in subsection (a)(2), is liable to the United States for a civil penalty of not more than the greater of-
+
+(A) the value of the property, funds, or monetary instruments involved in the transaction; or
+
+(B) $10,000.
+
+(2) Jurisdiction over foreign persons.-For purposes of adjudicating an action filed or enforcing a penalty ordered under this section, the district courts shall have jurisdiction over any foreign person, including any financial institution authorized under the laws of a foreign country, against whom the action is brought, if service of process upon the foreign person is made under the Federal Rules of Civil Procedure or the laws of the country in which the foreign person is found, and-
+
+(A) the foreign person commits an offense under subsection (a) involving a financial transaction that occurs in whole or in part in the United States;
+
+(B) the foreign person converts, to his or her own use, property in which the United States has an ownership interest by virtue of the entry of an order of forfeiture by a court of the United States; or
+
+(C) the foreign person is a financial institution that maintains a bank account at a financial institution in the United States.
+
+(3) Court authority over assets.-A court may issue a pretrial restraining order or take any other action necessary to ensure that any bank account or other property held by the defendant in the United States is available to satisfy a judgment under this section.
+
+(4) Federal receiver.-
+
+(A) In general.-A court may appoint a Federal Receiver, in accordance with subparagraph (B) of this paragraph, to collect, marshal, and take custody, control, and possession of all assets of the defendant, wherever located, to satisfy a civil judgment under this subsection, a forfeiture judgment under section 981 or 982, or a criminal sentence under section 1957 or subsection (a) of this section, including an order of restitution to any victim of a specified unlawful activity.
+
+(B) Appointment and authority.-A Federal Receiver described in subparagraph (A)-
+
+(i) may be appointed upon application of a Federal prosecutor or a Federal or State regulator, by the court having jurisdiction over the defendant in the case;
+
+(ii) shall be an officer of the court, and the powers of the Federal Receiver shall include the powers set out in section 754 of title 28, United States Code; and
+
+(iii) shall have standing equivalent to that of a Federal prosecutor for the purpose of submitting requests to obtain information regarding the assets of the defendant-
+
+(I) from the Financial Crimes Enforcement Network of the Department of the Treasury; or
+
+(II) from a foreign country pursuant to a mutual legal assistance treaty, multilateral agreement, or other arrangement for international law enforcement assistance, provided that such requests are in accordance with the policies and procedures of the Attorney General.
+
+(c) As used in this section-
+
+(1) the term "knowing that the property involved in a financial transaction represents the proceeds of some form of unlawful activity" means that the person knew the property involved in the transaction represented proceeds from some form, though not necessarily which form, of activity that constitutes a felony under State, Federal, or foreign law, regardless of whether or not such activity is specified in paragraph (7);
+
+(2) the term "conducts" includes initiating, concluding, or participating in initiating, or concluding a transaction;
+
+(3) the term "transaction" includes a purchase, sale, loan, pledge, gift, transfer, delivery, or other disposition, and with respect to a financial institution includes a deposit, withdrawal, transfer between accounts, exchange of currency, loan, extension of credit, purchase or sale of any stock, bond, certificate of deposit, or other monetary instrument, use of a safe deposit box, or any other payment, transfer, or delivery by, through, or to a financial institution, by whatever means effected;
+
+(4) the term "financial transaction" means (A) a transaction which in any way or degree affects interstate or foreign commerce (i) involving the movement of funds by wire or other means or (ii) involving one or more monetary instruments, or (iii) involving the transfer of title to any real property, vehicle, vessel, or aircraft, or (B) a transaction involving the use of a financial institution which is engaged in, or the activities of which affect, interstate or foreign commerce in any way or degree;

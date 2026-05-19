@@ -1,0 +1,123 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 15 / CHAPTER 2B / § 78c
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+15 USC 78c: Definitions and application
+Text contains those laws in effect on May 17, 2026
+
+From Title 15-COMMERCE AND TRADECHAPTER 2B-SECURITIES EXCHANGES
+
+Jump To: Source CreditFuture AmendmentsMiscellaneousReferences In TextCodificationAmendmentsChange of NameEffective DateRegulationsCross Reference
+
+§78c. Definitions and application
+
+(a) Definitions
+
+When used in this chapter, unless the context otherwise requires-
+
+(1) The term "exchange" means any organization, association, or group of persons, whether incorporated or unincorporated, which constitutes, maintains, or provides a market place or facilities for bringing together purchasers and sellers of securities or for otherwise performing with respect to securities the functions commonly performed by a stock exchange as that term is generally understood, and includes the market place and the market facilities maintained by such exchange.
+
+(2) The term "facility" when used with respect to an exchange includes its premises, tangible or intangible property whether on the premises or not, any right to the use of such premises or property or any service thereof for the purpose of effecting or reporting a transaction on an exchange (including, among other things, any system of communication to or from the exchange, by ticker or otherwise, maintained by or with the consent of the exchange), and any right of the exchange to the use of any property or service.
+
+(3)(A) The term "member" when used with respect to a national securities exchange means (i) any natural person permitted to effect transactions on the floor of the exchange without the services of another person acting as broker, (ii) any registered broker or dealer with which such a natural person is associated, (iii) any registered broker or dealer permitted to designate as a representative such a natural person, and (iv) any other registered broker or dealer which agrees to be regulated by such exchange and with respect to which the exchange undertakes to enforce compliance with the provisions of this chapter, the rules and regulations thereunder, and its own rules. For purposes of sections 78f(b)(1), 78f(b)(4), 78f(b)(6), 78f(b)(7), 78f(d), 78q(d), 78s(d), 78s(e), 78s(g), 78s(h), and 78u of this title, the term "member" when used with respect to a national securities exchange also means, to the extent of the rules of the exchange specified by the Commission, any person required by the Commission to comply with such rules pursuant to section 78f(f) of this title.
+
+(B) The term "member" when used with respect to a registered securities association means any broker or dealer who agrees to be regulated by such association and with respect to whom the association undertakes to enforce compliance with the provisions of this chapter, the rules and regulations thereunder, and its own rules.
+
+(4) Broker.-
+
+(A) In general.-The term "broker" means any person engaged in the business of effecting transactions in securities for the account of others.
+
+(B) Exception for certain bank activities.-A bank shall not be considered to be a broker because the bank engages in any one or more of the following activities under the conditions described:
+
+(i) Third party brokerage arrangements.-The bank enters into a contractual or other written arrangement with a broker or dealer registered under this chapter under which the broker or dealer offers brokerage services on or off the premises of the bank if-
+
+(I) such broker or dealer is clearly identified as the person performing the brokerage services;
+
+(II) the broker or dealer performs brokerage services in an area that is clearly marked and, to the extent practicable, physically separate from the routine deposit-taking activities of the bank;
+
+(III) any materials used by the bank to advertise or promote generally the availability of brokerage services under the arrangement clearly indicate that the brokerage services are being provided by the broker or dealer and not by the bank;
+
+(IV) any materials used by the bank to advertise or promote generally the availability of brokerage services under the arrangement are in compliance with the Federal securities laws before distribution;
+
+(V) bank employees (other than associated persons of a broker or dealer who are qualified pursuant to the rules of a self-regulatory organization) perform only clerical or ministerial functions in connection with brokerage transactions including scheduling appointments with the associated persons of a broker or dealer, except that bank employees may forward customer funds or securities and may describe in general terms the types of investment vehicles available from the bank and the broker or dealer under the arrangement;
+
+(VI) bank employees do not receive incentive compensation for any brokerage transaction unless such employees are associated persons of a broker or dealer and are qualified pursuant to the rules of a self-regulatory organization, except that the bank employees may receive compensation for the referral of any customer if the compensation is a nominal one-time cash fee of a fixed dollar amount and the payment of the fee is not contingent on whether the referral results in a transaction;
+
+(VII) such services are provided by the broker or dealer on a basis in which all customers that receive any services are fully disclosed to the broker or dealer;
+
+(VIII) the bank does not carry a securities account of the customer except as permitted under clause (ii) or (viii) of this subparagraph; and
+
+(IX) the bank, broker, or dealer informs each customer that the brokerage services are provided by the broker or dealer and not by the bank and that the securities are not deposits or other obligations of the bank, are not guaranteed by the bank, and are not insured by the Federal Deposit Insurance Corporation.
+
+(ii) Trust activities.-The bank effects transactions in a trustee capacity, or effects transactions in a fiduciary capacity in its trust department or other department that is regularly examined by bank examiners for compliance with fiduciary principles and standards, and-
+
+(I) is chiefly compensated for such transactions, consistent with fiduciary principles and standards, on the basis of an administration or annual fee (payable on a monthly, quarterly, or other basis), a percentage of assets under management, or a flat or capped per order processing fee equal to not more than the cost incurred by the bank in connection with executing securities transactions for trustee and fiduciary customers, or any combination of such fees; and
+
+(II) does not publicly solicit brokerage business, other than by advertising that it effects transactions in securities in conjunction with advertising its other trust activities.
+
+(iii) Permissible securities transactions.-The bank effects transactions in-
+
+(I) commercial paper, bankers acceptances, or commercial bills;
+
+(II) exempted securities;
+
+(III) qualified Canadian government obligations as defined in section 24 of title 12, in conformity with section 78o–5 of this title and the rules and regulations thereunder, or obligations of the North American Development Bank; or
+
+(IV) any standardized, credit enhanced debt security issued by a foreign government pursuant to the March 1989 plan of then Secretary of the Treasury Brady, used by such foreign government to retire outstanding commercial bank loans.
+
+(iv) Certain stock purchase plans.-
+
+(I) Employee benefit plans.-The bank effects transactions, as part of its transfer agency activities, in the securities of an issuer as part of any pension, retirement, profit-sharing, bonus, thrift, savings, incentive, or other similar benefit plan for the employees of that issuer or its affiliates (as defined in section 1841 of title 12), if the bank does not solicit transactions or provide investment advice with respect to the purchase or sale of securities in connection with the plan.
+
+(II) Dividend reinvestment plans.-The bank effects transactions, as part of its transfer agency activities, in the securities of an issuer as part of that issuer's dividend reinvestment plan, if-
+
+(aa) the bank does not solicit transactions or provide investment advice with respect to the purchase or sale of securities in connection with the plan; and
+
+(bb) the bank does not net shareholders' buy and sell orders, other than for programs for odd-lot holders or plans registered with the Commission.
+
+(III) Issuer plans.-The bank effects transactions, as part of its transfer agency activities, in the securities of an issuer as part of a plan or program for the purchase or sale of that issuer's shares, if-

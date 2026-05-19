@@ -161,6 +161,17 @@ def _non_latin_ratio(text: str) -> float:
 
 
 def _recurring_header_footer(per_page_text: list[str], min_frac: float = 0.6) -> list[str]:
+    """Return edge lines (first/last line of a page) that recur on at
+    least ``min_frac`` of pages AND on at least 2 pages.
+
+    The ``max(2, ...)`` floor matters at small page counts: with the
+    naive ``int(min_frac * N)`` threshold, a 3-page doc would trip on
+    any line appearing once (``int(0.6 * 3) == 1``), turning a chapter
+    title that legitimately appears on page 1 only into a false-positive
+    "recurring" string.
+    """
+    import math
+
     if len(per_page_text) < 3:
         return []
     edge_lines: Counter[str] = Counter()
@@ -169,7 +180,7 @@ def _recurring_header_footer(per_page_text: list[str], min_frac: float = 0.6) ->
         for line in lines[:1] + lines[-1:]:
             if 3 <= len(line) <= 120:
                 edge_lines[line] += 1
-    threshold = int(min_frac * len(per_page_text))
+    threshold = max(2, math.ceil(min_frac * len(per_page_text)))
     return sorted(s for s, n in edge_lines.items() if n >= threshold)
 
 

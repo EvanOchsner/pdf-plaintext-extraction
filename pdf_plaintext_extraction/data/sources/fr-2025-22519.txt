@@ -1,0 +1,188 @@
+[Federal Register Volume 90, Number 236 (Thursday, December 11, 2025)]
+[Proposed Rules]
+[Pages 57418-57436]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-22519]
+
+
+
+ENVIRONMENTAL PROTECTION AGENCY
+
+40 CFR Part 180
+
+[EPA-HQ-OPP-2025-0266; FRL-12991-01-OCSPP]
+RIN 2070-ZA16
+
+Pesticide Tolerances; Implementing Registration Review Decisions
+for Certain Pesticides; Atrazine, et al.
+
+AGENCY: Environmental Protection Agency (EPA).
+
+ACTION: Proposed rule.
+
+
+
+SUMMARY: The Environmental Protection Agency (EPA or Agency) is
+proposing to implement several tolerance actions under the Federal
+Food, Drug, and Cosmetic Act (FFDCA) that the Agency determined were
+necessary or appropriate during the registration review conducted under
+the Federal Insecticide, Fungicide, and Rodenticide Act (FIFRA). During
+registration review, EPA reviews all aspects of a pesticide case,
+including existing tolerances, to ensure that the pesticide continues
+to meet the standard for registration under FIFRA. The pesticide
+tolerances and active ingredients addressed in this rulemaking are
+identified and discussed in detail in Unit III. of this document.
+
+DATES: Comments must be received on or before February 9, 2026.
+
+ADDRESSES: Submit your comments, identified by docket identification
+(ID) number EPA-HQ-OPP-2025-0266, through https://www.regulations.gov.
+Follow the online instructions for submitting comments. Do not submit
+electronically any information you consider to be Confidential Business
+Information (CBI) or other information whose disclosure is restricted
+by statute. Additional instructions on commenting or visiting the
+docket, along with more information about dockets generally, is
+available at https://www.epa.gov/dockets.
+
+FOR FURTHER INFORMATION CONTACT: Alex McKee, Pesticide Re-Evaluation
+Division (7508M), Office of Pesticide Programs, Environmental
+Protection Agency, 1200 Pennsylvania Ave. NW, Washington, DC 20460-
+0001; telephone number: (202) 566-1939; email address:
+[email protected].
+
+SUPPLEMENTARY INFORMATION:
+
+I. Executive Summary
+
+A. Does this action apply to me?
+
+You may be potentially affected by this action if you are an
+agricultural producer, food manufacturer, or pesticide manufacturer.
+The following list of North American Industrial Classification System
+(NAICS) codes is not intended to be exhaustive, but rather provides a
+guide to help readers determine whether this document might apply to
+them:
+Crop production (NAICS code 111).
+Animal production (NAICS code 112).
+Food manufacturing (NAICS code 311).
+Pesticide manufacturing (NAICS code 32532).
+If you have any questions regarding the applicability of this
+proposed action to a particular entity, consult the person listed under
+FOR FURTHER INFORMATION CONTACT.
+
+B. What action is the Agency taking?
+
+EPA is proposing several tolerance actions that the Agency
+previously determined were necessary or appropriate during registration
+review of the pesticide active ingredients identified in Unit III. The
+tolerance actions for each pesticide active ingredient are described in
+Unit III. and may include but are not limited to the following types of
+actions:
+Revising tolerance expressions;
+Modifying commodity definitions;
+Updating crop groupings;
+Removing expired tolerances;
+Revoking tolerances that are no longer needed; and
+Harmonizing tolerances with the Codex Alimentarius
+Commission (Codex) Maximum Residue Levels (MRLs).
+Although it may not have been identified in the registration review
+of a particular pesticide, this proposed rule reflects the Agency's
+2019 adoption of the Organization of Economic Cooperation and
+Development (OECD) Rounding Class Practice. More information on the
+OECD Rounding Class Practice can be found at https://www.oecd.org/en/publications/mrl-calculator-users-guide-and-white-paper_9789264221567-en.html. Where applicable, these adjustments are proposed for specific
+pesticides as indicated in Unit III.
+
+[[Page 57419]]
+
+C. What is EPA's authority for taking this action?
+
+Section 408(e) of the Federal Food, Drug and Cosmetic Act (FFDCA),
+21 U.S.C. 346a(e), authorizes EPA to establish, modify, or revoke
+tolerances or exemptions from the requirement of a tolerance on its own
+initiative.
+Under FIFRA section 3(g), 7 U.S.C. 136a(g), EPA is required to
+periodically review all registered pesticides and determine if those
+pesticides continue to meet the standard for registration under FIFRA.
+As part of the registration review of a pesticide, EPA also evaluates
+the existing tolerances and any tolerance changes identified as
+necessary or appropriate during registration review of a pesticide are
+summarized in the registration review decision documents for each
+pesticide active ingredient or registration review case (e.g., in the
+Proposed Interim Decision (PID), Proposed Final Decision (PFD), Interim
+Decision (ID) and Final Decision (FD)). These documents can be found in
+the public docket opened for each pesticide undergoing registration
+review. Additional information about pesticide registration review is
+available at https://www.epa.gov/pesticide-reevaluation.
+Prior to issuing the final regulation, FFDCA section 408(e)(2)
+requires EPA to issue a notice of proposed rulemaking for a 60-day
+public comment period, unless the Administrator for good cause finds
+that it would be in the public interest to have a shorter period and
+states the reasons in the proposed rulemaking.
+
+D. What should I consider as I prepare my comments for EPA?
+
+1. Submitting CBI. Do not submit CBI to EPA through email or
+https://www.regulations.gov. If you wish to include CBI in your
+comment, please follow the applicable instructions at https://www.epa.gov/dockets/commenting-epa-dockets#rules and clearly mark the
+information that you claim to be CBI. Information so marked will not be
+disclosed except in accordance with procedures set forth in 40 CFR part
+2.
+2. Tips for preparing your comments. When preparing and submitting
+your comments, see the commenting tips at https://www.epa.gov/dockets/commenting-epa-dockets.
+
+E. What can I do if I want the Agency to maintain a tolerance that the
+Agency proposes to revoke?
+
+This proposed rule provides a 60-day public comment period that
+allows any person to state an interest in retaining a tolerance
+proposed for revocation. If EPA receives such a comment within the 60-
+day period, EPA will not proceed to revoke the tolerance immediately.
+However, EPA will take steps to ensure the submission of any needed
+supporting data and will issue an order in the Federal Register under
+FFDCA section 408(f), if needed. If the data are not submitted as
+required in the order, EPA will take appropriate action under FFDCA.
+After considering comments that are received in response to this
+proposed rule, EPA will issue a final rule. At the time of the final
+rule, you may file an objection or request a hearing on the action
+taken in the final rule. If you fail to file an objection to the final
+rule within the time period specified in the final rule, you will have
+waived the right to raise any issues resolved in the final rule. After
+the filing deadline specified in the final rule, issues resolved in the
+final rule cannot be raised again in any subsequent proceedings.
+
+II. Background
+
+A. What is a tolerance?
+
+A ``tolerance'' represents the maximum level for residues of a
+pesticide chemical legally allowed in or on food, which includes raw
+agricultural commodities and processed foods and feed for animals.
+Under the FFDCA, residues of a pesticide chemical that are not covered
+by a tolerance or exemption from the requirement of a tolerance are
+considered unsafe. See 21 U.S.C. 346a(a)(1). Foods containing unsafe
+residues are deemed adulterated and may not be distributed in
+interstate commerce. See 21 U.S.C. 331(a) and 342(a)(2)(B).
+Consequently, for a food-use pesticide (i.e., a pesticide use that is
+likely to result in residues in or on food) to be sold and distributed
+in the United States, the pesticide must not only have appropriate
+tolerances or exemptions under the FFDCA, but also must be registered
+under FIFRA. Food-use pesticides not registered in the United States
+must have tolerances or exemptions in order for commodities treated
+with those pesticides to be imported into the United States. For
+additional information about tolerances, go to https://www.epa.gov/pesticide-tolerances/about-pesticide-tolerances.
+
+B. Why does EPA consider international residue limits?
+
+When establishing a tolerance for residues of a pesticide, EPA must
+determine whether Codex has established a MRL for that pesticide. See
+21 U.S.C. 346a(b)(4). Additionally, as part the registration review of
+a pesticide (see Unit II.C.), EPA determines whether Codex or other
+international MRLs exist for commodities and chemicals for which U.S.
+tolerances have been established. Where appropriate, EPA's intention is
+to harmonize U.S. tolerances with those international MRLs to
+facilitate trade. EPA's effort to harmonize with international MRLs is
+summarized in the tolerance reassessment section of the individual
+Human Health Draft Risk Assessments that support the pesticide
+registration review.
+
+C. What is registration review?

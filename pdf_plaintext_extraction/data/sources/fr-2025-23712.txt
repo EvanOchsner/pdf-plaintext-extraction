@@ -1,0 +1,187 @@
+[Federal Register Volume 90, Number 244 (Tuesday, December 23, 2025)]
+[Notices]
+[Pages 60096-60099]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-23712]
+
+
+
+
+FEDERAL RESERVE SYSTEM
+
+[Docket No. OP-1877]
+
+Request for Information and Comment on Reserve Bank Payment
+Account Prototype
+
+AGENCY: Board of Governors of the Federal Reserve System.
+
+ACTION: Request for information and comment.
+
+
+
+SUMMARY: The Board of Governors of the Federal Reserve System (Board)
+seeks public input on a special purpose Reserve Bank account prototype
+(a Payment Account) tailored to the risks and needs of institutions
+focused on payments innovation. A Payment Account holder would be
+expected to use its account for the express purpose of clearing and
+settling the institution's payment activity. Payment Accounts would be
+designed to pose limited risk to the Federal Reserve Banks (Reserve
+Banks) and the overall payment system, and Reserve Banks would
+generally conduct a streamlined review of requests for these accounts.
+Any institution that is legally eligible for Federal Reserve accounts
+or services (accounts and services) under the Federal Reserve Act would
+be eligible to request a Payment Account from a Reserve Bank. The
+Payment Account protype does not seek to expand or otherwise change
+legal eligibility for access to accounts and services.
+
+DATES: Comments must be received on or before February 6, 2026.
+
+ADDRESSES: You may submit comments, identified by Docket No. OP-1877 by
+any of the following methods:
+Agency Website: https://www.federalreserve.gov/apps/proposals/. Follow the instructions for submitting comments, including
+attachments. Preferred Method.
+Mail: Benjamin W. McDonough, Deputy Secretary, Board of
+Governors of the Federal Reserve System, 20th Street and Constitution
+Avenue NW, Washington, DC 20551.
+Hand Delivery/Courier: Same as mailing address.
+Other Means: [email protected]. You must include the
+docket number in the subject line of the message.
+Comments received are subject to public disclosure. In general,
+comments received will be made available on the Board's website at
+https://www.federalreserve.gov/apps/proposals/ without change and will
+not be modified to remove personal or business information including
+confidential, contact, or other identifying information. Comments
+should not include any information such as confidential information
+that would be not appropriate for public disclosure. Public comments
+may also be viewed electronically or in person in Room M-4365A, 2001 C
+St. NW, Washington, DC 20551, between 9 a.m. and 5 p.m. during Federal
+business weekdays.
+
+FOR FURTHER INFORMATION CONTACT: Jason Hinkle, Associate Director,
+Zineb York, Manager, or Maggie Bota, Senior Financial Institution
+Policy Analyst, Division of Reserve Bank Operations and Payment
+Systems; Matthew Malloy, Chief, Division of Monetary Affairs, or
+Corinne Milliken Van Ness, Senior Counsel, Legal Division, Board of the
+Federal Reserve System: (202) 452-3000. For users of text telephone
+systems (TTY) or any TTY-based Telecommunications Relay Services,
+please call 711 from any telephone, anywhere in the United States.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+The payments landscape continues to evolve rapidly as technological
+progress,
+
+[[Page 60097]]
+
+statutory developments, and other factors drive the introduction of
+innovative approaches to banking functions. These innovations
+necessitate adaptation throughout the financial sector, including the
+institutions and infrastructure that support a safe and efficient
+payment system.
+On August 15, 2022, after a public comment process, the Board
+adopted guidelines (Account Access Guidelines or Guidelines) for
+Reserve Banks to utilize in evaluating requests for access to accounts
+and services (access requests). The Guidelines establish a transparent,
+risk-based, and consistent set of factors for Reserve Banks to use in
+reviewing access requests from legally-eligible
+institutions.1 2 3 The Guidelines incorporate a tiering
+framework under which access requests from certain types of entities
+(e.g., non-federally insured institutions) are subject to greater due
+diligence and scrutiny than access requests from other types of
+entities (e.g., federally-insured institutions).
+
+
+\1\ 87 FR 51099 (Aug. 19, 2022).
+\2\ Information on the Federal Reserve Banks' financial
+services, including a list of such services, can be found at https://www.frbservices.org.
+\3\ The Guidelines do not apply to accounts provided under
+fiscal agency authority or to accounts authorized pursuant to the
+Board's Regulation N (12 CFR part 214), joint account requests, or
+account requests from designated financial market utilities, since
+existing rules or policies already set out the considerations
+involved in granting these types of accounts.
+
+
+Over the last three years, the business models of institutions
+submitting access requests have continued to evolve. For example,
+several institutions have explained that they are interested in access
+to accounts and services in order to reduce costs to their customers
+while increasing payment processing speed, often through new
+technologies. Some of these institutions have requested either a state
+or federal banking charter and a few have initiated requests for
+Reserve Bank accounts and services.
+Over the same period, many eligible uninsured institutions have
+requested or expressed interest in requesting a master account and have
+expressed concern about the length of time that Reserve Banks take to
+review their access requests and the likelihood of denial. Institutions
+focused primarily on payment activities may only desire access to a
+subset of Federal Reserve services through a Reserve Bank account.
+While recognizing that decisions on access requests are made at the
+discretion of the individual Reserve Banks, the Board is exploring
+whether a tailored, special purpose Payment Account could meet these
+institutions' needs while mitigating material risks identified in the
+Guidelines.
+
+II. Payment Account Prototype
+
+The Board is requesting feedback on a Payment Account prototype. In
+designing the Payment Account prototype, the Board has considered the
+risks identified in the Guidelines (i.e., risks to the Reserve Banks,
+to the overall payment system, to financial stability, to the overall
+economy as a result of illicit activities, and to the implementation of
+monetary policy). In addition, the Board considered features that could
+limit Payment Accounts' impact on the Federal Reserve's balance sheet.
+As explained further below, Payment Accounts would be subject to a
+common set of risk-mitigating features. For example, to reduce credit
+risk to the Reserve Banks, a Payment Account holder would only have
+access to Federal Reserve payment services that have automated controls
+to prevent the accountholder from incurring an overdraft. In addition,
+a Payment Account holder would not be eligible for discount window
+access. The Reserve Banks would retain their discretion to impose
+additional restrictions and risk controls on a Payment Account on a
+case-by-case basis.
+A Payment Account would be separate and distinct from a full-
+service Reserve Bank master account (Master Account).\4\ If the Federal
+Reserve decides that the Reserve Banks will offer a Payment Account,
+the Board would propose necessary changes to existing guidance and
+regulations, including the Guidelines and Regulation D.
+
+
+\4\ Some of the Payment Account features and risk controls could
+be the same as utilized for a Master Account and are included in
+this document for completeness.
+
+
+III. Payment Account Term Sheet
+
+A. Account Description
+
+a. A Payment Account would be a special purpose account with a
+Reserve Bank that holds limited overnight balances of a legally-
+eligible institution for the express purpose of clearing and settling
+the institution's payments.\5\ The Reserve Bank would permit a Payment
+Account holder to maintain only a limited balance in the account at the
+close of business; these end-of-day balances would be intended only to
+provide liquidity for payment activity at the beginning of the next
+business day. A Payment Account would be a separate and distinct type
+of account from a Reserve Bank master account (a Master Account), which
+generally does not have a limit imposed on overnight
+balances.6 7 The Board would explore reporting the balances
+maintained in Payment Accounts separate from balances maintained in
+Master Accounts on the Reserve Banks' financial reporting. The Reserve
+Banks would retain their discretion to impose additional restrictions
+and risk controls on a Payment Account on a case-by-case basis.
+
+
+\5\ A Payment Account would be technology-agnostic and would not
+be designed to promote any particular payment product or service.
+\6\ As with existing Master Accounts, overnight overdrafts would
+not be permitted in Payment Accounts.
+\7\ A Payment Account would be a separate and distinct type of
+account from a Reserve Bank Joint Account.
+
+
+B. Eligibility

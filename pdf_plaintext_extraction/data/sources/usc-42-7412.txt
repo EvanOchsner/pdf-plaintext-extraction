@@ -1,0 +1,632 @@
+Result 1 of 1
+
+Current
+2024 Main Ed. (1/6/2025)
+2018 Ed. and Supplement V (1/3/2024)
+2018 Ed. and Supplement IV (1/5/2023)
+2018 Ed. and Supplement III (1/3/2022)
+2018 Ed. and Supplement II (1/13/2021)
+2018 Ed. and Supplement I (1/24/2020)
+2018 Main Ed. (1/14/2019)
+2012 Ed. and Supplement V (1/12/2018)
+2012 Ed. and Supplement IV (1/6/2017)
+2012 Ed. and Supplement III (1/3/2016)
+2012 Ed. and Supplement II (1/5/2015)
+2012 Ed. and Supplement I (1/16/2014)
+2012 Main Ed. (1/15/2013)
+2006 Ed. and Supplement V (1/3/2012)
+2006 Ed. and Supplement IV (1/7/2011)
+2006 Ed. and Supplement III (2/1/2010)
+2006 Ed. and Supplement II (1/5/2009)
+2006 Ed. and Supplement I (1/8/2008)
+2006 Main Ed. (1/3/2007)
+2000 Ed. and Supplement V (1/2/2006)
+2000 Ed. and Supplement IV (1/3/2005)
+2000 Ed. and Supplement III (1/19/2004)
+2000 Ed. and Supplement II (1/6/2003)
+2000 Ed. and Supplement I (1/22/2002)
+2000 Main Ed. (1/2/2001)
+1994 Ed. and Supplement V (1/23/2000)
+1994 Ed. and Supplement IV (1/5/1999)
+1994 Ed. and Supplement III (1/26/1998)
+1994 Ed. and Supplement II (1/6/1997)
+1994 Ed. and Supplement I (1/16/1996)
+1994 Main Ed. (1/4/1995)
+
+Back to Original Document
+
+<< Previous
+
+TITLE 42 / CHAPTER 85 / SUBCHAPTER I / Part A / § 7412
+
+Next >>
+
+[Print]
+
+[Print selection]
+
+[OLRC Home]Help
+
+42 USC 7412: Hazardous air pollutants
+Text contains those laws in effect on May 17, 2026
+
+From Title 42-THE PUBLIC HEALTH AND WELFARECHAPTER 85-AIR POLLUTION PREVENTION AND CONTROLSUBCHAPTER I-PROGRAMS AND ACTIVITIESPart A-Air Quality and Emission Limitations
+
+Jump To: Source CreditMiscellaneousReferences In TextCodificationAmendmentsChange of NameEffective DateTermination DateRegulationsExecutive Documents
+
+§7412. Hazardous air pollutants
+
+(a) Definitions
+
+For purposes of this section, except subsection (r)-
+
+(1) Major source
+
+The term "major source" means any stationary source or group of stationary sources located within a contiguous area and under common control that emits or has the potential to emit considering controls, in the aggregate, 10 tons per year or more of any hazardous air pollutant or 25 tons per year or more of any combination of hazardous air pollutants. The Administrator may establish a lesser quantity, or in the case of radionuclides different criteria, for a major source than that specified in the previous sentence, on the basis of the potency of the air pollutant, persistence, potential for bioaccumulation, other characteristics of the air pollutant, or other relevant factors.
+
+(2) Area source
+
+The term "area source" means any stationary source of hazardous air pollutants that is not a major source. For purposes of this section, the term "area source" shall not include motor vehicles or nonroad vehicles subject to regulation under subchapter II.
+
+(3) Stationary source
+
+The term "stationary source" shall have the same meaning as such term has under section 7411(a) of this title.
+
+(4) New source
+
+The term "new source" means a stationary source the construction or reconstruction of which is commenced after the Administrator first proposes regulations under this section establishing an emission standard applicable to such source.
+
+(5) Modification
+
+The term "modification" means any physical change in, or change in the method of operation of, a major source which increases the actual emissions of any hazardous air pollutant emitted by such source by more than a de minimis amount or which results in the emission of any hazardous air pollutant not previously emitted by more than a de minimis amount.
+
+(6) Hazardous air pollutant
+
+The term "hazardous air pollutant" means any air pollutant listed pursuant to subsection (b).
+
+(7) Adverse environmental effect
+
+The term "adverse environmental effect" means any significant and widespread adverse effect, which may reasonably be anticipated, to wildlife, aquatic life, or other natural resources, including adverse impacts on populations of endangered or threatened species or significant degradation of environmental quality over broad areas.
+
+(8) Electric utility steam generating unit
+
+The term "electric utility steam generating unit" means any fossil fuel fired combustion unit of more than 25 megawatts that serves a generator that produces electricity for sale. A unit that cogenerates steam and electricity and supplies more than one-third of its potential electric output capacity and more than 25 megawatts electrical output to any utility power distribution system for sale shall be considered an electric utility steam generating unit.
+
+(9) Owner or operator
+
+The term "owner or operator" means any person who owns, leases, operates, controls, or supervises a stationary source.
+
+(10) Existing source
+
+The term "existing source" means any stationary source other than a new source.
+
+(11) Carcinogenic effect
+
+Unless revised, the term "carcinogenic effect" shall have the meaning provided by the Administrator under Guidelines for Carcinogenic Risk Assessment as of the date of enactment.1 Any revisions in the existing Guidelines shall be subject to notice and opportunity for comment.
+
+(b) List of pollutants
+
+(1) Initial list
+
+The Congress establishes for purposes of this section a list of hazardous air pollutants as follows:
+
+CAS numberChemical name
+
+75070
+Acetaldehyde
+
+60355
+Acetamide
+
+75058
+Acetonitrile
+
+98862
+Acetophenone
+
+53963
+2-Acetylaminofluorene
+
+107028
+Acrolein
+
+79061
+Acrylamide
+
+79107
+Acrylic acid
+
+107131
+Acrylonitrile
+
+107051
+Allyl chloride
+
+92671
+4-Aminobiphenyl
+
+62533
+Aniline
+
+90040
+o-Anisidine
+
+1332214
+Asbestos
+
+71432
+Benzene (including benzene from gasoline)
+
+92875
+Benzidine
+
+98077
+Benzotrichloride
+
+100447
+Benzyl chloride
+
+92524
+Biphenyl
+
+117817
+Bis(2-ethylhexyl)phthalate (DEHP)
+
+542881
+Bis(chloromethyl)ether
+
+75252
+Bromoform
+
+106990
+1,3-Butadiene
+
+156627
+Calcium cyanamide
+
+105602
+Caprolactam
+
+133062
+Captan
+
+63252
+Carbaryl
+
+75150
+Carbon disulfide
+
+56235
+Carbon tetrachloride
+
+463581
+Carbonyl sulfide
+
+120809
+Catechol
+
+133904
+Chloramben
+
+57749
+Chlordane
+
+7782505
+Chlorine
+
+79118
+Chloroacetic acid
+
+532274
+2-Chloroacetophenone
+
+108907
+Chlorobenzene
+
+510156
+Chlorobenzilate
+
+67663
+Chloroform
+
+107302
+Chloromethyl methyl ether
+
+126998
+Chloroprene
+
+1319773
+Cresols/Cresylic acid (isomers and mixture)
+
+95487
+o-Cresol
+
+108394
+m-Cresol
+
+106445
+p-Cresol
+
+98828
+Cumene
+
+94757
+2,4-D, salts and esters
+
+3547044
+DDE
+
+334883
+Diazomethane
+
+132649
+Dibenzofurans
+
+96128
+1,2-Dibromo-3-chloropropane
+
+84742
+Dibutylphthalate
+
+106467
+1,4-Dichlorobenzene(p)
+
+91941
+3,3-Dichlorobenzidene
+
+111444
+Dichloroethyl ether (Bis(2-chloroethyl)ether)
+
+542756
+1,3-Dichloropropene
+
+62737
+Dichlorvos
+
+111422
+Diethanolamine
+
+121697
+N,N-Diethyl aniline (N,N-Dimethylaniline)
+
+64675
+Diethyl sulfate
+
+119904
+3,3-Dimethoxybenzidine
+
+60117
+Dimethyl aminoazobenzene
+
+119937
+3,3′-Dimethyl benzidine
+
+79447
+Dimethyl carbamoyl chloride
+
+68122
+Dimethyl formamide
+
+57147
+1,1-Dimethyl hydrazine
+
+131113
+Dimethyl phthalate
+
+77781
+Dimethyl sulfate
+
+534521
+4,6-Dinitro-o-cresol, and salts
+
+51285
+2,4-Dinitrophenol
+
+121142
+2,4-Dinitrotoluene
+
+123911
+1,4-Dioxane (1,4-Diethyleneoxide)
+
+122667
+1,2-Diphenylhydrazine
+
+106898
+Epichlorohydrin (l-Chloro-2,3-epoxypropane)
+
+106887
+1,2-Epoxybutane
+
+140885
+Ethyl acrylate
+
+100414
+Ethyl benzene
+
+51796
+Ethyl carbamate (Urethane)
+
+75003
+Ethyl chloride (Chloroethane)
+
+106934
+Ethylene dibromide (Dibromoethane)
+
+107062
+Ethylene dichloride (1,2-Dichloroethane)
+
+107211
+Ethylene glycol
+
+151564
+Ethylene imine (Aziridine)
+
+75218
+Ethylene oxide
+
+96457
+Ethylene thiourea
+
+75343
+Ethylidene dichloride (1,1-Dichloroethane)
+
+50000
+Formaldehyde
+
+76448
+Heptachlor
+
+118741
+Hexachlorobenzene
+
+87683
+Hexachlorobutadiene
+
+77474
+Hexachlorocyclopentadiene
+
+67721
+Hexachloroethane
+
+822060
+Hexamethylene-1,6-diisocyanate
+
+680319
+Hexamethylphosphoramide
+
+110543
+Hexane
+
+302012
+Hydrazine
+
+7647010
+Hydrochloric acid
+
+7664393
+Hydrogen fluoride (Hydrofluoric acid)
+
+123319
+Hydroquinone
+
+78591
+Isophorone
+
+58899
+Lindane (all isomers)
+
+108316
+Maleic anhydride
+
+67561
+Methanol
+
+72435
+Methoxychlor
+
+74839
+Methyl bromide (Bromomethane)
+
+74873
+Methyl chloride (Chloromethane)
+
+71556
+Methyl chloroform (1,1,1-Trichloroethane)
+
+78933
+Methyl ethyl ketone (2-Butanone)
+
+60344
+Methyl hydrazine
+
+74884
+Methyl iodide (Iodomethane)
+
+108101
+Methyl isobutyl ketone (Hexone)
+
+624839
+Methyl isocyanate
+
+80626
+Methyl methacrylate
+
+1634044
+Methyl tert butyl ether
+
+101144
+4,4-Methylene bis(2-chloroaniline)
+
+75092
+Methylene chloride (Dichloromethane)
+
+101688
+Methylene diphenyl diisocyanate (MDI)
+
+101779
+4,4′-Methylenedianiline
+
+91203
+Naphthalene
+
+98953
+Nitrobenzene
+
+92933
+4-Nitrobiphenyl
+
+100027
+4-Nitrophenol
+
+79469
+2-Nitropropane
+
+684935
+N-Nitroso-N-methylurea
+
+62759
+N-Nitrosodimethylamine
+
+59892
+N-Nitrosomorpholine
+
+56382
+Parathion
+
+82688
+Pentachloronitrobenzene (Quintobenzene)
+
+87865
+Pentachlorophenol
+
+108952
+Phenol
+
+106503
+p-Phenylenediamine
+
+75445
+Phosgene
+
+7803512
+Phosphine
+
+7723140
+Phosphorus
+
+85449
+Phthalic anhydride
+
+1336363
+Polychlorinated biphenyls (Aroclors)
+
+1120714
+1,3-Propane sultone
+
+57578
+beta-Propiolactone
+
+123386
+Propionaldehyde
+
+114261
+Propoxur (Baygon)
+
+78875
+Propylene dichloride (1,2-Dichloropropane)
+
+75569
+Propylene oxide
+
+75558
+1,2-Propylenimine (2-Methyl aziridine)
+
+91225
+Quinoline
+
+106514
+Quinone
+
+100425
+Styrene
+
+96093
+Styrene oxide
+
+1746016
+2,3,7,8-Tetrachlorodibenzo-p-dioxin
+
+79345
+1,1,2,2-Tetrachloroethane
+
+127184
+Tetrachloroethylene (Perchloroethylene)
+
+7550450
+Titanium tetrachloride
+
+108883
+Toluene
+
+95807
+2,4-Toluene diamine
+
+584849
+2,4-Toluene diisocyanate
+
+95534
+o-Toluidine
+
+8001352
+Toxaphene (chlorinated camphene)
+
+120821
+1,2,4-Trichlorobenzene
+
+79005
+1,1,2-Trichloroethane
+
+79016
+Trichloroethylene
+
+95954
+2,4,5-Trichlorophenol
+
+88062
+2,4,6-Trichlorophenol
+
+121448
+Triethylamine
+
+1582098
+Trifluralin
+
+540841
+2,2,4-Trimethylpentane
+
+108054
+Vinyl acetate
+
+593602
+Vinyl bromide
+
+75014
+Vinyl chloride
+
+75354
+Vinylidene chloride (1,1-Dichloroethylene)
+
+1330207
+Xylenes (isomers and mixture)
+
+95476
+o-Xylenes
+
+108383
+m-Xylenes
+
+106423
+p-Xylenes
+
+0
+Antimony Compounds

@@ -1,0 +1,242 @@
+Skip directly to site content
+Skip directly to search
+
+An official website of the United States government
+
+Here's how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+Epidemiology and Prevention of Vaccine-Preventable Diseases
+
+Explore This Topic
+
+Search
+
+Search
+
+Clear
+
+Search
+
+More from CDC
+
+Health Topics A-Z
+
+Outbreaks
+
+About CDC
+
+Health Topics A-Z
+
+Home
+
+search
+
+clear
+
+search
+
+Pink Book
+
+Menu
+
+clear
+
+search
+
+More from CDC
+
+More from CDC
+
+Health Topics A-Z
+
+Outbreaks
+
+About CDC
+
+Pink Book
+
+Chapter 13: Measles
+
+Paul Gastanaduy, MD; Penina Haber, MPH; Paul A. Rota, PhD; Manisha Patel, MD
+
+For Health Care Providers
+
+Apr. 24, 2024
+
+At a glance
+
+This chapter discusses pathogenesis, clinical features, epidemiology, vaccination, and surveillance of measles.
+
+Introduction
+
+Keep in mind
+
+The 14th edition of the "Pink Book" was published August 2021. Vaccine-specific recommendations may be outdated. Refer to the CDC website for updated Measles, Mumps, and Rubella (MMR) Vaccination Information for Healthcare Providers.
+
+Measles
+
+Acute viral infectious disease
+
+First described in 7th century
+
+Vaccines first licensed include measles in 1963, MMR in 1971, and MMRV in 2005
+
+Infection nearly universal during childhood in prevaccine era
+
+Still common and often fatal in developing countries
+
+Measles is an acute, viral, infectious disease. References to measles can be found from as early as the 7th century. The disease was described by the Persian physician Rhazes in the 10th century as "more to be dreaded than smallpox."
+
+In 1846, Peter Panum described the incubation period of measles and lifelong immunity after recovery from the disease. John Enders and Thomas Chalmers Peebles isolated the virus in human and monkey kidney tissue culture in 1954. The first live, attenuated vaccine (Edmonston B strain) was licensed for use in the United States in 1963. In 1971, a combined measles, mumps, and rubella (MMR) vaccine was licensed for use in the United States. In 2005, a combination measles, mumps, rubella, and varicella (MMRV) vaccine was licensed.
+
+Before a vaccine was available, infection with measles virus was nearly universal during childhood, and more than 90% of persons were immune due to past infection by age 15 years. Measles is still a common and often fatal disease in developing countries. The World Health Organization estimates there were 142,300 deaths from measles globally in 2018. In the United States, there have been recent outbreaks; the largest occurring in 2019 primarily among people who were not vaccinated.
+
+Measles Virus
+
+Measles Virus
+
+Paramyxovirus (RNA)
+
+F (fusion) protein fuses virus and host cell members and H (hemagglutinin) protein binds virus to host receptors
+
+One antigenic type
+
+Rapidly inactivated by heat, sunlight, acidic pH, ether, and trypsin
+
+The measles virus is a paramyxovirus of the genus Morbillivirus. It is 120 to 250 nm in diameter, with a genome of single-stranded, negative sense RNA, and is closely related to the rinderpest and canine distemper viruses. Two membrane envelope proteins are important in pathogenesis. They are the F (fusion) protein, which is responsible for fusion of virus and host cell membranes, viral penetration, and hemolysis, and the H (hemagglutinin) protein, which is responsible for binding of virus to receptors on host cells.
+
+There is only one antigenic type of measles virus. Although studies have documented antigenic changes in the H protein, these changes do not appear to be epidemiologically important (i.e., no change in vaccine efficacy has been observed).
+
+Measles virus is rapidly inactivated by heat, sunlight, acidic pH, ether, and trypsin.
+
+Pathogenesis
+
+Measles Pathogenesis
+
+Primary site of infection is alveolar macrophages or dendritic cells
+
+Primary viremia 2 to 3 days after replication
+
+Secondary viremia 5 to 7 days after exposure
+
+Measles is a systemic infection. The primary site of infection is alveolar macrophages or dendritic cells. Two to three days after replication in the lung, measles virus spreads to regional lymphoid tissues followed by a systemic infection. Following further viral replication in regional and distal reticuloendothelial sites, a second viremia occurs 5 to 7 days after initial infection. During this phase, infected lymphocytes and dendritic cells migrate into the subepithelial cell layer and transmit measles to epithelial cells. Following amplification in the epithelia, the virus is released into the respiratory tract.
+
+Clinical Features
+
+Measles Clinical Features
+
+Incubation period 11 to 12 days
+
+Exposure to rash onset averages 14 days (range, 7 to 21 days)
+
+Prodrome lasts 2 to 4 days (range, 1 to 7 days)
+
+Stepwise increase in fever to 103°F–105°F
+
+Cough, coryza, and conjunctivitis
+
+Koplik spots (on mucous membranes)
+
+Rash
+
+Persists 5 to 6 days
+
+Begins at hairline, then involves face and upper neck
+
+Proceeds downward and outward to hands and feet
+
+Severe areas peel off in scales
+
+Fades in order of appearance
+
+The incubation period of measles from exposure to prodrome averages 11 to 12 days. The time from exposure to rash onset averages 14 days, with a range of 7 to 21 days.
+
+The prodrome lasts 2 to 4 days, with a range of 1 to 7 days. It is characterized by fever, which increases in a stepwise fashion often peaking as high as 103°F to 105°F, cough, coryza, and conjunctivitis.
+
+Koplik spots, present on mucous membranes, are considered to be unique to measles. They occur 1 to 2 days before the measles rash (i.e., during the prodromal period), and appear as punctate blue-white spots on the bright red background of the buccal mucosa.
+
+The measles rash is a maculopapular eruption that usually lasts 5 to 6 days. It begins at the hairline, then involves the face and upper neck. During the next 3 days, the rash gradually proceeds downward and outward, reaching the hands and feet. The maculopapular lesions are generally individually distinct but may run together, particularly on the upper body. Initially, lesions blanch (become white or pale) with fingertip pressure. By 3 to 4 days, most do not blanch with pressure. The lesions peel off in scales in more severely involved areas. The rash fades in the same order that it appears, from head to extremities.
+
+Other symptoms of measles include anorexia and generalized lymphadenopathy.
+
+Complications
+
+Measles Complications
+
+Diarrhea, otitis media, pneumonia, encephalitis, subacute sclerosing panencephalitis, death
+
+Most common among children age younger than 5 years and adults
+
+Approximately 30% of measles cases in the United States from 1987 to 2000 were reported to have one or more complications. Complications include diarrhea, otitis media, pneumonia, encephalitis, subacute sclerosing panencephalitis, and death. Complications of measles were most common among children age younger than 5 years and adults.
+
+Laboratory Testing
+
+The most widely used methods for laboratory confirmation of measles are detection of measles virus RNA in nasopharyngeal aspirates, throat swabs, or urine by reverse transcriptase polymerase chain reaction (RT-PCR) or detection of measles specific IgM in serum samples by enzyme immunoassay (EIA).
+
+Collection of both a throat swab specimen for RT-PCR and a serum specimen for IgM detection is recommended from all patients with clinical features compatible with measles.
+
+Clinical specimens for viral detection should be collected at the same time as samples taken for serologic testing. In addition to RT-PCR for diagnosis, viral genotyping performed by state public health laboratories or CDC can help to track the transmission pathways of measles virus. Specimens for viral detection should be shipped to a state public health laboratory or CDC (at the direction of the state health department).
+
+Laboratory testing can confirm the presence of measles vaccine virus in a recently vaccinated and potentially exposed individual.
+
+Epidemiology
+
+Measles Epidemiology
+
+Reservoir
+
+Human
+
+Transmission
+
+Person-to-person via large respiratory droplets
+
+Airborne in closed areas for up to 2 hours
+
+Temporal pattern
+
+Primarily late winter and spring
+
+Communicability
+
+4 days before through 4 days after rash onset
+
+Occurrence
+
+Measles occurs throughout the world. Interruption of indigenous transmission of measles was declared in the United States in the year 2000 and in other parts of the Western Hemisphere in 2016. However, outbreaks with sustained measles virus transmission have recently occurred in Venezuela and Brazil, leading to re-establishment of endemic transmission in these countries and loss of measles elimination in the Americas.
+
+Reservoir
+
+Measles is a human disease. There is no known animal reservoir, and an asymptomatic carrier state has not been documented.
+
+Transmission
+
+Measles transmission occurs person-to-person via large respiratory droplets and via airborne transmission of aerosolized droplet nuclei in closed areas (e.g., an office examination room) for up to 2 hours after a person with measles occupied the area.
+
+Temporal Pattern
+
+In endemic, temperate areas, measles disease occurs primarily in late winter and spring.
+
+Communicability
+
+Measles is highly communicable, with more than 90% secondary attack rates among exposed susceptible persons in close-contact settings. Measles is considered transmissible from 4 days before through 4 days after rash onset.
+
+Secular Trends in the United States
+
+Measles Secular Trends in the United States
+
+About 500,000 reported cases and 500 deaths annually before vaccine
+
+Actual cases estimated at 3 to 4 million
+
+Following vaccine licensure in 1963, incidence decreased by over 95%
+
+Measles occurrence among vaccinated school-aged children in the 1980s led to recommendations for a second dose

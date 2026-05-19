@@ -1,0 +1,224 @@
+[Federal Register Volume 90, Number 244 (Tuesday, December 23, 2025)]
+[Proposed Rules]
+[Pages 60432-60518]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-23693]
+
+[[Page 60431]]
+
+Vol. 90
+
+Tuesday,
+
+No. 244
+
+December 23, 2025
+
+Part IV
+
+Department of the Treasury
+
+
+
+Internal Revenue Service
+
+
+
+26 CFR Part 54
+
+Department of Labor
+
+
+
+Employee Benefits Security Administration
+
+
+
+29 CFR Part 2590
+
+Department of Health and Human Services
+
+
+
+45 CFR Part 147
+
+Transparency in Coverage; Proposed Rule
+
+??Federal Register / Vol. 90 , No. 244 / Tuesday, December 23, 2025 /
+Proposed Rules??
+
+[[Page 60432]]
+
+
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+26 CFR Part 54
+
+[REG-107111-25]
+RIN 1545-BQ55
+
+DEPARTMENT OF LABOR
+
+Employee Benefits Security Administration
+
+29 CFR Part 2590
+
+RIN 1210-AC30
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+45 CFR Part 147
+
+[CMS-9882-P]
+RIN 0938-AV64
+
+Transparency in Coverage
+
+AGENCY: Internal Revenue Service, Department of the Treasury; Employee
+Benefits Security Administration, Department of Labor; Centers for
+Medicare & Medicaid Services, Department of Health and Human Services.
+
+ACTION: Proposed rule.
+
+
+
+SUMMARY: These proposed rules set forth proposed requirements that
+would amend the regulations under the Public Health Service Act, the
+Employee Retirement Income Security Act of 1974, and the Internal
+Revenue Code regarding price transparency reporting requirements for
+non-grandfathered group health plans and health insurance issuers
+offering non-grandfathered group and individual health insurance
+coverage. Specifically, these proposed rules would improve the
+standardization, accuracy, and accessibility of public pricing
+disclosures in line with the goals of the Executive Order 14221. With
+respect to the in-network rate and out-of-network allowed amount
+machine-readable files, these proposed rules would achieve these goals
+by adding new contextual files and additional data elements like
+product type, network name, and enrollment counts; changing the
+reporting level for aggregation of data; removing in-network rates for
+unlikely provider-to-service mappings; increasing the reporting period
+and lowering the claims threshold for out-of-network historical data;
+and reducing the reporting cadence. These proposed rules would also
+improve the findability of all of the publicly disclosed machine-
+readable files required under the Transparency in Coverage rules,
+including the prescription drug file, by requiring a text file and
+footer with website URLs and contact information for the files. These
+proposed rules would also require pricing information that is made
+available through an online consumer tool and paper (upon request), to
+also be made available by phone, and establish that the satisfaction of
+such requirement also satisfies the requirements of section 114 of the
+No Surprises Act (including for grandfathered group health plans and
+health insurance issuers offering grandfathered group and individual
+health insurance coverage that are not otherwise subject to these
+proposed rules).
+
+DATES: To be assured consideration, comments must be received at one of
+the addresses provided below by February 23, 2026.
+
+ADDRESSES: Written comments may be submitted to the addresses specified
+below. Any comment that is submitted will be shared among the
+Department of the Treasury, the Department of Labor, the Department of
+Health and Human Services (the Departments), and the Office of
+Personnel Management. Please do not submit duplicates.
+Comments will be made available to the public. Warning: Do not
+include any personally identifiable information (such as name, address,
+or other contact information) or confidential business information that
+you do not want publicly disclosed. Comments are posted on the internet
+exactly as received and can be retrieved by most internet search
+engines. No deletions, modifications, or redactions will be made to the
+comments received, as they are public records. Comments may be
+submitted anonymously.
+In commenting, please refer to file code CMS-9882-P. Because of
+staff and resource limitations, the Departments cannot accept comments
+by facsimile (FAX) transmission.
+Comments, including mass comment submissions, must be submitted in
+one of the following three ways (please choose only one of the ways
+listed):
+1. Electronically. You may submit electronic comments on this
+regulation to http://www.regulations.gov. Follow the ``Submit a
+comment'' instructions.
+2. By regular mail. You may mail written comments to the following
+address ONLY: Centers for Medicare & Medicaid Services, Department of
+Health and Human Services, Attention: CMS-9882-P, P.O. Box 8016,
+Baltimore, MD 21244-8016.
+Please allow sufficient time for mailed comments to be received
+before the close of the comment period.
+3. By express or overnight mail. You may send written comments to
+the following address ONLY: Centers for Medicare & Medicaid Services,
+Department of Health and Human Services, Attention: CMS-9882-P, Mail
+Stop C4-26-05, 7500 Security Boulevard, Baltimore, MD 21244-1850.
+For information on viewing public comments, see the beginning of
+the SUPPLEMENTARY INFORMATION section.
+
+FOR FURTHER INFORMATION CONTACT: Kendra May or Jeremy Rotner, Centers
+for Medicare and Medicaid Services, (301) 492-4293.
+Elizabeth Schumacher or Sharon Aguirre, Employee Benefits Security
+Administration, (202) 693-8335.
+Alexander Krupnick, Internal Revenue Service, Department of the
+Treasury, (202) 317-5500.
+Individuals interested in obtaining information from the Department
+of Labor (DOL) concerning employment-based health coverage laws may
+call the Employee Benefits Security Administration (EBSA) Toll-Free
+Hotline at 1-866-444-EBSA (3272) or visit the DOL's website
+(www.dol.gov/agencies/ebsa). In addition, information from the
+Department of Health and Human Services (HHS) on private health
+insurance coverage and coverage provided by non-Federal governmental
+group health plans can be found on the Centers for Medicare & Medicaid
+Services (CMS) website (http://www.cms.gov/marketplace), information on
+health care reform can be found at http://www.healthcare.gov, and
+information on surprise medical bills can be found at http://www.cms.gov/nosurprises.
+
+SUPPLEMENTARY INFORMATION:
+Inspection of Public Comments: All comments received before the
+close of the comment period are available for viewing by the public,
+including any personally identifiable or confidential business
+information that is included in a comment. The Departments post all
+comments received before the close of the comment period on the
+following website as soon as possible after they have been received:
+http://www.regulations.gov. Follow the search instructions on that
+website to view public comments. The Departments will not post on
+Regulations.gov public comments that make threats to individuals or
+institutions or suggest that the commenter will take actions to harm an
+individual. The Departments continue to encourage individuals not to
+submit duplicative comments. The
+
+[[Page 60433]]
+
+Departments will post acceptable comments from multiple unique
+commenters even if the content is identical or nearly identical to
+other comments. The Departments encourage commenters to include
+supporting facts, research, and evidence in their comments. When doing
+so, commenters are encouraged to provide citations to the materials
+referenced, including active hyperlinks. Likewise, commenters who
+reference materials that have not been published are encouraged to
+upload relevant data collection instruments, data sets, and detailed
+findings as a part of their comment. Providing such citations and
+documentation will assist the Departments in analyzing the comments.
+Plain Language Summary: In accordance with 5 U.S.C. 553(b)(4), a
+plain language summary of this rule may be found at https://www.regulations.gov/.
+
+I. Executive Summary
+
+A. Purpose
+
+The Departments of Labor, Health and Human Services (HHS), and the
+Treasury (collectively, the Departments) issued proposed requirements
+in the 2019 Transparency in Coverage proposed rules (2019 proposed
+rules) \1\ and finalized the rules in 2020 (the 2020 final rules).\2\
+The rules aimed to provide consumers with price and benefit information
+that would enable them to better evaluate health care options and make
+cost-conscious decisions; reduce surprises in consumers' out-of-pocket
+costs for health care services; create a competitive dynamic that would
+begin to narrow price differences for the same services in the same
+health care markets; foster innovation by providing industry the
+information necessary to support informed, price-conscious consumers in
+the health care market; and, over time, potentially lower overall
+health care costs.\3\
+
+
+\1\ 84 FR 65464 (November 27, 2019).
+\2\ 85 FR 72158 (November 12, 2020).
+\3\ 85 FR 72158, 72160 (November 12, 2020).

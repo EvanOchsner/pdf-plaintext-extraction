@@ -1,0 +1,206 @@
+[Federal Register Volume 90, Number 227 (Friday, November 28, 2025)]
+[Rules and Regulations]
+[Pages 54523-54544]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-21482]
+
+?
+?Rules and Regulations
+? Federal Register
+?________________________________________________________________________
+?
+?This section of the FEDERAL REGISTER contains regulatory documents
+?having general applicability and legal effect, most of which are keyed
+?to and codified in the Code of Federal Regulations, which is published
+?under 50 titles pursuant to 44 U.S.C. 1510.
+?
+?The Code of Federal Regulations is sold by the Superintendent of Documents.
+?
+?
+?
+
+??Federal Register / Vol. 90, No. 227 / Friday, November 28, 2025 /
+Rules and Regulations??
+
+[[Page 54523]]
+
+DEPARTMENT OF AGRICULTURE
+
+Federal Crop Insurance Corporation
+
+7 CFR Parts 400, 407, and 457
+
+[Docket ID FCIC-25-0068]
+RIN 0563-AC89
+
+Expanding Access to Risk Protection (EARP)
+
+AGENCY: Federal Crop Insurance Corporation, U.S. Department of
+Agriculture (USDA).
+
+ACTION: Final rule with request for comments.
+
+
+
+SUMMARY: The Federal Crop Insurance Corporation (FCIC) is amending its
+regulations to implement changes required by the One Big Beautiful Bill
+Act and to update, streamline, and clarify several crop insurance
+policies. The changes include clarifying the harvest price methodology,
+deregulating regionalized program dates and moving that information to
+the Special Provisions, removing regulatory barriers to direct
+marketing, incorporating quality adjustment and claims processes,
+updating FCIC contact information used to request interpretations of
+policy, and making plain language clarifications and corrections to
+Subpart X--Interpretations of Statutory Provisions, Policy Provisions,
+and Procedures; the Area Risk Protection Insurance, Basic Provisions;
+the Common Crop Insurance Policy, Basic Provisions; and several Crop
+Provisions. In addition, the changes include removing buy-up coverage
+for prevented planting in the crop insurance program. The changes will
+be effective for the 2026 and succeeding crop years for crops with a
+contract change date on or after November 30, 2025. For all other
+crops, the changes to the policies made in this rule are applicable for
+the 2027 and succeeding crop years.
+
+DATES:
+Effective date: This final rule is effective November 30, 2025.
+Comment Date: FCIC will accept comments on this rule until close of
+business January 27, 2026. FCIC may consider the comments received and
+may conduct additional rulemaking based on the comments.
+
+ADDRESSES: We invite you to submit comments on this rule. You may
+submit comments by going through the Federal eRulemaking Portal as
+follows:
+Federal eRulemaking Portal: Go to https://www.regulations.gov and search for Docket ID FCIC-25-0068. Follow the
+instructions for submitting comments.
+All comments received will be posted without change and will be
+publicly available on https://www.regulations.gov.
+
+FOR FURTHER INFORMATION CONTACT: Chandra Place; telephone: (816) 926-
+3875; email: [email protected]. Individuals with disabilities who
+require alternative means for communication should contact the USDA
+Target Center at (202) 720-2600 (voice and text telephone (TTY mode))
+or dial 711 for Telecommunications Relay Service (both voice and text
+telephone users can initiate this call from any telephone).
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Background
+II. Basic Provisions Changes: Area Risk Protection Insurance (ARPI)
+and Common Crop Insurance Policy (CCIP)
+A. One Big Beautiful Bill Act Implementation
+B. Harvest Prices for Revenue Protection
+C. Production Reporting When the AIP Is Changing
+D. Reducing Administrative Burden Regarding Prevented Planting
+E. Written Agreement Deadline Clarification
+F. Unit Eligibility Clarification
+G. Definitions
+H. Duplicative Provisions
+III. Dispute Resolution Changes: Subpart X--Interpretations of
+Statutory Provisions, Policy Provisions, and Procedures; Area Risk
+Protection Insurance (ARPI), Basic Provisions; and Common Crop
+Insurance Policy (CCIP), Basic Provisions
+IV. Crop Provisions Changes
+A. Deregulating Dates
+B. Direct Marketing
+C. Cotton
+D. Sugar Beets
+E. Safflower
+F. Fresh Market Tomatoes Guaranteed Production Plan
+G. Green Pea
+H. Fresh Market Tomato Dollar Plan
+I. Fresh Market Pepper
+J. Forage Seeding
+K. Canola and Rapeseed
+V. Clarifications and Corrections
+VI. Removal of Buy-Up Coverage on Prevented Planting
+VII. Regulatory Analyses
+A. Notice and Comment and Effective Date
+B. Executive Orders 12866, 13563, and 14192
+C. Environmental Review
+D. Executive Order 13175
+E. Unfunded Mandates Reform Act
+F. Paperwork Reduction Act Requirements
+G. E-Government Act Compliance
+
+I. Background
+
+FCIC serves America's agricultural producers through effective,
+market-based risk management tools to strengthen the economic stability
+of agricultural producers and rural communities. FCIC is committed to
+increasing the availability and effectiveness of Federal crop insurance
+as a risk management tool. Approved Insurance Providers (AIPs) sell and
+service Federal crop insurance policies in every state through a
+public-private partnership. FCIC reinsures the AIPs who share the risks
+associated with catastrophic losses. FCIC's vision is to secure the
+future of agriculture by providing world-class risk management tools to
+rural America.
+Federal crop insurance policies typically consist of the Basic
+Provisions, the Crop Provisions, the Special Provisions, the Commodity
+Exchange Price Provisions (CEPP), if applicable, other applicable
+endorsements or options, the actuarial documents for the insured
+agricultural commodity, the Catastrophic Risk Protection Endorsement,
+if applicable, and the applicable regulations published in 7 CFR
+chapter IV.
+The Basic Provisions provide underlying policy terms and conditions
+applicable to many insurable commodities. Specifically, the Area Risk
+Protection Insurance (ARPI) Basic Provisions apply to policies with
+area-based coverage, typically established at the county level, and the
+Common Crop Insurance Policy (CCIP) Basic Provisions apply to policies
+that provide individualized coverage. Where the terms and conditions
+are the same, FCIC changes both the ARPI and CCIP Basic Provisions in
+this rule. The Crop Provisions identify which Basic
+
+[[Page 54524]]
+
+Provisions are applicable and establish specific provisions of
+insurance for each insurable commodity. The Special Provisions and
+actuarial documents establish county-level provisions for each
+insurable commodity. Administrative regulations published in 7 CFR
+chapter IV apply to the entire Federal Crop Insurance Program. Subpart
+X is the administrative regulation that provides a mechanism for
+requesting interpretations of crop insurance policies and procedures.
+FCIC is amending the following regulations:
+Subpart X--Interpretations of Statutory Provisions, Policy
+Provisions, and Procedures (7 CFR 400.765-768);
+Area Risk Protection Insurance Regulations (7 CFR part
+407);
+Common Crop Insurance Regulations (7 CFR part 457);
+Cotton crop insurance provisions (7 CFR 457.104);
+Sugar beet crop insurance provisions (7 CFR 457.109);
+Safflower crop insurance provisions (7 CFR 457.125);
+Guaranteed production plan of fresh market tomato crop
+insurance provisions (7 CFR 457.128);
+Green pea crop insurance provisions (7 CFR 457.137);
+Fresh market tomato (dollar plan) crop insurance
+provisions (7 CFR 457.139);
+Fresh market pepper crop insurance provisions (7 CFR
+457.148);
+Forage seeding crop insurance provisions (7 CFR 457.151);
+and
+Canola and rapeseed crop insurance provisions (7 CFR
+457.161).
+Definitions specific to Subpart X are located in 7 CFR 400.765,
+definitions specific to the ARPI Basic Provisions and corresponding
+Crop Provisions are located in 7 CFR 407.9, and definitions specific to
+the CCIP Basic Provisions and corresponding Crop Provisions are located
+in 7 CFR 457.8. Throughout this rule, the terms ``Crop Provisions,''
+``Special Provisions,'' and ``policy'' are used as defined in the CCIP
+Basic Provisions in 7 CFR 457.8.
+The changes to crop insurance policies resulting from the
+amendments in this rule are applicable for the 2026 and succeeding crop
+years for crops with a contract change date on or after November 30,
+2025. For all other crops, the changes to the crop insurance policies
+resulting from the amendments in this rule are applicable for the 2027
+and succeeding crop years.
+
+II. Basic Provisions Changes: Area Risk Protection Insurance (ARPI) and
+Common Crop Insurance Policy (CCIP)
+
+The changes to the Basic Provisions are described below, with
+important changes impacting both the ARPI and CCIP Basic Provisions
+discussed first, followed by changes impacting only the CCIP Basic
+Provisions, and clarifications and corrections last.
+
+A. One Big Beautiful Bill Act Implementation

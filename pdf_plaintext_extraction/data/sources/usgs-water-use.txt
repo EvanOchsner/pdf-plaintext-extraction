@@ -1,0 +1,483 @@
+Skip to main content
+
+An official website of the United States government
+
+Here's how you know
+
+Here's how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+U.S. Geological Survey
+
+Science
+
+Science Explorer
+
+Biology
+
+Climate
+
+Coasts
+
+Energy
+
+Environmental Health
+
+Geology
+
+Information Systems
+
+Maps and Mapping
+
+Minerals
+
+Methods and Analysis
+
+Natural Hazards
+
+Ocean
+
+Planetary Science
+
+Science Technology
+
+Water
+
+Mission Areas
+
+Core Science Systems
+
+Ecosystems
+
+Geology, Energy, and Minerals
+
+Natural Hazards
+
+Water Resources
+
+Programs
+
+Regions
+
+Northeast Region
+
+Southeast Region
+
+Midcontinent Region
+
+Rocky Mountain Region
+
+Southwest Region
+
+Alaska Region
+
+Northwest-Pacific Islands Region
+
+Science Centers
+
+Observatories
+
+Laboratories
+
+Frequently Asked Questions
+
+Educational Resources
+
+Special Topics
+
+Products
+
+Data
+
+Data Management
+
+Data Releases
+
+Real-time Data
+
+All Data
+
+Maps
+
+Geologic Maps
+
+Map Releases
+
+Topographic (Topo) Maps
+
+Volcanic Maps
+
+All Maps
+
+Multimedia Gallery
+
+Audio
+
+Images
+
+Stereograms
+
+Videos
+
+Webcams
+
+All Multimedia
+
+Publications
+
+Web Tools
+
+Alert and Notification Services
+
+APIs
+
+Data Access Tools
+
+Data Analysis Tools
+
+Data Visualizations
+
+Interactive Maps
+
+All Web Tools
+
+Software
+
+U.S. Board on Geographic Names
+
+The National Map
+
+USGS Library
+
+USGS Store
+
+Park Passes
+
+News
+
+News Releases
+
+National News Releases
+
+State News Releases
+
+All News Releases
+
+Featured Stories
+
+Science Snippets
+
+Technical Announcements
+
+Media Contacts
+
+Connect
+
+Headquarters
+
+12201 Sunrise Valley Drive Reston, VA 20192
+
+Locations
+
+Staff Profiles
+
+Social Media
+
+Careers
+
+Contact Us
+
+Email
+
+USGS Store 1-888-275-8747
+
+About
+
+About Us
+
+Who We Are
+
+Our History
+
+Past Directors
+
+Survey Manual
+
+Key Officials
+
+Organizational Chart
+
+Organization
+
+Mission Areas
+
+Programs
+
+Regions
+
+Science Centers
+
+Observatories
+
+Laboratories
+
+Science Support Offices
+
+Congressional
+
+Statements
+
+Contacts
+
+Budget
+
+Careers and Employees
+
+Diversity and Equal Opportunity
+
+Doing Business
+
+Acquisition and Financial Assistance
+
+Emergency Management
+
+Facebook
+
+Twitter
+
+Linkedin
+
+Digg
+
+Reddit
+
+Pinterest
+
+Email
+
+Frequently Asked Questions
+
+Label
+
+Menu
+
+Label
+
+Close
+
+U.S. Geological Survey
+
+Science
+
+Science Explorer
+
+Mission Areas
+
+Programs
+
+Regions
+
+Science Centers
+
+Observatories
+
+Laboratories
+
+Frequently Asked Questions
+
+Educational Resources
+
+Special Topics
+
+Products
+
+Data
+
+Maps
+
+Multimedia Gallery
+
+Publications
+
+Web Tools
+
+Software
+
+U.S. Board on Geographic Names
+
+The National Map
+
+USGS Library
+
+USGS Store
+
+Park Passes
+
+News
+
+News Releases
+
+Featured Stories
+
+Science Snippets
+
+Technical Announcements
+
+Media Contacts
+
+Connect
+
+Headquarters
+
+Locations
+
+Staff Profiles
+
+Social Media
+
+Careers
+
+Contact Us
+
+About
+
+About Us
+
+Survey Manual
+
+Key Officials
+
+Organization
+
+Congressional
+
+Budget
+
+Careers and Employees
+
+Diversity and Equal Opportunity
+
+Doing Business
+
+Emergency Management
+
+Latest Earthquakes
+
+Share Social Media
+
+Facebook
+
+Twitter
+
+Linkedin
+
+Digg
+
+Reddit
+
+Pinterest
+
+Email
+
+Breadcrumb
+
+Water Resources Mission Area
+
+Science
+
+Water Use in the United States
+
+Active
+
+By Water Resources Mission Area
+
+November 1, 2023
+
+Overview
+
+Science
+
+Data
+
+Publications
+
+Web Tools
+
+Water use estimates for 2000 through 2020 are now available for the three largest categories of use in the United States: self-supplied thermoelectric power generation, self-supplied irrigation, and public supply. Five additional categories of use (self-supplied industrial, domestic, mining, livestock, and aquaculture) will be available in 2025.
+
+The USGS collaborates with local, state, and federal partners to gather and incorporate water-use data with other datasets covering climate, population, geography, system characteristics, land use, social factors, and economics. This information is then integrated into a modeling framework to generate national estimates of water withdrawal and consumption (evapotranspiration of withdrawn water) from both groundwater and surface-water sources. These estimates are crucial for understanding how water is used and for assessing the balance between water supply and demand. Models also enable more frequent availability of water use estimates, quicker identification of data errors, and a consistent approach to evaluating uncertainty. This improved understanding of the factors influencing water use supports the forecasting of water use under varying climate and socio-economic scenarios.
+
+At this time, estimated water-use data are available at the following temporal and spatial resolutions and date range:
+
+Water-Use Category
+
+Water-Use Variable
+
+Temporal Resolution
+
+Spatial Resolution
+
+Date Range
+
+Public supplyWithdrawalsMonthlyHUC-12 and WSA
+
+2000-2020
+
+Public supplyConsumptive useMonthlyHUC-12 and WSA2009-2020
+
+IrrigationWithdrawalsMonthlyHUC-122000-2020
+
+Irrigation Consumptive useMonthlyHUC-122000-2020
+
+ThermoelectricWithdrawalsMonthlyPower plant2008-2020
+
+ThermoelectricConsumptive useMonthlyPower plant2008-2020
+
+Where HUC-12 is the 12-digit hydrologic unit code level, and WSA is the public supply water service area.
+
+The models provide estimates at finer temporal and spatial resolution than previous annual, county-level estimates published by the USGS.
+
+Five additional categories of use (self-supplied industrial, domestic, mining, livestock, and aquaculture) will be available in 2025, as the development of those models began in 2023. Models will be expanded to include golf irrigation and Alaska, Hawaii, Puerto Rico, and the U.S. Virgin Islands during a future phase of model development.
+
+This water-use reanalysis supports the Water Availability and Use Science Program goals of determining the quantity and quality of water that is available for human and ecological uses, now and in the future and helps to identify where and when the Nation may have challenges meeting its demand for water because of insufficient water quantity or quality.
+
+Estimated use of water in the United States (2020)
+
+Data are available from the USGS ScienceBase Catalog.
+
+Public Supply
+
+Luukkonen, C.L., Alzraiee, A.H., Larsen, J.D., Martin, D.J., Herbert, D.M., Buchwald, C.A., Houston, N.A., Valseth, K.J., Paulinski, S., Miller, L.D., Niswonger, R.G., Stewart, J.S., Dieter, C.A., and Miller, O.L., 2023, Public supply water use reanalysis for the 2000-2020 period by HUC12, month, and year for the conterminous United States: U.S. Geological Survey data release, (ver. 2.0, August 2024): https://doi.org/10.5066/P9FUL880.
+
+Alzraiee, A., Niswonger, R., Luukkonen, C., Larsen, J., Martin, D., Herbert, D., et al. (2024). Next generation public supply water withdrawal estimation for the conterminous United States using machine learning and operational frameworks. Water Resources Research, 60, e2023WR036632. https://doi.org/10.1029/2023WR036632
+
+Alzraiee, A. H., & Niswonger, R. G. (2024). A probabilistic approach to training machine learning models using noisy data. Environmental Modelling & Software, 179, 106133. https://doi.org/10.1016/j.envsoft.2024.106133
+
+Buchwald, C.A., Houston, N.A., Stewart, J.S., Alzraiee, A.H., Niswonger, R.G., and Larsen, J.D., 2024, Development and evaluation of public‐supply community water service area boundaries for the conterminous United States: JAWRA Journal of the American Water Resources Association, https://doi.org/10.1111/1752-1688.13210.
+
+Larsen, J. D., Alzraiee, A. H., Niswonger, R. G., Martin, D. J., Buchwald, C. A., Dieter, C., Luukkonen, C.L., Stewart, J.S., Paulinski, S., Miller, L.D., and Houston, N.A., 2025, Public supply water delivery analysis and estimation for the conterminous United States. Water Resources Research, 61, e2024WR039271. https://doi.org/10.1029/2024WR039271
+
+Self-supplied irrigation
+
+Martin, D.J., Regan, R.S., Haynes, J.V., Read, A.L., Henson, W.R., Stewart, J.S., Brandt, J.T., and Niswonger, R.G., 2023, Irrigation water use reanalysis for the 2000-20 period by HUC12, month, and year for the conterminous United States (ver. 2.0, September 2024): U.S. Geological Survey data release, https://doi.org/10.5066/P9YWR0OJ.
+
+Haynes, J.V., Read, A.L., Chan, A.Y., Martin, D.J., Regan, R.S., Henson, W.R., Niswonger, R.G., and Stewart, J.S., 2023, Monthly crop irrigation withdrawals and efficiencies by HUC12 watershed for years 2000-2020 within the conterminous United States (ver. 2.0, September 2024): U.S. Geological Survey data release, https://doi.org/10.5066/P9LGISUM.
+
+Self-supplied thermoelectric
+
+Gorman Sanisaca, L.E., Galanter, A.E., Skinner, K.D., Harris, M.A., Diehl, T.H., Halper, A.S., Mohs, T.G., Roland, V.L., Stewart, J.S., and Niswonger, R., 2023, Thermoelectric-power condenser duty estimates by month and cooling type for use to calculate water use by power plant for the 2008-2020 reanalysis period for the conterminous United States: U.S. Geological Survey, https://doi.org/10.5066/P9XG876W.
+
+Galanter, A.E., Gorman Sanisaca, L.E., Skinner, K.D., Harris, M.A., Diehl, T.H., Chamberlin, C.A., McCarthy, B.A., Halper, A.S., Niswonger, R.G., Stewart, J.S., Markstrom, S.L., Embry, I., and Worland, S., 2023, Thermoelectric-power water use reanalysis for the 2008-2020 period by power plant, month, and year for the conterminous United States: U.S. Geological Survey data release, https://doi.org/10.5066/P9ZE2FVM.
+
+M.A. Harris, T.H. Diehl, L.E. Gorman-Sanisaca, A.E. Galanter, M.A. Lombard, K.D. Skinner, C. Chamberlin, B.A. McCarthy, R. Niswonger, J.S. Stewart, J. Valseth Kristen, 2025, Automating physics-based models to estimate thermoelectric-power water use, Environmental Modelling & Software,2025,106265, ISSN 1364-8152, https://doi.org/10.1016/j.envsoft.2024.106265.
+
+Estimated use of water in the United States (2015)
+
+Estimated total water use for all categories and sources by State

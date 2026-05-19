@@ -40,9 +40,17 @@ class RenderOptions:
 
     The default values reproduce the clean-baseline appearance. Poisoning
     techniques flip the relevant knob and otherwise inherit the defaults.
+
+    ``font_name`` defaults to ``"DejaVuSans"``, which is auto-registered
+    by ``render()`` on first call. DejaVu covers Latin + Cyrillic + Greek
+    + many more scripts — necessary because real-world source corpora
+    routinely contain non-Latin codepoints (Greek loanwords, scientific
+    notation, foreign names). A Latin-only font like Helvetica would
+    silently drop those glyphs, breaking the ground-truth round-trip on
+    Wikipedia-style sources.
     """
 
-    font_name: str = "Helvetica"
+    font_name: str = "DejaVuSans"
     font_size: float = 11.0
     char_space: float = 0.0  # PDF Tc operator; abnormal values >3.0
     text_render_mode: int = 0  # 0 = fill (visible), 3 = invisible
@@ -95,6 +103,14 @@ def render(
     paragraphs = _paragraphs(text)
     if not paragraphs:
         raise ValueError(f"source has no text content: {source}")
+
+    # Lazily ensure DejaVu Sans is registered with reportlab when it's
+    # the requested font. Other fonts (Helvetica/Times/Courier) are
+    # always available as PDF base-14 fonts.
+    if opts.font_name == "DejaVuSans":
+        from pdf_plaintext_extraction.synthesize._fonts import register_dejavu_with_reportlab
+
+        register_dejavu_with_reportlab()
 
     out.parent.mkdir(parents=True, exist_ok=True)
 

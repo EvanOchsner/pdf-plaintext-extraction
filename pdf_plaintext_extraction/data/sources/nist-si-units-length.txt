@@ -1,0 +1,510 @@
+Skip to main content
+
+An official website of the United States government
+
+Here’s how you know
+
+Here’s how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock (
+
+A locked padlock
+
+) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+https://www.nist.gov/pml/owm/si-units-length
+
+Search NIST
+
+Menu
+
+Close
+
+Publications
+
+What We Do
+
+All Topics
+
+Advanced communications
+
+Artificial intelligence
+
+Bioscience
+
+Buildings and construction
+
+Chemistry
+
+Cybersecurity and Privacy
+
+Electronics
+
+Energy
+
+Environment
+
+Fire
+
+Forensic science
+
+Health
+
+Information technology
+
+Infrastructure
+
+Manufacturing
+
+Materials
+
+Mathematics and statistics
+
+Metrology
+
+Nanotechnology
+
+Neutron research
+
+Performance excellence
+
+Physics
+
+Public safety
+
+Quantum information science
+
+Resilience
+
+Standards
+
+Transportation
+
+Labs & Major Programs
+
+Assoc Director of Laboratory Programs
+
+Laboratories
+
+Communications Technology Laboratory
+
+Engineering Laboratory
+
+Information Technology Laboratory
+
+Material Measurement Laboratory
+
+Physical Measurement Laboratory
+
+User Facilities
+
+NIST Center for Neutron Research
+
+CNST NanoFab
+
+Research Test Beds
+
+Research Projects
+
+Tools & Instruments
+
+Major Programs
+
+Baldrige Performance Excellence Program
+
+CHIPS for America Initiative
+
+Manufacturing Extension Partnership (MEP)
+
+Office of Advanced Manufacturing
+
+Special Programs Office
+
+Technology Partnerships Office
+
+Services & Resources
+
+Measurements and Standards
+
+Calibration Services
+
+Laboratory Accreditation (NVLAP)
+
+Quality System
+
+Standard Reference Materials (SRMs)
+
+Standard Reference Instruments (SRIs)
+
+Standards.gov
+
+Time Services
+
+Office of Weights and Measures
+
+Software
+
+Data
+
+Chemistry WebBook
+
+National Vulnerability Database
+
+Physical Reference Data
+
+Standard Reference Data (SRD)
+
+Storefront
+
+License & Patents
+
+Computer Security Resource Center (CSRC)
+
+NIST Research Library
+
+News & Events
+
+News
+
+Events
+
+Blogs
+
+NIST In Focus
+
+Feature Stories
+
+Awards
+
+Video Gallery
+
+Image Gallery
+
+Media Contacts
+
+About NIST
+
+About Us
+
+Leadership
+
+Organization Structure
+
+Budget & Planning
+
+Contact Us
+
+Visit
+
+Careers
+
+Student programs
+
+Work with NIST
+
+History
+
+NIST Digital Archives
+
+NIST Museum
+
+NIST and the Nobel
+
+Educational Resources
+
+Physical Measurement Laboratory
+
+Office of Weights and Measures
+
+Laboratory Homepage
+
+Division Homepage
+
+About OWM
+Expand or Collapse
+
+Background and History
+
+Responsibilities and Authorities
+
+Staff Directory
+Expand or Collapse
+
+Federal Staff
+
+Associates and Interns
+
+Organization Chart
+
+Strategic Plan
+
+Pages by Topic
+Expand or Collapse
+
+Gasoline Dispensers
+
+Grain Analyzers
+
+FAQs
+
+OWM Products and Services
+Expand or Collapse
+
+Publications and Documentary Standards
+Expand or Collapse
+
+EPOs
+
+Handbooks
+
+Interagency or Internal Reports (NISTIR)
+
+Metric Publications
+
+NCWM Annual Reports
+
+OWM Technical Analysis
+
+SP 2200 Legal Metrology Series
+
+Special Publications (SP)
+
+e-Learning Resources
+Expand or Collapse
+
+Recorded Webinars/Videos
+
+Info Hours
+
+EPOs
+
+Training Classes and Events
+
+Newsletter
+
+Technical Articles
+
+National Working Groups
+
+Training Classes and Events
+
+Programs/Groups
+Expand or Collapse
+
+International Legal Metrology
+Expand or Collapse
+
+Documentary Standards
+
+Glossary of Acronyms
+
+ILMP Organizational Primer
+
+National Metrology Systems
+
+OIML Resources
+
+Laboratory Metrology
+Expand or Collapse
+
+Metrology Training
+
+Proficiency Testing (PT)
+
+Laboratory Recognition
+
+Documentary Standards and Resources
+Expand or Collapse
+
+Calibration Procedures
+
+GLPs
+
+GMPs
+
+Recognition
+
+OJT and Mentoring
+
+SOPs
+
+Metric (SI)
+Expand or Collapse
+
+U.S. Metrication
+
+SI Units
+
+Understanding Metric
+
+Everyday with Metric
+
+Metric Kitchen
+
+SI Education & Training
+
+Unit Conversion
+
+Metric Policy
+
+National Legal Metrology
+Expand or Collapse
+
+Laws and Regulations Resources
+
+Legal Devices Training Materials
+
+Price Verification
+
+Precious Metals Conversion
+
+Packaging and Labeling
+
+U.S. National Working Groups
+
+U.S. Retail Pricing Laws and Regulations
+
+Resources for Weights and Measures
+Expand or Collapse
+
+Weights and Measures in the News
+
+State Weights and Measures Directors
+
+State Metrology Laboratories
+
+U.S. W&M and Metrologist Directory
+
+National Council on Weights and Measures (NCWM)
+
+National Type Evaluation Program (NTEP)
+
+International Organization of Legal Metrology (OIML)
+
+SI Units – Length
+
+Share
+
+Facebook
+
+Linkedin
+
+X.com
+
+Email
+
+Credit:
+
+NIST
+
+Resources for Students and Teachers | How do I get a metric ruler?  | When did the metric redefinition of the inch occur? | League of SI Superheroes – Meter Man
+
+The meter (m) is defined by taking the fixed numerical value of the speed of light in vacuum c to be 299,792,458 when expressed in the unit m s−1, where the second is defined in terms of ∆?Cs.
+
+The meter was once defined by a physical artifact - two marks inscribed on a platinum-iridium bar, like these from the NIST Museum.
+
+From the meter, several other units of measure are derived such as the:
+
+unit of speed is the meter per second (m/s). The speed of light in vacuum is 299 792 458 meters per second.
+
+unit of acceleration is the meter per second per second (m/s2).
+
+unit of area is the square meter (m2).
+
+unit of volume is the cubic meter (m3). The liter (1 cubic decimeter), although not an SI unit, is accepted for use with the SI and is commonly used when measuring fluid volume, but is also used when measuring gases and solids.
+
+Return to Top of Page
+
+Units of Length
+
+10 millimeters (mm)=1 centimeter (cm)
+
+10 centimeters=1 decimeter (dm)
+
+10 centimeters=100 millimeters
+
+10 decimeters=1 meter (m)
+
+10 decimeters=1000 millimeters
+
+10 meters=1 dekameter (dam)
+
+10 dekameters=1 hectometer (hm)
+
+10 dekameters=100 meters
+
+10 hectometers=1 kilometer (km)
+
+10 hectometers=1000 meters
+
+Return to Top of Page
+
+Resources for Students and Teachers
+
+Teachers: Top 10 Tips for Teaching the Metric System. (NIST)
+
+Credit:
+
+©2020 U.S. Secretary of Commerce. All Rights Reserved.
+
+Resources for K-2
+
+Not sure how to tell that scientific minded person in your life how you feel? Maybe our Superhero Valentine's Day cards will do the trick.
+
+Download these fun coloring pages for Meter Man and our SI Superheroes.
+
+The Metric Meal (option 2) focuses exclusively on length measurements and uses a multidisciplinary approach to build measurement skills.
+
+Practice measuring length with centimeters in the Squares and Rectangles activity (PBS). k-2
+
+Calculate Focal Length (The Optical Society) – Use this hands-on activity to explore an important concept that’s used in STEAM tools like microscopes, telescopes, and cameras. K-
+
+Credit:
+
+©2020 U.S. Secretary of Commerce. All Rights Reserved.
+
+Resources for Grade 3-5
+
+League of SI Superheroes - Meter Man
+
+This comic book-style video animation series has been developed to help middle school students learn about the 7 SI base measurement units.
+
+SI Units Card Deck (SP 1297) - this activity offers a fun way to enhance understanding of the International System of Units. (NIST)
+
+Metric Estimation Game (SP 1336) - this fun, hands-on activity helps participants become familiar with SI measurements by practicing estimation skills. During this activity, participants will become familiar with using the metric system (International System of Units, SI) measurements on common, everyday items.
+
+Metric Ruler (SP 376) (NIST) - an educational tool designed to teach SI) length measurements. 3
+
+What is a Nanometer? (IEEE) – In this activity, develop an understanding of how small a nanometer really is. During the lesson, students will measure common classroom objects and convert the results to nanometers. 3
+
+Length Column Game (Quintessential Instructional Archive) – Become familiar with equivalent metric length measurements. Draw a line to connect between like measurements. Look carefully, because some items do not have a match! 3
+
+The Wright Way: Innovation Through Engineering (NASA) - This educational poster includes metric activities associated with the Wright Brothers' flight experiments and include constructing and testing a sled kite, analyzing the resulting data, and assembling a metric cube. The student worksheet includes the learning objectives and academic standards (Pre-K to 12th grades), the sled kite template, worksheet and metric cube. 3
+
+SI Area (NIST) – Explore resources to become familiar with units used to measure area, including the hectare.
+
+SI Volume (NIST) – Explore resources to become familiar with units used to measure volume, including the liter.
+
+Credit:
+
+N. Hanacek/NIST
+
+Resources for Grade 6-8
+
+Metric Estimation Game (SP 1336) - this fun, hands-on activity helps participants become familiar with SI measurements by practicing estimation skills. During this activity, participants will become familiar with using the metric system (International System of Units, SI) measurements on common, everyday items.
+
+SI Base Units Relationship Poster (SP 1247) (NIST) – a colorful poster illustrating the relationships of the International System of Units (SI) derived units with special names and symbols and the seven traditional base units.
+
+SI Units Card Deck (SP 1297) (NIST) – this activity offers a fun way to enhance understanding of the International System of Units, including the defining constants, base units, derived units with special names, and prefixes.
+
+Sea Floor Mapping (NOAA)- An educational resource on how scientists map the ocean floor using sonar and other technologies, with classroom materials included.
+
+Mountain in the Sea Exploration: Big Fleas Have Little Fleas! (NOAA) Grades 7-8 Life Science Lesson Plan - PDF
+
+Exploring the Inner Space of the Celebes Sea - Staying Up (NOAA) Grades 7-8 Life Science/Physical Science Lesson Plan - PDF

@@ -1,0 +1,130 @@
+[Federal Register Volume 90, Number 237 (Friday, December 12, 2025)]
+[Rules and Regulations]
+[Pages 57698-57713]
+From the Federal Register Online via the Government Publishing Office [www.gpo.gov]
+[FR Doc No: 2025-22633]
+
+
+
+
+FEDERAL COMMUNICATIONS COMMISSION
+
+47 CFR Parts 1, 13, 17, 20, 22, 24, 26, 27, 30, 54, 74, 80, 87, 88,
+90, 95, 96, 97, and 101
+
+[GN Docket No. 25-133; FCC 25-77; FR ID 318984]
+
+Delete, Delete, Delete; Removal of Obsolete Regulations
+
+AGENCY: Federal Communications Commission.
+
+ACTION: Direct final rule; request for comments.
+
+
+
+SUMMARY: In this document, Commission acts to eliminate certain
+outdated, obsolete, and unnecessary rules.
+
+DATES: Effective February 10, 2026, unless significant adverse comments
+are received by January 2, 2026. In the event the Commission receives
+significant adverse comments, the Commission will publish a timely
+withdrawal in the Federal Register informing the public the provisions
+of the rule(s) for which significant adverse comments were received and
+elimination will not take effect.
+
+ADDRESSES: You may submit comments, identified by GN Docket No. 25-133,
+electronically or on paper. See SUPPLEMENTARY INFORMATION for specific
+information and addresses for electronic or paper filings.
+
+FOR FURTHER INFORMATION CONTACT: Amy Brett, Federal Communications
+Commission, Wireless Telecommunications Bureau, [email protected],
+(202) 418-2703.
+
+SUPPLEMENTARY INFORMATION: This is a summary of the Commission's Direct
+Final Rule, GN Docket No. 25-133, FCC 25-77, adopted on October 28,
+2025 and released on October 29, 2025. The full text of this document
+is available for public inspection and can be downloaded at https://www.fcc.gov/document/deleting-obsolete-and-duplicative-wireless-rules-0. Alternative formats are available for people with disabilities
+(Braille, large print, electronic files, audio format) by sending an
+email to [email protected] or calling the Commission's Consumer and
+Governmental Affairs Bureau at (202) 418-0530 (voice), (202) 418-0432
+(TTY).
+Comment Period and Filing Procedures. Interested parties may file
+comments on or before the dates provided in the DATES section of this
+document. Comments must be filed in GN Docket No. 25-133. Comments may
+be filed using the Commission's Electronic Comment Filing System
+(ECFS). See Electronic Filing of Documents in Rulemaking Proceedings,
+63 FR 24121 (1998).
+All filings must be addressed to the Commission's
+Secretary, Office of the Secretary, Federal Communications Commission.
+Electronic Filers: Comments may be filed electronically
+using the internet by accessing the ECFS: https://www.fcc.gov/ecfs/.
+
+[[Page 57699]]
+
+Paper Filers: Parties who choose to file by paper must
+file an original and one copy of each filing. If more than one docket
+or rulemaking number appears in the caption of this proceeding, filers
+must submit two additional copies for each additional docket or
+rulemaking number.
+Commercial overnight mail (other than U.S. Postal Service
+Express Mail and Priority Mail) must be sent to 9050 Junction Drive,
+Annapolis Junction, MD 20701.
+U.S. Postal Service first-class, Express, and Priority
+mail must be addressed to 45 L Street NE, Washington, DC 20554.
+
+Procedural Matters
+
+Paperwork Reduction Act of 1995 Analysis: This document does not
+contain new or modified information collections subject to the
+Paperwork Reduction Act of 1995 (PRA), 44 U.S.C. 3501-3521. In
+addition, therefore, it does not contain any new or modified
+information collection burden for small business concerns with fewer
+than 25 employees, pursuant to the Small Business Paperwork Relief Act
+of 2002, 44 U.S.C. 3506(c)(4).
+Congressional Review Act: The Commission has determined, and the
+Administrator of the Office of Information and Regulatory Affairs,
+Office of Management and Budget concurs, that this rule is ``non-
+major'' under the Congressional Review Act, 5 U.S.C. 804(2). The
+Commission will send a copy of this Direct Final Rule to Congress and
+the Government Accountability Office pursuant to 5 U.S.C. 801(a)(1)(A).
+
+Synopsis
+
+1. This Direct Final Rule continues our efforts to modernize our
+regulatory framework by rescinding certain wireless rules and
+requirements in parts 1, 13, 17, 20, 22, 24, 26, 27, 30, 54, 74, 80,
+87, 88, 90, 95, 96, 97, and 101. In this proceeding, we have undertaken
+a sweeping review eventually aimed at eliminating outdated rules,
+reducing unnecessary regulatory burdens, accelerating infrastructure
+deployment, promoting network modernization, and spurring innovation.
+Our objective is to streamline, simplify, and smartly deregulate across
+multiple fronts simultaneously to better serve the public and support
+technological progress.
+2. In initiating this proceeding, we generally sought to identify
+rules that are outdated, obsolete, unlawful, anticompetitive, or
+otherwise no longer in the public interest. In this item, we
+specifically focus on the repeal of certain wireless rules in various
+parts for which prior notice and comment are unnecessary, but for which
+we elect to provide an opportunity for input on that assessment. Absent
+any significant adverse comments in response to this Direct Final Rule,
+these rules will be repealed.
+3. Good Cause to Forgo Notice and Comment. Under the Administrative
+Procedure Act (APA), when an agency for good cause finds that notice
+and public comment ``are impracticable, unnecessary, or contrary to the
+public interest,'' it need not follow notice and comment procedures
+before modifying or repealing rules. Prior notice and comment are
+``unnecessary'' when `` `the administrative rule is a routine
+determination, insignificant in nature and impact, and inconsequential
+to the industry and to the public.' ''
+4. We have identified approximately 396 rule provisions and rule
+parts, totaling 58,218 words and covering approximately 137 pages in
+the Code of Federal Regulations, that plainly no longer serve the
+public interest because they have sunset by operation of law; \1\
+govern an expired event; \2\ regulate an
+
+[[Page 57700]]
+
+obsolete technology; \3\ regulate virtually a null set of FCC
+licensees; \4\ regulate an outdated market structure; \5\ are no longer
+used in practice by the FCC or licensees; \6\ or are otherwise
+duplicative,

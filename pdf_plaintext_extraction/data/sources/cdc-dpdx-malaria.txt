@@ -1,0 +1,125 @@
+Skip directly to site content
+Skip directly to search
+
+Español |
+Other Languages
+
+An official website of the United States government Here's how you know
+
+Official websites use .gov
+
+A .gov website belongs to an official government organization in the United States.
+
+Secure .gov websites use HTTPS
+
+A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+
+Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
+
+Search
+
+Submit
+
+DPDx - Laboratory Identification of Parasites of Public Health Concern
+
+Malaria
+
+Print
+
+Related Pages
+
+[Plasmodium falciparum] [Plasmodium knowlesi] [Plasmodium malariae] [Plasmodium ovale] [Plasmodium vivax]
+
+Parasite BiologyImage GalleryLaboratory DiagnosisTreatment InformationMosquitoesRelated Case Studies
+
+Causal Agent
+
+Blood parasites of the genus Plasmodium. There are approximately 156 named species of Plasmodium which infect various species of vertebrates. Four species are considered true parasites of humans, as they utilize humans almost exclusively as a natural intermediate host: P. falciparum, P. vivax, P. ovale and P. malariae. However, there are periodic reports of simian malaria parasites being found in humans, most reports implicating P. knowlesi. At the time of this writing, it has not been determined if P. knowlesi is being naturally transmitted from human to human via the mosquito, without the natural intermediate host (macaque monkeys, genus Macaca). Therefore, P. knowlesi is still considered a zoonotic malaria.
+
+Life Cycle
+
+The malaria parasite life cycle involves two hosts. During a blood meal, a malaria-infected female Anopheles mosquito inoculates sporozoites into the human host . Sporozoites infect liver cells and mature into schizonts , which rupture and release merozoites . (Of note, in P. vivax and P. ovale a dormant stage [hypnozoites] can persist in the liver and cause relapses by invading the bloodstream weeks, or even years later.) After this initial replication in the liver (exo-erythrocytic schizogony ), the parasites undergo asexual multiplication in the erythrocytes (erythrocytic schizogony ). Merozoites infect red blood cells . The ring stage trophozoites mature into schizonts, which rupture releasing merozoites . Some parasites differentiate into sexual erythrocytic stages (gametocytes) . Blood stage parasites are responsible for the clinical manifestations of the disease.
+
+The gametocytes, male (microgametocytes) and female (macrogametocytes), are ingested by an Anopheles mosquito during a blood meal . The parasites’ multiplication in the mosquito is known as the sporogonic cycle . While in the mosquito’s stomach, the microgametes penetrate the macrogametes generating zygotes . The zygotes in turn become motile and elongated (ookinetes) which invade the midgut wall of the mosquito where they develop into oocysts . The oocysts grow, rupture, and release sporozoites , which make their way to the mosquito’s salivary glands. Inoculation of the sporozoites into a new human host perpetuates the malaria life cycle.
+
+Geographic Distribution
+
+Malaria generally occurs in areas where environmental conditions allow parasite multiplication in the vector.  Malaria today is usually restricted to tropical and subtropical areas and altitudes below 1,500 m., although in the past malaria was endemic in much of North America, Europe and even parts of northern Asia, and today is still present on the Korean peninsula. However, this present distribution could be affected by climatic changes and population movements. Plasmodium falciparum is the predominant species in the world. P. vivax and P. ovale are traditionally thought to occupy complementary niches, with P. ovale predominating in Sub-Saharan Africa and P. vivax in the other areas; but their geographical ranges do overlap. These two species are not always distinguishable on the basis of morphologic characteristics alone, and the use of molecular tools will help clarify their diagnosis and exact distribution. P. malariae has wide global distribution, being found in South America, Asia, and Africa, but it is less frequent than P. falciparum in terms of association with cases of infection. P. knowlesi is found in southeast Asia.
+
+More on: Malaria Risk Information and Prophylaxis by Country
+
+Clinical Presentation
+
+The symptoms of uncomplicated malaria can be rather non-specific and the diagnosis can be missed if health providers are not alert to the possibility of this disease. Since untreated malaria can progress to severe forms that may be rapidly (<24 hours) fatal, malaria should always be considered in patients who have a history of exposure (mostly: past travel or residence in disease-endemic areas). The most frequent symptoms include fever and chills, which can be accompanied by headache, myalgias, arthralgias, weakness, vomiting, and diarrhea. Other clinical features include splenomegaly, anemia, thrombocytopenia, hypoglycemia, pulmonary or renal dysfunction, and neurologic changes. The clinical presentation can vary substantially depending on the infecting species, the level of parasitemia, and the immune status of the patient. Infections caused by P. falciparum are the most likely to progress to severe, potentially fatal forms with central nervous system involvement (cerebral malaria), acute renal failure, severe anemia, or acute respiratory distress syndrome. Other species can also have severe manifestations. Complications of P. vivax malaria include splenomegaly (with, rarely, splenic rupture), and those of P. malariae include nephrotic syndrome.
+
+Plasmodium falciparum
+
+Ring-form trophozoites of P. falciparum in thick and a thin blood smear.
+
+Ring-form trophozoites (rings) of Plasmodium falciparum are often thin and delicate, measuring on average 1/5 the diameter of the red blood cell. Rings may possess one or two chromatin dots. They may be found on the periphery of the RBC (accolé, appliqué) and multiply-infected RBCs are not uncommon. Ring forms may become compact or pleomorphic depending on the quality of the blood or if there is a delay in making smears. There is usually no enlargement of infected RBCs.
+
+Figure A: Rings of P. falciparum in a thick blood smear.
+
+View Larger
+
+Figure D: Rings of P. falciparum in a thick blood smear.
+
+Figure G: Rings of P. falciparum in a thin blood smear.
+
+Figure J: Rings of P. falciparum in a thin blood smear.
+
+Figure B: Rings of P. falciparum in a thick blood smear.
+
+Figure E: Rings of P. falciparum in a thick blood smear.
+
+Figure H: Rings of P. falciparum in a thin blood smear.
+
+Figure K: Rings of P. falciparum in a thin blood smear.
+
+Figure C: Rings of P. falciparum in a thick blood smear.
+
+Figure F: Rings of P. falciparum in a thick blood smear.
+
+Figure I: Rings of P. falciparum in a thin blood smear.
+
+Figure L: Rings of P. falciparum in a thin blood smear. Image courtesy of the Arizona State Public Health Laboratory.
+
+Ring-form trophozoites of P. falciparum in thin blood smears exhibiting Maurer’s clefts.
+
+Maurer’s clefts can be seen in P. falciparum infections containing older ring-form trophozoites and asexual stages. Maurer’s clefts resemble the Schüffner’s dots seen in P. vivax and P. ovale, but are usually larger and more coarse. Visualization of these structures is dependent on the quality of the smear preparation and the pH of the Giemsa stain. Like Schüffner’s dots, Maurer’s clefts appear to play a role in the metabolic pathways of the infected RBCs.
+
+Figure A: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Figure E: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Figure B: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Figure F: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Figure C: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Figure D: Ring-form trophozoites of P. falciparum in a thin blood smear, exhibiting Maurer's clefts.
+
+Developing and older trophozoites of P. falciparum in thick and a thin blood smear.
+
+Developing trophozoites of P. falciparum tend to remain in ring form, but may become thicker and more compact. The amount of pigment and chromatin may also increase. Compact or amoeboid forms may be seen in smears where there was a delay in processing the blood.
+
+Figure A: Trophozoites of P. falciparum in a thick blood smear.
+
+Figure E: Trophozoites of P. falciparum in a thin blood smear.
+
+Figure B: Trophozoite of P. falciparum in a thin blood smear.
+
+Figure F: Trophozoites of P. falciparum in a thin blood smear.
+
+Figure C: Trophozoite of P. falciparum in a thin blood smear.
+
+Figure D: Trophozoite of P. falciparum in a thin blood smear. In this figure, a gametocyte can also be seen in the upper half of the image.
+
+Gametocytes of P. falciparum in thick and a thin blood smear.
+
+Gametocytes of Plasmodium falciparum are crescent- or sausage-shaped, and are usually about 1.5 times the diameter of an RBC in length. The cytoplasm of the macrogametocytes (female) are usually a darker, deeper blue; the cytoplasm of the microgametocytes (male) is usually more pale. The red chromatin and pigment is more coarse and concentrated in the macrogametocytes than the microgametocytes. Sometimes in thin blood smears, the remnants of the host RBC can be seen; this is often referred to as Laveran’s bib.
+
+Figure A: Gametocyte of P. falciparum in a thick blood smear. Note also the presence of many ring-form trophozoites.
+
+Figure E: Gametocyte of P. falciparum in a thin blood smear. Also seen in this image are ring-form trophozoites exhibiting Maurer's clefts.
