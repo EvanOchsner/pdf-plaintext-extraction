@@ -41,6 +41,12 @@ frontier = [
 ocr-heavy = [
     "olmocr>=0.1.0",
 ]
+# Apple-Silicon-local OlmOCR — runs the olmOCR-2 model through MLX
+# (Metal) instead of vLLM/CUDA. Used by benchmark.olmocr_mlx. Pulls
+# mlx / mlx-lm transitively; Apple Silicon only.
+ocr-mlx = [
+    "mlx-vlm>=0.5",
+]
 # Dataset publishing.
 publish = [
     "huggingface-hub >=0.24",

@@ -55,7 +55,11 @@ from pdf_plaintext_extraction.synthesize.ground_truth import build_all
 EXTRACTOR_NAME = "olmocr"
 
 # Field names OlmOCR has used across releases for the source-PDF path.
-_SOURCE_PATH_KEYS = ("Source-File", "source_file", "source", "filename")
+# NB: the bare ``source`` key is deliberately excluded — in the dolma
+# doc schema ``source`` is the pipeline/corpus name (always the literal
+# "olmocr"), not a file path. The PDF path lives at
+# ``metadata["Source-File"]``.
+_SOURCE_PATH_KEYS = ("Source-File", "source_file", "filename")
 
 # Field names that may carry per-document wall-time in seconds.
 _WALL_TIME_KEYS = (

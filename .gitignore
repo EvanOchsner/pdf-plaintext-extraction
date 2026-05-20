@@ -6,6 +6,10 @@ __pycache__/
 .env.local
 .DS_Store
 
+# Claude Code local state (machine-specific, not shared)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
 # Acquisition cache — content is reproducible from manifest, no need to commit
 data/cache/
 data/raw/

@@ -81,10 +81,15 @@ def _fake_workspace(
     ).read_text(encoding="utf-8")
     # For "clean", the perfect-extraction case: hand olmocr the source
     # back verbatim. For rasterize, simulate a slight OCR drift.
+    # NB: the top-level "source": "olmocr" field is part of the real
+    # dolma-doc schema (it names the pipeline, not a file). The importer
+    # must NOT mistake it for the source-PDF path — these fixtures keep
+    # it present so that regression is caught.
     docs = [
         {
             "id": "doc1",
             "text": src_text + extra_text,
+            "source": "olmocr",
             "metadata": {
                 "Source-File": str(corpus_root / "clean" / "gutenberg-pg11-ch1.pdf"),
                 "wall_seconds": 12.5,
@@ -97,6 +102,7 @@ def _fake_workspace(
                 "id": "doc2",
                 # Drop a token to simulate OCR loss
                 "text": " ".join(src_text.split()[:-3]),
+                "source": "olmocr",
                 "metadata": {
                     "Source-File": str(
                         corpus_root / "poisoned" / "rasterize" / "gutenberg-pg11-ch1.pdf"
