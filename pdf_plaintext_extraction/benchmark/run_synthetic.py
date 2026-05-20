@@ -79,8 +79,14 @@ def run(
     out_path: Path,
     corpus_root: Path,
     resume: bool = False,
+    source_limit: int | None = None,
 ) -> list[dict]:
     entries = build_all(corpus_root)
+    if source_limit is not None:
+        # First N source_ids (sorted). Matches the ``--sources`` semantics
+        # of ``benchmark.olmocr_mlx`` so the two runs cover the identical
+        # subset and their timings are directly comparable.
+        entries = sorted(entries, key=lambda e: e.source_id)[:source_limit]
     rows: list[dict] = []
 
     # ``--resume`` reuses the same output file by appending and skipping
@@ -249,6 +255,12 @@ def main() -> None:
         action="store_true",
         help="Append to --out (must exist); skip any (extractor,source,variant) cells already present.",
     )
+    p.add_argument(
+        "--sources",
+        type=int,
+        default=None,
+        help="Limit to the first N source_ids (sorted). Omit to run all 100.",
+    )
     args = p.parse_args()
 
     names = args.extractors.split(",") if args.extractors else None
@@ -259,7 +271,7 @@ def main() -> None:
         RESULTS_DIR / f"synthetic_{dt.datetime.now().strftime('%Y%m%dT%H%M%S')}.jsonl"
     )
     corpus_root = args.corpus_root or default_corpus_cache_dir()
-    rows = run(extractors, out, corpus_root, resume=args.resume)
+    rows = run(extractors, out, corpus_root, resume=args.resume, source_limit=args.sources)
     print(f"wrote {len(rows)} rows -> {out}")
     _print_summary(rows)
 
