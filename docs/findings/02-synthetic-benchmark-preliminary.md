@@ -5,6 +5,8 @@
 × 7 variants = 700 PDFs. Cloud vision LLMs (Claude, Gemini) wired but
 skipped this run pending API budget. Six local extractors compared
 (pypdf, pdfplumber, pdftotext, Tesseract, Docling, PAT cascade).
+OlmOCR-2 (open vision LLM) added 2026-05-20 on a 10-source subset —
+see the OlmOCR-2 section.
 
 This supersedes the n=3 preliminary writeup that previously occupied
 this file. **Important revision:** an earlier finding that "PAT's
@@ -86,6 +88,11 @@ Each cell is the mean over 100 sources. Bold = column-leader at three
 decimal places. Claude vision and Gemini vision returned graceful-skip
 rows (700 each) because API keys aren't set in this run.
 
+A seventh extractor — **OlmOCR-2**, an open vision LLM — was run
+separately on a 10-source subset (it can't share this n=100 table yet);
+see [OlmOCR-2 (vision LLM) — n=10 subset](#olmocr-2-vision-llm--n10-subset)
+below.
+
 **Per-pool variation** is small. On the `clean` column, every text-layer
 tool hits 1.000 ± 0.006 across all five pools (`gutenberg`,
 `federal-register`, `usc`, `wikipedia`, `agency-pubs`). On the
@@ -115,14 +122,6 @@ defeat every other extractor (rasterize, homoglyph). On the seven
 columns combined it averages **0.995**, vs. 0.713 for pypdf, 0.640
 for pdftotext / pdfplumber, 0.755 for docling, and 0.842 for
 tesseract. Cascade design is paying off.
-
-**This is a major revision of the n=3 finding.** The earlier
-preliminary run reported "PAT's garble-detection escalation didn't
-fire on rasterize" (PAT scored 0.000 on rasterize at n=3). At n=100
-PAT scores **0.986** on rasterize — it does escalate and recovers
-correctly. The n=3 result was a small-sample artifact (~500-word
-sources may not give the garble heuristic enough signal); at the
-production excerpt length of ~1500 words, escalation fires reliably.
 
 **3. Tesseract is the only single-pass extractor that defeats both
 rasterize and homoglyph.** Tesseract scores 0.986 on both because
@@ -167,6 +166,95 @@ Real-world invisible-text attacks would need to be substantially
 larger to materially affect benchmark scores. Worth tracking when
 the real-document corpus lands.
 
+## OlmOCR-2 (vision LLM) — n=10 subset
+
+[Allen AI's OlmOCR-2](https://github.com/allenai/olmocr) (a
+Qwen2.5-VL-7B fine-tune) is the benchmark's first vision-LLM
+extractor. Unlike the six text-layer / OCR tools above, OlmOCR
+rasterizes each page and reads it as an image through a 7B
+vision-language model — so it is structurally immune to text-layer
+codepoint tricks and behaves like an OCR tool with a language model's
+reconstruction ability.
+
+**Run setup.** OlmOCR's upstream inference path is vLLM + CUDA, which
+runs on neither Apple Silicon nor a free Kaggle T4 (vLLM/torch ABI
+breakage; `bitsandbytes` ships no Turing-`sm75` kernel). It runs
+locally on Apple Silicon instead via MLX —
+`mlx-community/olmOCR-2-7B-1025-8bit` (an 8-bit quant of the same
+model, within ~0.5% of bf16) through `mlx-vlm`, driven by
+`pdf_plaintext_extraction.benchmark.olmocr_mlx`. At ~74 s/page on an
+M2 the full 700-PDF corpus is a ~66 h run, so this is a **10-source
+subset** (10 sources × 7 variants = 70 PDFs, 399 page-inferences,
+8.2 h wall). The numbers below are directional — not yet
+1:1-comparable with the n=100 columns above.
+
+Mean token F1 and per-PDF / per-page wall time, over the 10 sources
+(run 2026-05-20, M2, 8-bit MLX):
+
+| variant | n | mean F1 | mean NED | s / PDF | s / page |
+|---|---:|---:|---:|---:|---:|
+| `clean` (none) | 10 | 0.990 | 0.016 | 472.4 | 82.9 |
+| `watermark` | 10 | 0.984 | 0.023 | 431.0 | 75.6 |
+| `metadata_swap` | 10 | 0.990 | 0.016 | 426.4 | 74.8 |
+| `rasterize` | 10 | 0.989 | 0.018 | 433.6 | 76.1 |
+| `homoglyph` | 10 | 0.990 | 0.016 | 428.9 | 75.2 |
+| `char_spacing` | 10 | 0.618 | 0.547 | 351.6 | 61.7 |
+| `invisible_text` | 10 | 0.990 | 0.016 | 421.1 | 73.9 |
+| **poisoned (all 6)** | 60 | 0.927 | 0.106 | 415.4 | 72.9 |
+
+Artifact: `experiments/results/olmocr_mlx_n10.jsonl` (70 rows, standard
+benchmark schema, `extractor: "olmocr"`).
+
+**Observations.**
+
+1. **OlmOCR defeats every pixel-invariant technique.** rasterize
+   (0.989), homoglyph (0.990), and invisible_text (0.990) all sit at
+   the clean baseline (0.990). A vision model only ever sees rendered
+   pixels: a rasterized page is its native input; Cyrillic homoglyphs
+   render as Latin-looking glyphs and are read back as Latin; and
+   invisible-rendering-mode text is, by definition, not on the page the
+   model sees. This is the same profile as Tesseract (all three
+   ≈ 0.986) — both are pixel-based — with OlmOCR a hair higher on the
+   clean control (a 0.004 gap at n=10, i.e. within noise).
+
+2. **`char_spacing` is OlmOCR's one real weakness (0.618).** Wide
+   inter-character kerning makes the model read `h e l l o` as separate
+   tokens — the same failure mode that sinks Tesseract (0.085),
+   pdftotext (0.017), and Docling (0.016). OlmOCR's 0.618 is far better
+   than those — the language model partially reconstructs words from
+   context — but nowhere near pypdf / pat-cascade's 1.000, which win
+   this column by ignoring the Tc operator and reconstructing from
+   glyph positions. A vision LLM has no glyph-position channel to fall
+   back on.
+
+3. **`watermark` (0.984) and `metadata_swap` (0.990) behave as
+   expected.** metadata_swap touches only docinfo / XMP, invisible to
+   any text or vision extractor, so it sits at the clean score.
+   watermark dips slightly because the overlay text is visually present
+   and bleeds into the extraction — same direction as Tesseract's
+   watermark dip, milder here.
+
+4. **Runtime tracks page count, not technique.** Per-page wall is a
+   tight 74–83 s for every variant except char_spacing. char_spacing is
+   the *fastest* (61.7 s/page) precisely because the model emits less /
+   more-fragmented text and stops sooner; `clean` is the slowest
+   (82.9 s/page) — it has the most genuine text to transcribe. The
+   "none" vs "all-methods" split: clean averages 472.4 s/PDF, the
+   six-technique poisoned aggregate 415.4 s/PDF. On an M2, OlmOCR runs
+   ~10,000× slower per page than pypdf (≈0.008 s/page) — four orders of
+   magnitude. Its accuracy on pixel-invariant attacks is bought with a
+   very large compute bill.
+
+**Bottom line.** OlmOCR is, with Tesseract, one of only two extractors
+that beats both `rasterize` and `homoglyph` — and it edges Tesseract on
+the clean control and clearly beats it on `char_spacing` (0.618 vs
+0.085). But it does not displace the PAT cascade: PAT scores ≥ 0.986 on
+*every* column, including `char_spacing` at 1.000 where OlmOCR collapses
+to 0.618. OlmOCR's niche is documents that are purely image-based or
+codepoint-poisoned — at a compute cost four orders of magnitude above
+the text-layer tools. Scaling this column to the full n=100 (a ~66 h
+M2 run, or a CUDA host where vLLM works) is tracked in Next steps.
+
 ## Obfuscation prevalence (W3 fingerprinter)
 
 Mean signal-trip rate by variant, across the 700-PDF corpus
@@ -192,12 +280,6 @@ heuristic's "all-caps recurring header" pattern. Easy to refine but
 doesn't muddy the actual watermark signal which trips ~20× stronger.
 
 ## Implications for the PAT cascade
-
-**The n=3 verdict on PAT escalation was wrong.** PAT's
-garble-detection escalation works correctly at production scale —
-the cascade is in good shape, not in need of urgent repair. The
-follow-on PAT ticket from finding 02-preliminary should be **closed
-as wontfix** (the original report was a small-sample artifact).
 
 **PAT outperforms Docling on every dimension that matters.** Across
 the seven variants, PAT averages 0.995 vs. Docling 0.755. The two
@@ -240,9 +322,12 @@ column will be the highest-information comparison.
 
 1. Run cloud-LLM extractors (Claude vision + Gemini vision) on the
    same 700-PDF corpus once API budget approved.
-2. Add a 6th pool focused on non-Latin scripts (CJK, Arabic, etc.)
+2. Scale the OlmOCR-2 column from n=10 to the full n=100 — either a
+   ~66 h unattended M2 run (`olmocr_mlx`, resumable) or a CUDA host
+   where vLLM works — so it shares the main results table.
+3. Add a 6th pool focused on non-Latin scripts (CJK, Arabic, etc.)
    with a Unicode-capable renderer; measure how OCR-based extractors
    vs. text-layer extractors handle the script split.
-3. Hand-collect the SERFF pilot (~30 filings) and run the same
+4. Hand-collect the SERFF pilot (~30 filings) and run the same
    fingerprinter + benchmark against real disclosures.
-4. File any PAT-cascade tickets surfaced by the n=100 comparison.
+5. File any PAT-cascade tickets surfaced by the n=100 comparison.
