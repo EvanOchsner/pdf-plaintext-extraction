@@ -1,0 +1,16 @@
+# Build configuration for the white paper.
+#
+#   latexmk            # build main.pdf with XeLaTeX + BibTeX
+#   latexmk -pvc       # rebuild on save
+#   latexmk -c         # clean aux files
+#
+# XeLaTeX is used so the source compiles with full UTF-8 support; the
+# generated extractor-output snippets are ASCII-folded but the body
+# text and bibliography contain occasional non-ASCII punctuation.
+
+$pdf_mode = 5;          # 5 = xelatex
+$xelatex  = 'xelatex -interaction=nonstopmode -file-line-error -synctex=1 %O %S';
+$bibtex_use = 2;        # run bibtex; clean .bbl on -c
+
+# Aux files are written alongside main.tex; `latexmk -c` removes them.
+$clean_ext .= ' synctex.gz run.xml bbl';

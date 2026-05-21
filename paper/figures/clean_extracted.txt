@@ -1,0 +1,13 @@
+pypdf.extract_text()  ->  faithful plain text:
+
+  [Federal Register Volume 89, Number 143 (Thursday, July 25,
+  2024)] [Rules and
+  Regulations] [Pages 60298-60301] From the Federal Register
+  Online via the
+  Government Publishing Office [www.gpo.gov] [FR Doc No:
+  2024-16138]
+  DEPARTMENT OF HOMELAND SECURITY
+  U.S. Citizenship and Immigration Services
+  8 CFR Part 212
+
+[control] token-F1 vs. source = 1.000

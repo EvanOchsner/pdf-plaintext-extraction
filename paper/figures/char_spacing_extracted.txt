@@ -1,0 +1,19 @@
+An abnormal Tc (character-spacing) operator widens
+every inter-glyph gap past the glyph width itself.
+
+poppler pdftotext  ->  word boundaries destroyed,
+every glyph read as its own token:
+
+  [ F e d e r a l
+  R e g i s t e r
+  V o l u m e
+  8 9 ,
+  R e g u l a t i o n s ]
+  [ P a g e s
+
+pypdf, which reconstructs words from glyph positions
+and ignores the Tc operator, is unaffected:
+
+  [Federal Register Volume 89, Number 143 (Thursday, July 25,
+
+  pdftotext token-F1 = 0.017    pypdf token-F1 = 1.000

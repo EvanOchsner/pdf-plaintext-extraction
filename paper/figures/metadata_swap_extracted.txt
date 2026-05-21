@@ -1,0 +1,17 @@
+Extracted text is byte-identical to the clean
+document (token-F1 = 1.000): no text or vision
+extractor sees this attack. The poisoning lives
+entirely in the document metadata.
+
+  clean document:
+    Producer : pdf-plaintext-extraction/clean_pdf.py
+    Creator  : pdf-plaintext-extraction/clean_pdf.py
+    Title    : fr-2024-16138
+
+  poisoned document:
+    Producer : MalformedScanPipeline 0.1
+    Creator  : fax-to-pdf-converter
+    Title    : scan_output
+
+The W3 fingerprinter flags this known-bad producer
+signature at 100% precision; extractors are blind.

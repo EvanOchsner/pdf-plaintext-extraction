@@ -1,0 +1,874 @@
+% Extracting Plaintext from Adversarial PDFs --- project pre-print.
+% Build with XeLaTeX via latexmk (see latexmkrc): latexmk
+\documentclass[11pt]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{fancyvrb}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{placeins}
+\usepackage[hidelinks]{hyperref}
+
+\captionsetup{font=small,labelfont=bf}
+\setlength{\parskip}{0.35em}
+
+% Allow large figures to pack two-per-page rather than floating alone.
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.72}
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\setlength{\floatsep}{12pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{14pt plus 2pt minus 2pt}
+\newcommand{\variant}[1]{\texttt{#1}}
+\definecolor{patrow}{gray}{0.92}
+
+% Obfuscation figure: rendered page (human view) beside the text a
+% naive extractor returns (machine view).
+% #1 label  #2 page image  #3 snippet file  #4 caption
+\newcommand{\obfusfig}[4]{%
+  \begin{figure}[tbp]
+    \centering
+    \begin{minipage}[t]{0.37\textwidth}
+      \centering
+      \fbox{\includegraphics[width=\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax]{figures/#2}}\\[3pt]
+      {\footnotesize\itshape What a human sees}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.59\textwidth}
+      \vspace{0pt}
+      \VerbatimInput[fontsize=\scriptsize,frame=single,framesep=5pt]%
+        {figures/#3}
+      \vspace{3pt}\par\centering
+      {\footnotesize\itshape What a naive text extractor returns}
+    \end{minipage}
+    \caption{#4}
+    \label{fig:#1}
+  \end{figure}}
+
+\title{\bfseries Extracting Plaintext from Adversarial PDFs:\\[2pt]
+  A Synthetic Benchmark of Obfuscation Techniques\\
+  and a Tiered Recovery Cascade}
+\author{Evan Ochsner\\
+  \small\texttt{evan.ochsner@gmail.com}}
+\date{May 2026 --- pre-print}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+Public disclosure overwhelmingly takes the form of PDFs, and a large
+fraction of them resist reliable conversion into machine-searchable
+text. The causes span a spectrum: incidental damage from scan-to-PDF
+pipelines and technical debt at one end, deliberate obfuscation that
+defeats automated readers while remaining visually intact at the other.
+Whatever the cause, a document that cannot be reduced to faithful
+plaintext --- a document you cannot \emph{grep} --- is, for practical
+purposes, undisclosed. We present a reproducible synthetic benchmark
+that quantifies this problem. One hundred public-domain source texts
+are rendered to PDFs with byte-exact ground truth and then independently
+poisoned with six obfuscation techniques, yielding a 700-PDF corpus.
+We evaluate seven extractors --- five widely used open-source tools, an
+open vision language model, and \mbox{\textsc{pat-cascade}}, a tiered
+text-then-OCR cascade --- on both token-level F1 accuracy and wall-clock
+runtime. \textsc{pat-cascade} is the only extractor that scores at or
+above $0.986$ on every variant (mean $0.995$), while each single-pass
+tool has at least one technique that defeats it outright. Runtime spans
+more than four orders of magnitude; the cascade occupies the pragmatic
+middle, paying optical-character-recognition (OCR) cost only when its
+garble detector escalates. All code and data are public.
+\end{abstract}
+
+\section{Introduction}
+
+\subsection{The problem}
+
+The Portable Document Format is a \emph{layout} format. A PDF page is a
+content stream of drawing operators that place glyphs, images, and
+vector graphics at coordinates; the format makes no promise that the
+sequence of glyphs a reader sees corresponds in any recoverable way to a
+sequence of Unicode characters~\cite{pdfspec}. The mapping from a drawn
+glyph back to a character is carried by an \emph{optional}
+\texttt{ToUnicode} CMap. Text can be drawn in an invisible rendering
+mode, drawn off the page, or replaced wholesale by a rasterized image.
+``What the page shows'' and ``what the text layer says'' are therefore
+free to diverge arbitrarily.
+
+In practice they diverge constantly. A government office scans a paper
+filing and posts the image-only result. A converter embeds a subsetted
+font with no \texttt{ToUnicode} table. A template stamps a
+\texttt{CONFIDENTIAL} watermark across every page. Some of this is
+incidental --- technical debt, a misconfigured pipeline, an accident of
+tooling. Some of it is deliberate: patterns that pass a human reader's
+glance but defeat OCR, text-layer parsers, and language-model-based
+extractors. From an extraction pipeline's point of view the
+\emph{intent} does not matter. What matters is that the document
+resists being turned into faithful, searchable plaintext.
+
+That capability is valuable. Auditing a corpus of disclosures, building
+a full-text index, running a regular expression across a regulatory
+filing set --- all of it presupposes that each PDF can be reduced to the
+text it represents, with high fidelity. When extraction silently returns
+empty strings, scrambled codepoints, or attacker-controlled payloads,
+every downstream analysis inherits the corruption. This paper measures
+how far common tools fall short, and what it costs to do better.
+
+\subsection{Contributions}
+
+\begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
+  \item A \textbf{taxonomy} of twelve structural PDF obfuscation
+    techniques, each paired with a cheap static-analysis detection
+    signal (Section~\ref{sec:threat}).
+  \item A \textbf{reproducible synthetic benchmark}: 100 public-domain
+    source texts $\times$ 7 variants (one clean baseline plus six
+    independent obfuscation techniques) $=$ 700 PDFs, every variant
+    anchored to byte-exact ground truth (Section~\ref{sec:method}).
+  \item A head-to-head \textbf{evaluation of seven extractors} ---
+    including the proposed \textsc{pat-cascade} --- on both accuracy and
+    runtime, spanning more than four orders of magnitude of compute cost
+    (Section~\ref{sec:results}).
+  \item A \textbf{visual demonstration} of each technique, contrasting
+    the page a human sees with the text a machine recovers
+    (Figures~\ref{fig:watermark}--\ref{fig:invisible_text}).
+\end{enumerate}
+
+\subsection{Research questions}
+
+The benchmark is organized around two questions. \textbf{RQ1:} what does
+PDF obfuscation look like, structurally, and can each technique be
+detected cheaply? \textbf{RQ2:} how badly does each technique break each
+common extractor, and at what compute cost is the damage recovered?
+Measuring how often these techniques occur in real-world corpora is left
+to future work (Section~\ref{sec:conclusion}); this paper establishes
+the controlled, ground-truth-anchored baseline that such a study would
+build on.
+
+This is a pre-print. The results for the six classic extractors are at
+the full $n=100$ scale and we consider them final; the vision-language
+model column is reported on an $n=10$ subset, with the full-scale run
+forthcoming (Section~\ref{sec:olmocr}).
+
+\section{Threat model: a taxonomy of PDF obfuscation}
+\label{sec:threat}
+
+\subsection{Why PDFs resist text extraction}
+
+Because the glyph-to-character mapping is optional and the content
+stream is unconstrained, a PDF can withhold its text from automated
+extraction in structurally distinct ways. An extractor that only walks
+the text layer and one that only reads rendered pixels have disjoint
+blind spots: the first is defeated by image-only pages, the second by
+text whose visual form has been decoupled from its codepoints. A
+realistic threat model therefore has to enumerate techniques
+\emph{by mechanism}, not by severity alone.
+
+\subsection{The taxonomy}
+
+Table~\ref{tab:taxonomy} lists twelve techniques. For each we give the
+effect on extraction and a detection signal that runs cheaply as a
+static-analysis pass over the PDF structure --- no rendering, no OCR.
+The detection signals answer RQ1: every technique in the table leaves a
+structural fingerprint. Six of the twelve are realized as synthetic
+variants in this benchmark (marked~$\dagger$); the rest are documented
+for completeness and are targets for future benchmark coverage.
+
+\begin{table}[tbp]
+\centering
+\caption{Taxonomy of PDF obfuscation techniques. $\dagger$~marks the six
+  realized in this benchmark, as the variants \variant{rasterize},
+  \variant{invisible\_text}, \variant{watermark}, \variant{homoglyph},
+  \variant{char\_spacing}, and \variant{metadata\_swap} respectively.}
+\label{tab:taxonomy}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}p{3.0cm}p{4.0cm}p{4.4cm}l@{}}
+\toprule
+\textbf{Technique} & \textbf{Effect on extraction} &
+  \textbf{Detection signal} & \textbf{Severity}\\
+\midrule
+No text layer$\dagger$ &
+  Text-layer tools return an empty string; OCR is required. &
+  Zero text-showing operators on a page. & High\\
+Broken/missing ToUnicode &
+  Text extracts as meaningless Unicode; the page renders fine. &
+  Font dictionary lacks \texttt{/ToUnicode}. & Catastrophic\\
+CID without ToUnicode &
+  As above, for CID-keyed fonts. &
+  \texttt{Type0}/\texttt{CIDFont} subtype, no \texttt{/ToUnicode}. &
+  Catastrophic\\
+Invisible / off-page text$\dagger$ &
+  Hidden text pollutes the extract, or real text is hidden behind an
+  image. &
+  \texttt{Tr~3} operators, zero-scale text matrices, off-MediaBox text.
+  & Moderate\\
+Watermarks$\dagger$ &
+  Overlay text leaks into every page of the extract. &
+  Per-page recurring strings; \texttt{/Watermark} annotations. &
+  Moderate\\
+Header/footer noise &
+  Recurring non-body strings pollute the output. &
+  Strings repeated at page top/bottom. & Low--Mod.\\
+Form fields (AcroForm/XFA) &
+  Naive extractors miss live field values entirely. &
+  \texttt{/AcroForm} or \texttt{/XFA} in the catalog. & High\\
+Encrypted / protected &
+  Extractors without decryption fail outright. &
+  \texttt{/Encrypt} in the trailer. & High\\
+Text-under-image &
+  Extracted text disagrees with the rendered page. &
+  OCR the page, compare to the text layer. & Catastrophic\\
+Homoglyph substitution$\dagger$ &
+  Search, regex and tokenization break; OCR recovers the text. &
+  Non-Latin codepoints inside otherwise-Latin words. & High\\
+Character spacing$\dagger$ &
+  Word boundaries are lost; downstream NLP fails. &
+  Inter-glyph advance $\div$ font width above a threshold. & High\\
+Non-standard producer$\dagger$ &
+  A heuristic prior on quality, not a direct attack. &
+  Producer string matched against a tracked list. & Low\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Six techniques in depth}
+\label{sec:six}
+
+The six benchmarked techniques are applied independently to each clean
+source PDF. We describe each and, in
+Figures~\ref{fig:watermark}--\ref{fig:invisible_text}, demonstrate it
+on a representative document --- a U.S.\ Federal Register rule --- by
+contrasting the rendered page with the output of a naive text-layer
+extractor. (Token-F1, the accuracy metric quoted in the figures, is
+defined in Section~\ref{sec:scoring}.) The crucial observation is that
+\emph{four of the six techniques leave the rendered page pixel-identical
+to the clean document}: the human-facing artifact is unchanged while the
+machine-facing text is corrupted or destroyed.
+
+\paragraph{Watermark.} A diagonal, semi-transparent
+\texttt{CONFIDENTIAL\,--\,DRAFT} overlay is stamped on every page. The
+body text still extracts, but the overlay's glyphs are merged into the
+content stream and leak into the text layer once per page
+(Figure~\ref{fig:watermark}). The damage is pollution, not destruction:
+downstream search and tokenization see spurious tokens on every page.
+
+\obfusfig{watermark}{watermark_page.png}{watermark_extracted.txt}{%
+  \variant{watermark}. A diagonal overlay is stamped on every page. The
+  body text is recovered, but the overlay string is merged into the
+  content stream and leaks into the text layer once per page.}
+
+\paragraph{Metadata swap.} The document's \texttt{Producer},
+\texttt{Creator}, and \texttt{Title} are rewritten to a known-bad
+scan-pipeline signature. No extractor's output changes --- metadata is
+not part of any page's text --- so this technique is invisible to
+extraction by construction (Figure~\ref{fig:metadata_swap}). It is
+included precisely to exercise the gap between \emph{extraction} and
+\emph{provenance}: the static fingerprinter catches it at 100\%
+precision (Section~\ref{sec:detect}) while every extractor is blind.
+
+\obfusfig{metadata_swap}{clean_page.png}{metadata_swap_extracted.txt}{%
+  \variant{metadata\_swap}. The rendered page is identical to the clean
+  document and the extracted text is byte-identical: no extractor sees
+  this attack. The poisoning lives entirely in the document metadata,
+  where the static fingerprinter catches it.}
+
+\paragraph{Rasterize.} Each page is re-rendered to a 150-DPI image and
+the text layer is discarded, leaving an image-only PDF. This is the most
+adversarial technique for text-layer tools: the content stream contains
+no text-showing operators at all, so \texttt{pypdf}, \texttt{pdfplumber}
+and \texttt{pdftotext} return the empty string and score exactly $0.000$
+(Figure~\ref{fig:rasterize}). Only OCR or a vision model can recover the
+content. The rendered page is, by construction, visually identical to
+the original.
+
+\obfusfig{rasterize}{clean_page.png}{rasterize_extracted.txt}{%
+  \variant{rasterize}. The page is re-rendered as an image and the text
+  layer discarded. It looks identical to the clean document, but every
+  text-layer extractor returns the empty string. Only OCR or a vision
+  model can recover the content.}
+
+\paragraph{Homoglyph substitution.} Roughly one in three eligible Latin
+letters is replaced with a visually identical Cyrillic codepoint --- for
+example the Latin small letter \texttt{a} (U+0061) becomes Cyrillic
+\texttt{a} (U+0430) --- and the text is re-rendered with a Unicode-capable
+font. The page is pixel-identical to the clean version; the extracted
+text layer, however, is a mixed Latin/Cyrillic codepoint stream that
+defeats exact string search and Unicode-naive tokenization
+(Figure~\ref{fig:homoglyph}). OCR, which reads pixels, recovers the
+Latin form.
+
+\obfusfig{homoglyph}{clean_page.png}{homoglyph_extracted.txt}{%
+  \variant{homoglyph}. About one Latin letter in three is replaced by a
+  visually identical Cyrillic codepoint. The page is pixel-identical to
+  the clean document; the extracted text layer is a poisoned codepoint
+  stream that defeats exact string search.}
+
+\paragraph{Character spacing.} An abnormal \texttt{Tc}
+(character-spacing) operator is injected into each page's content
+stream, widening every inter-glyph gap past the width of the glyph
+itself. Extractors that infer word boundaries from glyph spacing read
+the result as ``\texttt{h e l l o}'' --- one token per character
+(Figure~\ref{fig:char_spacing}). Notably, the rendered page \emph{is}
+visibly altered here, and extractors that reconstruct words from glyph
+\emph{positions} rather than gaps are unaffected.
+
+\obfusfig{char_spacing}{char_spacing_page.png}{char_spacing_extracted.txt}{%
+  \variant{char\_spacing}. An abnormal \texttt{Tc} operator widens every
+  inter-glyph gap. Extractors that infer word boundaries from gaps read
+  one token per glyph; \texttt{pypdf}, which reconstructs words from
+  glyph positions, is unaffected.}
+
+\paragraph{Invisible text.} A short payload --- here a
+prompt-injection string --- is appended to the last page in PDF
+rendering mode~3, which draws no pixels. A human reader sees nothing;
+a text-layer extractor reads the payload back verbatim
+(Figure~\ref{fig:invisible_text}). This is the indirect
+prompt-injection vector~\cite{greshake2023} in PDF form: an attacker
+controls text that never appears on screen but lands in every
+downstream pipeline.
+
+\obfusfig{invisible_text}{clean_page.png}{invisible_text_extracted.txt}{%
+  \variant{invisible\_text}. A payload is drawn in invisible rendering
+  mode on the last page. The page looks identical to the clean
+  document; a text-layer extractor reads the payload back verbatim.}
+
+\section{Methodology}
+\label{sec:method}
+
+\subsection{Synthetic gold set}
+
+The benchmark uses 100 source texts, each an excerpt targeting roughly
+1\,500 words and rendering to 3--5 pages (mean 4.8 pages per clean PDF).
+Sources are balanced across five public-domain or CC-BY-SA-compatible
+pools, about twenty documents each:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \textbf{gutenberg} --- pre-1930 literary excerpts from Project
+    Gutenberg;
+  \item \textbf{federal-register} --- U.S.\ federal rules and notices
+    via the Federal Register API, spanning 17 agencies;
+  \item \textbf{usc} --- United States Code sections, 16 distinct
+    titles;
+  \item \textbf{wikipedia} --- English Wikipedia article extracts in
+    science, history, geography, and engineering;
+  \item \textbf{agency-pubs} --- U.S.\ federal-agency factsheets (CDC,
+    NIH, NIST, NOAA, USGS, EPA, FDA, and others).
+\end{itemize}
+
+Curation, deduplication, and SHA-256 provenance manifests are tracked
+with the corpus. To keep the v1 dataset focused, the renderer restricts
+input to Latin script plus standard punctuation: non-Latin codepoints
+are substituted out at source-write time. This is a deliberate scoping
+decision --- it lets the benchmark measure extraction quality without
+confounding it with non-Latin script and bidirectional-layout handling
+--- and is revisited in Section~\ref{sec:limitations}.
+
+\subsection{Poisoning pipeline}
+
+Clean PDFs are rendered deterministically (reportlab~\cite{reportlab}
+with an invariant canvas, so re-renders are byte-identical) from the
+source text. Each clean PDF is then poisoned, independently, by each of
+the six techniques of Section~\ref{sec:six}, producing six variants per
+source. Post-render techniques (\variant{watermark},
+\variant{metadata\_swap}, \variant{rasterize}, \variant{char\_spacing})
+operate on the clean PDF structurally, using pikepdf~\cite{pikepdf} for
+content-stream and metadata edits and pypdfium2~\cite{pypdfium2} for
+page rasterization; pre-render techniques (\variant{homoglyph},
+\variant{invisible\_text}) re-render from adjusted source text or render
+options. Because the source text is unchanged, every poisoned variant
+retains a byte-exact ground-truth reference. The technique catalogue
+draws on the open-source PDF-Poisoning project~\cite{pdfpoisoning};
+each technique is reimplemented natively against the deterministic
+clean PDFs so that the synthetic pipeline stays reproducible and
+dependency-light.
+
+\subsection{Ground truth and round-trip exactness}
+\label{sec:groundtruth}
+
+Ground truth for every variant is the normalized source text. We
+validate the harness with a round-trip control on the clean PDFs:
+source text $\rightarrow$ clean PDF $\rightarrow$ \texttt{pypdf}
+$\rightarrow$ normalize, compared against the normalized source. The
+result is \textbf{95 of 100} byte-exact and \textbf{100 of 100} at
+token-F1 $\geq 0.99$. The five imperfect cases share one cause: Federal
+Register documents containing very long URLs that the renderer's
+paragraph engine breaks mid-token, inserting a single space (an F1 loss
+of $\approx 0.001$). The harness control is therefore tight enough that
+any larger accuracy gap in the results is a genuine extraction effect,
+not a measurement artifact. Figure~\ref{fig:clean} shows the control on
+the representative document.
+
+\begin{figure}[tbp]
+  \centering
+  \begin{minipage}[t]{0.37\textwidth}
+    \centering
+    \fbox{\includegraphics[width=\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax]{figures/clean_page.png}}\\[3pt]
+    {\footnotesize\itshape What a human sees}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.59\textwidth}
+    \vspace{0pt}
+    \VerbatimInput[fontsize=\scriptsize,frame=single,framesep=5pt]%
+      {figures/clean_extracted.txt}
+    \vspace{3pt}\par\centering
+    {\footnotesize\itshape What a naive text extractor returns}
+  \end{minipage}
+  \caption{The harness control: a clean (un-poisoned) document. The
+    text layer round-trips faithfully, anchoring every poisoned
+    variant's score to byte-exact ground truth.}
+  \label{fig:clean}
+\end{figure}
+
+\subsection{Extractors evaluated}
+\label{sec:extractors}
+
+Seven extractors are evaluated through a uniform interface. Six are
+classic text-layer or OCR tools:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=1pt]
+  \item \textbf{pypdf}~\cite{pypdf} --- pure-Python text-layer
+    extraction; no OCR.
+  \item \textbf{pdfplumber}~\cite{pdfplumber} --- text-layer extraction
+    with a layout-aware positioning model.
+  \item \textbf{pdftotext}~\cite{poppler} --- the poppler command-line
+    text-layer extractor.
+  \item \textbf{Tesseract}~\cite{tesseract} --- pixel-based OCR; pages
+    are rasterized via pypdfium2 and recognized with the Tesseract
+    engine.
+  \item \textbf{Docling}~\cite{docling} --- an integrated converter
+    combining text-layer parsing with a built-in
+    RapidOCR~\cite{rapidocr} fallback; an ``all-in-one'' choice.
+  \item \textbf{OlmOCR-2}~\cite{olmocr} --- an open vision language
+    model (a Qwen2.5-VL-7B fine-tune~\cite{qwen25vl}); see
+    Section~\ref{sec:olmocr}.
+\end{itemize}
+
+The seventh, \textsc{pat-cascade}, is the proposed method: a
+tiered cascade from the Personal Advocacy Toolkit~\cite{pat}. It begins
+with fast text-layer extraction and escalates to OCR only when a
+garble detector flags the text-layer output as unusable --- the design
+intent being to pay OCR cost on the documents that need it and
+text-layer speed on the documents that do not. It is invoked as a
+subprocess so that the same binary a downstream consumer would deploy is
+the one measured. Cloud vision-LLM wrappers (Claude, Gemini) are wired
+into the harness but were skipped this run pending an API budget; see
+Section~\ref{sec:limitations}.
+
+\subsection{Scoring}
+\label{sec:scoring}
+
+The primary metric is \textbf{token-level F1}: extracted text and ground
+truth are NFC-normalized, whitespace-collapsed, and compared as bags of
+tokens, with F1 the harmonic mean of token precision and recall. We also
+report \textbf{normalized edit distance} (NED) for the vision-LLM
+column. Token-F1 is robust to benign reordering and rewards partial
+recovery, which makes it a fair common currency across tools as
+different as a text-layer parser and a vision model.
+
+\subsection{Runtime measurement}
+\label{sec:runtimemethod}
+
+Accuracy is measured at the full $n=100$ scale. Runtime is measured
+separately, on a fixed 10-source subset (10 sources $\times$ 7 variants
+$=$ 70 PDFs, 399 page renders), with each extractor timed in its own
+pass, one PDF at a time, on a single Apple M2 (16\,GB). Isolating the
+timing run this way --- rather than reading the per-PDF times recorded
+incidentally during the accuracy run --- means a claim such as
+``extractor $X$ is $N\times$ slower than \texttt{pypdf}'' is a
+defensible number rather than an artifact of scheduling. The same
+10-source subset is used for the vision-LLM column so that its accuracy
+and runtime are mutually consistent.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Accuracy}
+\label{sec:accuracy}
+
+Table~\ref{tab:f1} reports mean token-F1 for the six classic extractors,
+each cell averaged over the 100 sources. Rows are ordered by mean F1
+across all seven columns.
+
+\begin{table}[tbp]
+\centering
+\caption{Mean token-F1 per extractor $\times$ variant, $n=100$ sources.
+  The \textsc{pat-cascade} row is shaded; it leads or ties every column.}
+\label{tab:f1}
+\small
+\setlength{\tabcolsep}{4.4pt}
+\begin{tabular}{@{}l ccccccc c@{}}
+\toprule
+\textbf{Extractor} & clean & w.mark & meta. & raster. &
+  homog. & char-sp. & invis. & \textbf{mean}\\
+\midrule
+\rowcolor{patrow}
+\textsc{pat-cascade} & \textbf{1.000} & \textbf{0.995} & \textbf{1.000}
+  & \textbf{0.986} & \textbf{0.986} & \textbf{1.000} & \textbf{0.999}
+  & \textbf{0.995}\\
+tesseract   & 0.986 & 0.849 & 0.986 & 0.986 & 0.986 & 0.085 & 0.986
+  & 0.842\\
+docling     & 0.986 & 0.981 & 0.986 & 0.840 & 0.489 & 0.016 & 0.985
+  & 0.755\\
+pypdf       & 1.000 & 0.995 & 1.000 & 0.000 & 0.497 & 1.000 & 0.999
+  & 0.713\\
+pdftotext   & 0.998 & 0.976 & 0.998 & 0.000 & 0.496 & 0.017 & 0.997
+  & 0.640\\
+pdfplumber  & 1.000 & 0.965 & 1.000 & 0.000 & 0.497 & 0.010 & 0.999
+  & 0.640\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Seven observations follow from the table.
+
+\textbf{(1) The harness control passes.} On the \variant{clean} column
+\texttt{pypdf}, \texttt{pdfplumber}, and \textsc{pat-cascade} hit
+$1.000$ and \texttt{pdftotext} reaches $0.998$. The $0.986$ for
+Tesseract and Docling reflects systematic OCR and markdown-serialization
+noise, not extraction failure. Per-pool variation is small ($1.000 \pm
+0.006$ for text-layer tools across all five pools), so any larger gap
+elsewhere in the table is a real extraction effect.
+
+\textbf{(2) The cascade wins or ties every column.}
+\textsc{pat-cascade} scores $\geq 0.986$ on every variant, including the
+two --- \variant{rasterize} and \variant{homoglyph} --- that defeat
+every other text-layer tool, for a mean of $0.995$. No other extractor
+exceeds $0.842$.
+
+\textbf{(3) Tesseract is the only \emph{single-pass} tool that beats
+both \variant{rasterize} and \variant{homoglyph}}, at $0.986$ on each,
+because OCR reads rendered pixels rather than codepoints: a rasterized
+page is its native input, and Cyrillic homoglyphs render as Latin-looking
+glyphs and are recognized as Latin. The trade-off appears on
+\variant{watermark} ($0.849$) and \variant{char\_spacing} ($0.085$),
+where overlay noise and wide inter-character gaps confuse the
+line/word segmenter.
+
+\textbf{(4) Docling sits between Tesseract and the text-layer tools.}
+Its RapidOCR fallback yields $0.840$ on \variant{rasterize} --- better
+than the $0.000$ of pure text-layer tools, worse than Tesseract's
+$0.986$ because Docling's markdown post-processing adds serialization
+noise. It is the easiest single-tool choice, but a cascade that
+explicitly escalates to OCR beats it on every column.
+
+\textbf{(5) \variant{char\_spacing} splits the text-layer tools in
+two.} \texttt{pypdf} and \textsc{pat-cascade} score $1.000$ because they
+reconstruct words from glyph \emph{positions} and ignore the \texttt{Tc}
+operator. \texttt{pdftotext} ($0.017$), \texttt{pdfplumber} ($0.010$),
+Docling ($0.016$), and Tesseract ($0.085$) read the wide gaps as word
+boundaries and emit one token per glyph.
+
+\textbf{(6) \variant{metadata\_swap} is invisible to every extractor}
+(all $\geq 0.986$, matching each tool's \variant{clean} score). Pure
+text extraction ignores document metadata. The technique is included to
+mark the boundary of what extraction can see --- and what a structural
+fingerprinter must cover instead (Section~\ref{sec:detect}).
+
+\textbf{(7) \variant{invisible\_text} barely moves token-F1}
+($0.985$--$0.999$). The synthetic payload is a single
+$\approx$70-character overlay --- under 2\% of a 1\,500-word excerpt ---
+so even when an extractor ingests it the F1 drops only $0.001$--$0.014$.
+The technique's danger is qualitative (attacker-controlled content in
+the pipeline), not a large F1 deflection; a real-world payload would be
+larger.
+
+\subsection{OlmOCR-2: an open vision language model}
+\label{sec:olmocr}
+
+OlmOCR-2 rasterizes each page and reads it as an image through a 7B
+vision-language model, so --- like Tesseract --- it is structurally
+immune to text-layer codepoint tricks. Its upstream inference path
+(vLLM + CUDA) runs on neither Apple Silicon nor the free GPU tiers we
+had available, so it was run locally through Apple's MLX
+stack~\cite{mlx,mlxvlm} with an 8-bit quantization of the model. At
+$\approx$74\,s per page on an M2, the full 700-PDF corpus is a
+$\sim$66-hour run; the numbers in Table~\ref{tab:olmocr} are therefore
+from a 10-source subset (70 PDFs, 399 page-inferences, 8.2\,h wall).
+
+\begin{table}[tbp]
+\centering
+\caption{OlmOCR-2 on the $n=10$ subset (M2, 8-bit MLX). Not yet
+  comparable cell-for-cell with Table~\ref{tab:f1}, which is $n=100$.}
+\label{tab:olmocr}
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}l r r r r r@{}}
+\toprule
+\textbf{Variant} & $n$ & \textbf{F1} & \textbf{NED} &
+  \textbf{s/PDF} & \textbf{s/page}\\
+\midrule
+\variant{clean}          & 10 & 0.990 & 0.016 & 472.4 & 82.9\\
+\variant{watermark}      & 10 & 0.984 & 0.023 & 431.0 & 75.6\\
+\variant{metadata\_swap} & 10 & 0.990 & 0.016 & 426.4 & 74.8\\
+\variant{rasterize}      & 10 & 0.989 & 0.018 & 433.6 & 76.1\\
+\variant{homoglyph}      & 10 & 0.990 & 0.016 & 428.9 & 75.2\\
+\variant{char\_spacing}  & 10 & 0.618 & 0.547 & 351.6 & 61.7\\
+\variant{invisible\_text}& 10 & 0.990 & 0.016 & 421.1 & 73.9\\
+\midrule
+poisoned (all 6)         & 60 & 0.927 & 0.106 & 415.4 & 72.9\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+OlmOCR defeats every pixel-invariant technique: \variant{rasterize}
+($0.989$), \variant{homoglyph} ($0.990$), and \variant{invisible\_text}
+($0.990$) all sit at the clean baseline ($0.990$), because a vision
+model only ever sees rendered pixels. Its one real weakness is
+\variant{char\_spacing} ($0.618$): wide kerning makes the model read
+separate tokens, the same failure mode that sinks Tesseract and the
+poppler/Docling text path --- though the language model partially
+reconstructs words from context, so $0.618$ is far above their
+$0.01$--$0.09$. It does not, however, displace \textsc{pat-cascade},
+which scores $1.000$ on that column.
+
+\paragraph{Caveat.} The OlmOCR-2 column is $n=10$, not $n=100$, and is
+\emph{not} a like-for-like comparison with Table~\ref{tab:f1}. The
+full-scale run is in progress: at the time of writing it has been
+interrupted by an Apple Metal GPU-timeout crash roughly one-fifth of the
+way through the corpus, and is resumable. We treat the six classic
+extractors' $n=100$ results as final and the OlmOCR-2 column as
+directional pending the full run.
+
+\subsection{Runtime}
+\label{sec:runtime}
+
+Table~\ref{tab:runtime} reports mean wall time per extractor over the
+70-PDF timing subset. The classic six-extractor timing run took
+$\approx$28 minutes of extraction wall time; OlmOCR-2 alone took 8.2
+hours on the same 70 PDFs.
+
+\begin{table}[tbp]
+\centering
+\caption{Mean wall time on the $n=10$ subset (70 PDFs, 399 page
+  renders), ordered fastest first. The \textsc{pat-cascade} row is
+  shaded.}
+\label{tab:runtime}
+\small
+\setlength{\tabcolsep}{7pt}
+\begin{tabular}{@{}l l r r r@{}}
+\toprule
+\textbf{Extractor} & \textbf{Backend} & \textbf{s/PDF} &
+  \textbf{s/page} & \textbf{$\times$ vs.\ pypdf}\\
+\midrule
+pypdf       & text-layer            & 0.017 & 0.003 & 1$\times$\\
+pdftotext   & text-layer (poppler)  & 0.062 & 0.011 & 3.5$\times$\\
+pdfplumber  & text-layer            & 0.177 & 0.031 & 10$\times$\\
+\rowcolor{patrow}
+\textsc{pat-cascade} & tiered (text $\rightarrow$ OCR)
+                                    & 3.74  & 0.656 & 214$\times$\\
+tesseract   & OCR (pixel)           & 6.67  & 1.170 & 383$\times$\\
+docling     & OCR + layout          & 13.23 & 2.320 & 759$\times$\\
+olmocr      & vision LLM (MLX)      & 423.6 & 74.3  & $\sim$24{,}300$\times$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Runtime falls into three tiers spanning more than four orders of
+magnitude. Text-layer parsers (0.003--0.031\,s/page) only walk the
+content stream; nothing is rendered. OCR tools (1.2--2.3\,s/page)
+rasterize and recognize every page. The vision LLM (74\,s/page) runs
+autoregressive decoding over a 7B model. End to end, OlmOCR is
+$\sim$24{,}300$\times$ slower per PDF than \texttt{pypdf}.
+
+The per-variant breakdown (Table~\ref{tab:runtimevariant}) shows the
+cascade's adaptive cost directly. \textsc{pat-cascade} runs at
+text-layer speed (0.21--0.27\,s/PDF) on the five variants whose text
+layer is usable, and spikes to 4.57\,s on \variant{rasterize} and
+20.35\,s on \variant{homoglyph} --- the two variants where it escalates
+to OCR. Its 3.74\,s/PDF mean is almost entirely those two cells: the
+cascade pays OCR cost only when its garble detector trips. By contrast
+Docling's OCR fallback is uniform-cost regardless of need, and its worst
+case --- 53.6\,s on \variant{rasterize}, $\approx 7\times$ its other
+variants --- is full-page OCR with no text-layer hints.
+
+\begin{table}[tbp]
+\centering
+\caption{Per-variant mean wall time (s/PDF) on the $n=10$ subset.}
+\label{tab:runtimevariant}
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}l rrrrrrr@{}}
+\toprule
+\textbf{Extractor} & clean & w.mark & meta. & raster. &
+  homog. & char-sp. & invis.\\
+\midrule
+pypdf       & 0.023 & 0.025 & 0.018 & 0.004 & 0.015 & 0.016 & 0.022\\
+pdftotext   & 0.098 & 0.048 & 0.053 & 0.051 & 0.058 & 0.069 & 0.054\\
+pdfplumber  & 0.172 & 0.293 & 0.198 & 0.004 & 0.169 & 0.220 & 0.182\\
+\rowcolor{patrow}
+\textsc{pat-cascade} & 0.234 & 0.213 & 0.265 & 4.566 & 20.353 & 0.246
+  & 0.284\\
+tesseract   & 6.086 & 5.766 & 5.753 & 5.916 & 5.698 & 11.690 & 5.785\\
+docling     & 7.107 & 6.156 & 5.143 & 53.598 & 4.545 & 8.668 & 7.370\\
+olmocr      & 472.4 & 431.0 & 426.4 & 433.6 & 428.9 & 351.6 & 421.1\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The accuracy/runtime trade-off}
+\label{sec:tradeoff}
+
+Pairing accuracy with runtime makes the design space concrete.
+\texttt{pypdf} extracts a page in 3\,ms but scores $0.000$ on
+\variant{rasterize}; OlmOCR-2 scores $0.989$ on \variant{rasterize} but
+costs 74\,s/page --- roughly $24{,}000\times$ more. \textsc{pat-cascade}
+is the pragmatic middle: text-layer speed ($\approx 0.2$\,s/PDF) on the
+documents whose text layer is usable, escalating to OCR cost only on the
+poisoned variants that need it, for $\geq 0.986$ accuracy across the
+board at a 3.74\,s/PDF blended mean. Paying for OCR unconditionally
+(Tesseract, Docling) or for a vision model unconditionally (OlmOCR) buys
+robustness on the hard variants at a flat cost on the easy ones; the
+cascade buys the same robustness and spends the cost only where the
+document demands it.
+
+\subsection{Detectability}
+\label{sec:detect}
+
+Extraction accuracy is only half of RQ1. Table~\ref{tab:fingerprint}
+reports the static obfuscation fingerprinter --- a structural-analysis
+pass that renders nothing and runs OCR on nothing --- across the 700-PDF
+corpus. Each technique's dedicated signal trips at 100\%.
+
+\begin{table}[tbp]
+\centering
+\caption{Mean signal-trip rate of the static fingerprinter, by variant,
+  over the 700-PDF corpus. Each technique's dedicated signal is in
+  \textbf{bold}.}
+\label{tab:fingerprint}
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}l r r r r r r r@{}}
+\toprule
+\textbf{Variant} & $n$ & no-text & invis. & \texttt{Tc}$>$3 &
+  w.mark & non-Latin & susp.\ prod.\\
+\midrule
+\variant{clean}          & 100 & 0\% & 0\% & 0\% & 0.05 & 0.000 & 0\%\\
+\variant{watermark}      & 100 & 0\% & 0\% & 0\% & \textbf{1.00} & 0.000 & 0\%\\
+\variant{metadata\_swap} & 100 & 0\% & 0\% & 0\% & 0.05 & 0.000 & \textbf{100\%}\\
+\variant{rasterize}      & 100 & \textbf{100\%} & 0\% & 0\% & 0.00 & 0.000 & 0\%\\
+\variant{homoglyph}      & 100 & 0\% & 0\% & 0\% & 0.01 & \textbf{0.112} & 0\%\\
+\variant{char\_spacing}  & 100 & 0\% & 0\% & \textbf{100\%} & 0.05 & 0.000 & 0\%\\
+\variant{invisible\_text}& 100 & 0\% & \textbf{100\%} & 0\% & 0.05 & 0.000 & 0\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Two cells deserve a note. The homoglyph non-Latin ratio is $0.112$, not
+$1.0$, because the technique substitutes only about one third of
+eligible letters --- the ratio reports the fraction of \emph{all}
+codepoints that ended up non-Latin, which is the right quantity for a
+threshold detector. And the clean column carries a small $0.05$
+watermark base rate from Federal Register mastheads whose all-caps
+recurring headers match the watermark heuristic; the real watermark
+signal trips about $20\times$ stronger, so the two do not conflate.
+Crucially, \variant{metadata\_swap} --- invisible to every extractor in
+Table~\ref{tab:f1} --- is caught here at 100\%: detection and extraction
+are complementary, and a complete pipeline needs both.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\textbf{A tiered cascade dominates the accuracy frontier.}
+\textsc{pat-cascade} is the only extractor that never falls below
+$0.986$. Every single-pass tool has at least one technique that defeats
+it: text-layer tools collapse to $0.000$ on \variant{rasterize};
+Tesseract collapses to $0.085$ on \variant{char\_spacing}; Docling drops
+to $0.489$ on \variant{homoglyph}. The cascade avoids each cliff by not
+committing to a single mechanism --- it reads the text layer first, and
+escalates to OCR exactly when a garble detector reports the text-layer
+result is unusable.
+
+\textbf{The escalation is what makes the cost acceptable.} A naive
+``always OCR'' policy reaches comparable robustness, but
+Table~\ref{tab:runtimevariant} shows it pays the OCR bill on every
+document. The cascade pays it twice in seven variants and runs at
+text-layer speed on the other five. The cost of robustness is thus
+proportional to how poisoned the corpus actually is, rather than flat.
+
+\textbf{The cascade and the vision model occupy different niches.}
+OlmOCR-2 matches the cascade on the pixel-invariant attacks and, like
+Tesseract, is immune to codepoint tricks --- but it collapses on
+\variant{char\_spacing} ($0.618$ vs.\ the cascade's $1.000$), because a
+vision model has no glyph-position channel to fall back on, and it costs
+four orders of magnitude more per page. A vision LLM is the right tool
+for documents that are purely image-based or codepoint-poisoned and for
+which no text layer exists to reconstruct from; it is the wrong tool for
+a corpus that is mostly clean.
+
+\textbf{Remaining headroom.} The cascade's two lowest scores are
+\variant{homoglyph} and \variant{rasterize}, both $0.986$, where it
+relies on its OCR tier. A cheaper path on \variant{homoglyph} ---
+detecting non-Latin-in-Latin codepoints at the text-layer stage and
+correcting them without a full OCR pass --- would lift accuracy and cut
+the 20\,s/PDF escalation cost at the same time. The fingerprinter of
+Section~\ref{sec:detect} already produces exactly that signal.
+
+\section{Limitations}
+\label{sec:limitations}
+
+\textbf{The vision-LLM column is $n=10$.} As stated in
+Section~\ref{sec:olmocr}, OlmOCR-2 is reported on a 10-source subset and
+is not yet cell-for-cell comparable with the $n=100$ table. The
+full-scale run is forthcoming.
+
+\textbf{No frontier vision-LLM numbers.} Claude and Gemini vision
+wrappers are wired into the harness but were not run; the gap is an API
+budget, estimated at roughly \$20 for a full 700-PDF pass.
+
+\textbf{Latin script only.} Non-Latin codepoints are substituted out of
+the sources, so the benchmark measures Latin-script extraction. How
+OCR-based and text-layer tools handle CJK, Arabic, Hebrew, and other
+scripts is a separate axis that a Unicode-aware renderer and a
+bidirectional-layout pool would isolate.
+
+\textbf{Synthetic, not in-the-wild.} The corpus is synthetic by design
+--- that is what buys byte-exact ground truth --- so it measures
+\emph{susceptibility}, not \emph{prevalence}. How often each technique
+occurs in real document corpora is unmeasured here.
+
+\textbf{Modest payloads.} The \variant{invisible\_text} payload is a
+single short string; a larger payload would deflect token-F1 more and
+should be tracked when real-document data is available.
+
+\section{Conclusion and future work}
+\label{sec:conclusion}
+
+PDFs that look ordinary on screen routinely resist automated parsing,
+and a document that cannot be reduced to faithful plaintext is, for any
+search or audit pipeline, effectively undisclosed. We built a
+reproducible synthetic benchmark --- 100 sources, seven variants,
+byte-exact ground truth --- that quantifies exactly how far common tools
+fall short. Every single-pass extractor has a blind spot; a tiered
+text-then-OCR cascade, \textsc{pat-cascade}, is the only one of seven
+extractors that stays at or above $0.986$ token-F1 on every obfuscation
+technique, and it does so at a blended 3.74\,s/PDF by escalating to OCR
+only when needed. A static fingerprinter catches all six techniques
+structurally, including the one invisible to every extractor.
+
+Four directions follow. First, scale the OlmOCR-2 column from $n=10$ to
+the full $n=100$ so it shares the main results table. Second, run the
+frontier cloud vision LLMs on the same corpus. Third, add a non-Latin
+script pool with a Unicode-aware renderer to separate extraction quality
+from script handling. Fourth, measure technique prevalence on real-world
+document corpora, using this synthetic benchmark as the
+ground-truth-anchored baseline.
+
+\paragraph{Reproducibility.} The benchmark harness, the synthesis and
+poisoning pipeline, and the obfuscation fingerprinter are released as
+open source (code under MIT, dataset and documentation under
+CC-BY-4.0).\footnote{\url{https://github.com/EvanOchsner/pdf-plaintext-extraction}}
+The full $n=100$ run is reproducible end-to-end with a single command,
+\texttt{run\_synthetic}; the figures in this paper are regenerated by
+the script under \texttt{paper/figures/}.
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

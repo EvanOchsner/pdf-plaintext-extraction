@@ -1,0 +1,13 @@
+The page renders identically to the clean document --
+the glyphs are visually indistinguishable from Latin.
+But pypdf.extract_text() returns a poisoned codepoint
+stream. One extracted token:
+
+  glyph:     F    e    d    e    r    a    l  
+  codepoint:0046 0065 0064 0065 0072 0430 006C
+                                     ^^^^     
+
+  U+0430 = CYRILLIC SMALL LETTER A
+
+  grep -F "Federal"  ->  0 matches
+  token-F1 vs. source = 0.497 (pypdf)

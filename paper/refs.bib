@@ -1,0 +1,150 @@
+% References for "Extracting Plaintext from Adversarial PDFs".
+% Software artifacts are cited as misc entries with their project URL.
+
+% ---- PDF specification ------------------------------------------------------
+
+@manual{pdfspec,
+  title        = {Document management --- Portable document format ---
+                  Part 1: {PDF} 1.7},
+  organization = {International Organization for Standardization},
+  number       = {ISO 32000-1:2008},
+  year         = {2008},
+}
+
+% ---- Text-layer extractors --------------------------------------------------
+
+@misc{pypdf,
+  author       = {{pypdf contributors}},
+  title        = {pypdf: A pure-python {PDF} library},
+  year         = {2024},
+  howpublished = {\url{https://github.com/py-pdf/pypdf}},
+}
+
+@misc{pdfplumber,
+  author       = {Singer-Vine, Jeremy and {pdfplumber contributors}},
+  title        = {pdfplumber: Plumb a {PDF} for detailed information about
+                  each text character, rectangle, and line},
+  year         = {2024},
+  howpublished = {\url{https://github.com/jsvine/pdfplumber}},
+}
+
+@misc{poppler,
+  author       = {{Poppler Developers}},
+  title        = {Poppler: A {PDF} rendering library
+                  (\texttt{pdftotext})},
+  year         = {2024},
+  howpublished = {\url{https://poppler.freedesktop.org/}},
+}
+
+% ---- OCR engines ------------------------------------------------------------
+
+@inproceedings{tesseract,
+  author       = {Smith, Ray},
+  title        = {An Overview of the {Tesseract} {OCR} Engine},
+  booktitle    = {Proceedings of the Ninth International Conference on
+                  Document Analysis and Recognition (ICDAR)},
+  pages        = {629--633},
+  year         = {2007},
+}
+
+@misc{docling,
+  author       = {{Docling Project} and {IBM Research}},
+  title        = {Docling: Document conversion with layout-aware parsing
+                  and {OCR}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/docling-project/docling}},
+}
+
+@misc{rapidocr,
+  author       = {{RapidAI}},
+  title        = {{RapidOCR}: A cross-platform {OCR} toolkit},
+  year         = {2024},
+  howpublished = {\url{https://github.com/RapidAI/RapidOCR}},
+}
+
+% ---- Vision language model extractor ----------------------------------------
+
+@misc{olmocr,
+  author       = {{Allen Institute for AI}},
+  title        = {{olmOCR}: Unlocking trillions of tokens in {PDFs} with
+                  vision language models},
+  year         = {2025},
+  howpublished = {\url{https://github.com/allenai/olmocr}},
+}
+
+@misc{qwen25vl,
+  author       = {{Qwen Team, Alibaba Group}},
+  title        = {{Qwen2.5-VL}},
+  year         = {2025},
+  howpublished = {\url{https://github.com/QwenLM/Qwen2.5-VL}},
+}
+
+@misc{mlx,
+  author       = {{Apple Machine Learning Research}},
+  title        = {{MLX}: An array framework for {Apple} silicon},
+  year         = {2024},
+  howpublished = {\url{https://github.com/ml-explore/mlx}},
+}
+
+@misc{mlxvlm,
+  author       = {Pinto, Prince Canuma},
+  title        = {{mlx-vlm}: Vision language models on {Apple} silicon
+                  with {MLX}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/Blaizzy/mlx-vlm}},
+}
+
+% ---- Proposed cascade + poisoning catalogue ---------------------------------
+
+@misc{pat,
+  author       = {Ochsner, Evan},
+  title        = {Personal Advocacy Toolkit ({PAT})},
+  year         = {2025},
+  howpublished = {\url{https://toolkit.ochsner.dev}},
+}
+
+@misc{pdfpoisoning,
+  author       = {Alkent, Youssef},
+  title        = {{PDF-Poisoning}: A catalogue of {PDF} obfuscation
+                  techniques},
+  year         = {2024},
+  howpublished = {\url{https://github.com/YoussefAlkent/PDF-Poisoning}},
+}
+
+% ---- Supporting libraries ---------------------------------------------------
+
+@misc{pikepdf,
+  author       = {{pikepdf contributors}},
+  title        = {pikepdf: A {Python} library for reading and writing
+                  {PDF}, powered by {QPDF}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/pikepdf/pikepdf}},
+}
+
+@misc{reportlab,
+  author       = {{ReportLab Europe Ltd.}},
+  title        = {{ReportLab}: An open-source engine for creating
+                  {PDF} documents},
+  year         = {2024},
+  howpublished = {\url{https://www.reportlab.com/}},
+}
+
+@misc{pypdfium2,
+  author       = {{pypdfium2 team}},
+  title        = {{pypdfium2}: {Python} bindings to {PDFium}},
+  year         = {2024},
+  howpublished = {\url{https://github.com/pypdfium2-team/pypdfium2}},
+}
+
+% ---- Threat-model background ------------------------------------------------
+
+@misc{greshake2023,
+  author       = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh
+                  and Endres, Christoph and Holz, Thorsten and
+                  Fritz, Mario},
+  title        = {Not What You've Signed Up For: Compromising Real-World
+                  {LLM}-Integrated Applications with Indirect Prompt
+                  Injection},
+  year         = {2023},
+  howpublished = {arXiv:2302.12173 \url{https://arxiv.org/abs/2302.12173}},
+}

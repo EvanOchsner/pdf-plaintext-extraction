@@ -1,0 +1,15 @@
+pypdf.extract_text()  ->  the body text is recovered,
+but the diagonal overlay bleeds into the text layer --
+the watermark string leaks 3x (once per page):
+
+  [Federal Register Volume 89, Number 143 (Thursday, July 25,
+  2024)] [Rules and
+  Regulations] [Pages 60298-60301] From the Federal Register
+  Online via the
+  Government Publishing Office [www.gpo.gov] [FR Doc No:
+
+  leaked overlay string, in context:
+  ...R 5238 (Jan. 17, 2017). \2\ Id. CONFIDENTIAL - DRAFT On
+  July 11, 2017, DHS published a rule del...
+
+  token-F1 = 0.995 -- small but real pollution

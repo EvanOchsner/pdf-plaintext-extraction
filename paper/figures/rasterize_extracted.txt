@@ -1,0 +1,8 @@
+pypdf.extract_text()  ->  ""
+
+  characters returned: 0
+
+Every page is a single embedded image; the content
+stream contains no text-showing operators (Tj/TJ).
+Token-F1 = 0.000 for every text-layer extractor.
+Only OCR or a vision model can recover the text.
